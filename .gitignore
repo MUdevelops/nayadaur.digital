@@ -1,0 +1,6 @@
+node_modules
+.env.local
+.DS_Store
+*.log
+.netlify
+# NOTE: dist/ is intentionally committed so Hostinger Git deploy works without a build step

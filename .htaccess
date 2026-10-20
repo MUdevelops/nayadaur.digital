@@ -1,0 +1,20 @@
+# Root .htaccess - lets Hostinger's Git deploy (which copies the whole repo
+# into public_html) serve the production build in /dist as the site root.
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTPS
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Block source / config files from being downloaded
+  RewriteRule ^(src|node_modules|\.git|\.github)(/|$) - [F,L]
+  RewriteRule ^(package(-lock)?\.json|vite\.config\.js|netlify\.toml|README\.md|\.env(\.example)?|\.gitignore)$ - [F,L]
+
+  # Serve everything from /dist
+  RewriteCond %{REQUEST_URI} !^/dist/
+  RewriteRule ^(.*)$ dist/$1 [L]
+</IfModule>
