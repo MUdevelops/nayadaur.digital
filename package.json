@@ -1,0 +1,13 @@
+{
+  "name": "nayadaur-digital-deploy",
+  "private": true,
+  "workspaces": [
+    "react-app"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace nayadaur-digital"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -4,11 +4,11 @@ The React source is in react-app/. It is prerendered at build time and does not
 need a Node.js server on Hostinger's standard Apache/LiteSpeed hosting.
 
 To rebuild:
-  cd react-app
   npm ci
   npm run build
 
-Upload the contents of react-app/dist/ (including the hidden .htaccess) to
+Run the commands from the repository root. Upload the contents of react-app/dist/
+(including the hidden .htaccess) to
 Hostinger hPanel > Websites > nayadaur.digital > File Manager > public_html.
 The repository root also contains a ready-to-upload static release. Upload the
 contents of the repository root instead if you do not need to rebuild.
