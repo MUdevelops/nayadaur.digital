@@ -25,6 +25,6 @@ EDITING:
 - Contact details: search and replace 0321 9211464 / 923219211464 / info@nayadaur.digital in the .html files
   and in assets/js/main.js (WA and MAIL variables near the contact form code).
 - Social profiles: add real links to the footer of each page only when they exist (none are published now).
-- Package prices (PKR) are on the home and pricing pages (Shuruaat 5000, Pehchan 2000, Taraqqi 5000, Kamyabi 10000). Edit the .price lines in index.html and pricing/index.html.
+- Package prices (PKR) are on the home and pricing pages (Shuruaat 1500, Pehchan 2000, Taraqqi 5000, Kamyabi 10000). Edit the .price lines in index.html and pricing/index.html.
 - Real testimonials: none are published. Add a section only with genuine, permitted reviews.
 - After editing assets, change the ?v=20261022 number in the HTML so browsers fetch the new file.
