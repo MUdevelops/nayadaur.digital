@@ -1,0 +1,150 @@
+{
+ "items": [
+  {
+   "n": 1,
+   "src": "/assets/images/sample-1.webp",
+   "w": 1400,
+   "h": 939,
+   "alt": "Concept brand identity for a fictional botanicals brand, Baagh Botanicals, with color palette",
+   "cap": "Brand identity",
+   "cat": "brand",
+   "thumb": {
+    "src": "/assets/images/sample-1-700.webp",
+    "srcSet": "/assets/images/sample-1-700.webp 700w, /assets/images/sample-1.webp 1400w",
+    "sizes": "(max-width:559px) 92vw,(max-width:959px) 46vw,260px",
+    "w": 1400,
+    "h": 939
+   }
+  },
+  {
+   "n": 2,
+   "src": "/assets/images/sample-2.webp",
+   "w": 1400,
+   "h": 939,
+   "alt": "Concept packaging label for a fictional honey brand",
+   "cap": "Packaging label",
+   "cat": "print",
+   "thumb": {
+    "src": "/assets/images/sample-2-700.webp",
+    "srcSet": "/assets/images/sample-2-700.webp 700w, /assets/images/sample-2.webp 1400w",
+    "sizes": "(max-width:559px) 92vw,(max-width:959px) 46vw,260px",
+    "w": 1400,
+    "h": 939
+   }
+  },
+  {
+   "n": 3,
+   "src": "/assets/images/sample-3.webp",
+   "w": 1400,
+   "h": 939,
+   "alt": "Concept clothing catalog layout for a fictional boutique",
+   "cap": "Catalog design",
+   "cat": "print",
+   "thumb": {
+    "src": "/assets/images/sample-3-700.webp",
+    "srcSet": "/assets/images/sample-3-700.webp 700w, /assets/images/sample-3.webp 1400w",
+    "sizes": "(max-width:559px) 92vw,(max-width:959px) 46vw,260px",
+    "w": 1400,
+    "h": 939
+   }
+  },
+  {
+   "n": 4,
+   "src": "/assets/images/sample-4.webp",
+   "w": 1400,
+   "h": 939,
+   "alt": "Concept QR review stand for a fictional salon",
+   "cap": "QR review stand",
+   "cat": "digital",
+   "thumb": {
+    "src": "/assets/images/sample-4-700.webp",
+    "srcSet": "/assets/images/sample-4-700.webp 700w, /assets/images/sample-4.webp 1400w",
+    "sizes": "(max-width:559px) 92vw,(max-width:959px) 46vw,260px",
+    "w": 1400,
+    "h": 939
+   }
+  },
+  {
+   "n": 5,
+   "src": "/assets/images/sample-5.webp",
+   "w": 1400,
+   "h": 939,
+   "alt": "Concept brand kit for a fictional cafe called Chai Ghar",
+   "cap": "Brand kit",
+   "cat": "brand",
+   "thumb": {
+    "src": "/assets/images/sample-5-700.webp",
+    "srcSet": "/assets/images/sample-5-700.webp 700w, /assets/images/sample-5.webp 1400w",
+    "sizes": "(max-width:559px) 92vw,(max-width:959px) 46vw,260px",
+    "w": 1400,
+    "h": 939
+   }
+  },
+  {
+   "n": 6,
+   "src": "/assets/images/sample-6.webp",
+   "w": 1400,
+   "h": 939,
+   "alt": "Concept menu card and banner for a fictional fast-food restaurant",
+   "cap": "Menu and banner",
+   "cat": "print",
+   "thumb": {
+    "src": "/assets/images/sample-6-700.webp",
+    "srcSet": "/assets/images/sample-6-700.webp 700w, /assets/images/sample-6.webp 1400w",
+    "sizes": "(max-width:559px) 92vw,(max-width:959px) 46vw,260px",
+    "w": 1400,
+    "h": 939
+   }
+  },
+  {
+   "n": 7,
+   "src": "/assets/images/sample-7.webp",
+   "w": 1400,
+   "h": 939,
+   "alt": "Concept bilingual Urdu and English logo for a fictional bakery",
+   "cap": "Bilingual logo",
+   "cat": "brand",
+   "thumb": {
+    "src": "/assets/images/sample-7-700.webp",
+    "srcSet": "/assets/images/sample-7-700.webp 700w, /assets/images/sample-7.webp 1400w",
+    "sizes": "(max-width:559px) 92vw,(max-width:959px) 46vw,260px",
+    "w": 1400,
+    "h": 939
+   }
+  },
+  {
+   "n": 8,
+   "src": "/assets/images/udhaar-ledger-system.webp",
+   "w": 1200,
+   "h": 805,
+   "alt": "Concept mockup of the Udhaar Manager dashboard showing customers, balances and payment status",
+   "cap": "Udhaar Manager dashboard",
+   "cat": "digital",
+   "thumb": {
+    "src": "/assets/images/udhaar-ledger-system-640.webp",
+    "srcSet": "/assets/images/udhaar-ledger-system-640.webp 640w, /assets/images/udhaar-ledger-system.webp 1200w",
+    "sizes": "(max-width:559px) 92vw,(max-width:959px) 46vw,260px",
+    "w": 1200,
+    "h": 805
+   }
+  }
+ ],
+ "tabs": [
+  [
+   "all",
+   "All"
+  ],
+  [
+   "brand",
+   "Branding"
+  ],
+  [
+   "print",
+   "Print & packaging"
+  ],
+  [
+   "digital",
+   "Digital & software"
+  ]
+ ]
+}

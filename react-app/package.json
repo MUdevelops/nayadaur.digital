@@ -1,0 +1,22 @@
+{
+  "name": "nayadaur-digital",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "NayaDaur Digital website - React (Vite) with static prerendering for SEO",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir .ssr && node scripts/prerender.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  },
+  "engines": { "node": ">=18" }
+}

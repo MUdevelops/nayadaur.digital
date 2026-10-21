@@ -1,0 +1,70 @@
+{
+ "values": {
+  "service": [
+   "Logo and Brand Kit",
+   "Urdu and Bilingual Logo / Calligraphy",
+   "Product Photography Editing and Catalog Design",
+   "Menu Cards, Banners and Packaging Labels",
+   "Canva Designs",
+   "Landing Pages and Frontend Websites",
+   "Online E-Commerce Store",
+   "Google Business Profile Setup and Optimization",
+   "Social Media Setup",
+   "WhatsApp Business Setup",
+   "Google Ads (Search and Maps)",
+   "Facebook and Instagram Ads Management",
+   "QR-Based Review System",
+   "Local Invoice System",
+   "Udhaar Management System",
+   "Free Digital Audit",
+   "Custom package",
+   "Other"
+  ],
+  "budget": [
+   "",
+   "Under Rs. 10,000",
+   "Rs. 10,000 - 30,000",
+   "Rs. 30,000 - 100,000",
+   "Above Rs. 100,000"
+  ],
+  "language": [
+   "ru",
+   "en",
+   "ur"
+  ]
+ },
+ "labels": {
+  "service": [
+   "Logo and Brand Kit",
+   "Urdu and Bilingual Logo / Calligraphy",
+   "Product Photography Editing and Catalog Design",
+   "Menu Cards, Banners and Packaging Labels",
+   "Canva Designs",
+   "Landing Pages and Frontend Websites",
+   "Online E-Commerce Store",
+   "Google Business Profile Setup and Optimization",
+   "Social Media Setup",
+   "WhatsApp Business Setup",
+   "Google Ads (Search and Maps)",
+   "Facebook and Instagram Ads Management",
+   "QR-Based Review System",
+   "Local Invoice System",
+   "Udhaar Management System",
+   "Free Digital Audit",
+   "Custom package",
+   "Other"
+  ],
+  "budget": [
+   "Not sure",
+   "Under Rs. 10,000",
+   "Rs. 10,000 - 30,000",
+   "Rs. 30,000 - 100,000",
+   "Above Rs. 100,000"
+  ],
+  "language": [
+   "Roman Urdu",
+   "English",
+   "Urdu"
+  ]
+ }
+}

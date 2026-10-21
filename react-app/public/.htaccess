@@ -1,0 +1,55 @@
+# NayaDaur Digital - Hostinger (Apache / LiteSpeed) configuration
+# Place this file in public_html (same folder as index.html).
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# 1) Force HTTPS (also respects a proxy that reports X-Forwarded-Proto)
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+RewriteRule ^ https://nayadaur.digital%{REQUEST_URI} [L,R=301]
+
+# 2) Force the non-www host (www.nayadaur.digital -> nayadaur.digital)
+RewriteCond %{HTTP_HOST} ^www\.nayadaur\.digital$ [NC]
+RewriteRule ^ https://nayadaur.digital%{REQUEST_URI} [L,R=301]
+
+# 3) Never serve /index.html as a separate URL (avoid duplicate pages)
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+RewriteRule ^(.*/)?index\.html$ /$1 [L,R=301]
+</IfModule>
+
+# Folder URLs always use a trailing slash, e.g. /services/
+DirectoryIndex index.html
+DirectorySlash On
+Options -Indexes
+
+# Branded 404 page
+ErrorDocument 404 /404.html
+
+# Compression
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json application/xml image/svg+xml text/xml
+</IfModule>
+
+# Browser caching
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/html "access plus 0 seconds"
+ExpiresByType text/css "access plus 1 year"
+ExpiresByType application/javascript "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType application/manifest+json "access plus 1 week"
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+AddType application/manifest+json .webmanifest

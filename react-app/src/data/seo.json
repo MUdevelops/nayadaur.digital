@@ -1,0 +1,2343 @@
+{
+ "/404/": {
+  "title": "Page not found | NayaDaur Digital",
+  "description": "The page you are looking for could not be found. Visit the NayaDaur Digital homepage or message us on WhatsApp.",
+  "robots": "noindex, follow",
+  "ogUrl": "/404/",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/about/": {
+  "title": "About NayaDaur Digital | Digital Soch, Behter Karobar",
+  "description": "NayaDaur Digital helps small businesses in Okara and across Pakistan with websites, branding, Google listings, ads and software. See how we work.",
+  "canonical": "/about/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "About",
+       "item": "https://nayadaur.digital/about/"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/blog/does-small-business-need-website-or-just-social-media/": {
+  "title": "Website or Social Media for a Small Business? | NayaDaur Digital",
+  "description": "Does a small business in Pakistan need a website, or are Facebook and Instagram enough? A practical guide to choosing based on how customers find you.",
+  "canonical": "/blog/does-small-business-need-website-or-just-social-media/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogTitle": "Does Your Small Business Need a Website or Just Social Media?",
+  "twitterTitle": "Does Your Small Business Need a Website or Just Social Media?",
+  "ogType": "article",
+  "extra": [
+   {
+    "tag": "meta",
+    "property": "article:published_time",
+    "content": "2026-10-20"
+   },
+   {
+    "tag": "meta",
+    "property": "article:modified_time",
+    "content": "2026-10-20"
+   }
+  ],
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Guides",
+       "item": "https://nayadaur.digital/blog/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Does Your Small Business Need a Website or Just Social Media?",
+       "item": "https://nayadaur.digital/blog/does-small-business-need-website-or-just-social-media/"
+      }
+     ]
+    },
+    {
+     "@type": "BlogPosting",
+     "@id": "https://nayadaur.digital/blog/does-small-business-need-website-or-just-social-media/#post",
+     "headline": "Does Your Small Business Need a Website or Just Social Media?",
+     "description": "Does a small business in Pakistan need a website, or are Facebook and Instagram enough? A practical guide to choosing based on how customers find you.",
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "datePublished": "2026-10-20",
+     "dateModified": "2026-10-20",
+     "inLanguage": "en",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nayadaur.digital/blog/does-small-business-need-website-or-just-social-media/"
+     },
+     "author": {
+      "@type": "Organization",
+      "name": "NayaDaur Digital",
+      "url": "https://nayadaur.digital/"
+     },
+     "publisher": {
+      "@id": "https://nayadaur.digital/#organization"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/blog/does-small-business-need-website-or-just-social-media/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is a Facebook page enough?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For some very small, walk-in businesses it may be enough to begin with. If customers search Google or want to compare, a website helps."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Are free website builders okay?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They can work for a basic start, but check the domain, ads, design limits and whether you can move your content later."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much does a website cost?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on pages, content and features. We quote per project. See our pricing page."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/blog/how-to-get-your-business-on-google-maps-in-pakistan/": {
+  "title": "How to Get Your Business on Google Maps in Pakistan | NayaDaur Digital",
+  "description": "A step-by-step guide to creating a Google Business Profile in Pakistan: what to prepare, how verification works, common mistakes and how to earn genuine reviews.",
+  "canonical": "/blog/how-to-get-your-business-on-google-maps-in-pakistan/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogTitle": "How to Get Your Business on Google Maps in Pakistan",
+  "twitterTitle": "How to Get Your Business on Google Maps in Pakistan",
+  "ogType": "article",
+  "extra": [
+   {
+    "tag": "meta",
+    "property": "article:published_time",
+    "content": "2026-10-20"
+   },
+   {
+    "tag": "meta",
+    "property": "article:modified_time",
+    "content": "2026-10-20"
+   }
+  ],
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Guides",
+       "item": "https://nayadaur.digital/blog/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "How to Get Your Business on Google Maps in Pakistan",
+       "item": "https://nayadaur.digital/blog/how-to-get-your-business-on-google-maps-in-pakistan/"
+      }
+     ]
+    },
+    {
+     "@type": "BlogPosting",
+     "@id": "https://nayadaur.digital/blog/how-to-get-your-business-on-google-maps-in-pakistan/#post",
+     "headline": "How to Get Your Business on Google Maps in Pakistan",
+     "description": "A step-by-step guide to creating a Google Business Profile in Pakistan: what to prepare, how verification works, common mistakes and how to earn genuine reviews.",
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "datePublished": "2026-10-20",
+     "dateModified": "2026-10-20",
+     "inLanguage": "en",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nayadaur.digital/blog/how-to-get-your-business-on-google-maps-in-pakistan/"
+     },
+     "author": {
+      "@type": "Organization",
+      "name": "NayaDaur Digital",
+      "url": "https://nayadaur.digital/"
+     },
+     "publisher": {
+      "@id": "https://nayadaur.digital/#organization"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/blog/how-to-get-your-business-on-google-maps-in-pakistan/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is creating a Google Business Profile free?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, creating and managing a profile is free."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I list a business that has no shop?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often yes, as a service-area business, if you meet Google guidelines. You may hide the address."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Why was my profile suspended?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common causes are keyword-stuffed names, fake addresses, duplicate listings or policy violations. Check Google guidance before appealing."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Should I also have a website?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It helps. A website gives Google and customers more detail about you. See our website development service."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/blog/": {
+  "title": "Guides for Pakistani Small Businesses | NayaDaur Digital",
+  "description": "Practical guides on Google Maps, websites and social media for small businesses in Pakistan, written by NayaDaur Digital.",
+  "canonical": "/blog/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Guides",
+       "item": "https://nayadaur.digital/blog/"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/blog/what-to-prepare-before-hiring-website-developer-pakistan/": {
+  "title": "What to Prepare Before Hiring a Website Developer | NayaDaur Digital",
+  "description": "A checklist for Pakistani business owners hiring a website developer: goals, content, domain ownership, scope, payment terms and questions to ask before you start.",
+  "canonical": "/blog/what-to-prepare-before-hiring-website-developer-pakistan/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogTitle": "What to Prepare Before Hiring a Website Developer in Pakistan",
+  "twitterTitle": "What to Prepare Before Hiring a Website Developer in Pakistan",
+  "ogType": "article",
+  "extra": [
+   {
+    "tag": "meta",
+    "property": "article:published_time",
+    "content": "2026-10-20"
+   },
+   {
+    "tag": "meta",
+    "property": "article:modified_time",
+    "content": "2026-10-20"
+   }
+  ],
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Guides",
+       "item": "https://nayadaur.digital/blog/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "What to Prepare Before Hiring a Website Developer in Pakistan",
+       "item": "https://nayadaur.digital/blog/what-to-prepare-before-hiring-website-developer-pakistan/"
+      }
+     ]
+    },
+    {
+     "@type": "BlogPosting",
+     "@id": "https://nayadaur.digital/blog/what-to-prepare-before-hiring-website-developer-pakistan/#post",
+     "headline": "What to Prepare Before Hiring a Website Developer in Pakistan",
+     "description": "A checklist for Pakistani business owners hiring a website developer: goals, content, domain ownership, scope, payment terms and questions to ask before you start.",
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "datePublished": "2026-10-20",
+     "dateModified": "2026-10-20",
+     "inLanguage": "en",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nayadaur.digital/blog/what-to-prepare-before-hiring-website-developer-pakistan/"
+     },
+     "author": {
+      "@type": "Organization",
+      "name": "NayaDaur Digital",
+      "url": "https://nayadaur.digital/"
+     },
+     "publisher": {
+      "@id": "https://nayadaur.digital/#organization"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/blog/what-to-prepare-before-hiring-website-developer-pakistan/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Do I need to write all the text myself?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You provide the facts about your business. Developers can help shape the wording, which should be agreed in the scope."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Should the developer register my domain?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Either is fine, as long as the domain is registered in your name and you hold the login details."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long does a small business website take?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually one to a few weeks, depending on pages and how quickly you send content and feedback."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/contact/": {
+  "title": "Contact NayaDaur Digital | WhatsApp, Phone & Email",
+  "description": "Contact NayaDaur Digital on WhatsApp, phone or email. Build your enquiry message, then send it by WhatsApp or email. Serving Okara and clients across Pakistan.",
+  "canonical": "/contact/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Contact",
+       "item": "https://nayadaur.digital/contact/"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/": {
+  "title": "NayaDaur Digital | ڈیجیٹل سوچ، بہتر کاروبار – Website, Logo & Google Ads Pakistan",
+  "description": "NayaDaur Digital (ڈیجیٹل سوچ، بہتر کاروبار) – Digital Soch, Behter Karobar. Logo, website, Google Business Profile, ads and business software for Pakistani businesses. Apna karobar online laayein, zyada customers tak pohanchein.",
+  "canonical": "/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogTitle": "NayaDaur Digital | ڈیجیٹل سوچ، بہتر کاروبار – Digital Soch, Behter Karobar",
+  "twitterTitle": "NayaDaur Digital | ڈیجیٹل سوچ، بہتر کاروبار",
+  "extra": [
+   {
+    "tag": "meta",
+    "name": "keywords",
+    "content": "NayaDaur Digital, نیا دور ڈیجیٹل, ڈیجیٹل سوچ بہتر کاروبار, website development Pakistan, logo design Pakistan, Google Business Profile Okara, Google Ads Pakistan, business software Pakistan, digital marketing Okara"
+   },
+   {
+    "tag": "meta",
+    "name": "author",
+    "content": "NayaDaur Digital"
+   },
+   {
+    "tag": "meta",
+    "name": "geo.region",
+    "content": "PK-PB"
+   },
+   {
+    "tag": "meta",
+    "name": "geo.placename",
+    "content": "Okara"
+   },
+   {
+    "tag": "link",
+    "rel": "alternate",
+    "hreflang": "en-PK",
+    "href": "https://nayadaur.digital/"
+   },
+   {
+    "tag": "link",
+    "rel": "alternate",
+    "hreflang": "x-default",
+    "href": "https://nayadaur.digital/"
+   },
+   {
+    "tag": "link",
+    "rel": "preload",
+    "as": "image",
+    "href": "/assets/images/hero-orbit-512.webp",
+    "fetchpriority": "high"
+   },
+   {
+    "tag": "meta",
+    "property": "og:locale:alternate",
+    "content": "ur_PK"
+   }
+  ],
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "alternateName": [
+      "نیا دور ڈیجیٹل",
+      "NayaDaur",
+      "Naya Daur Digital"
+     ],
+     "slogan": "ڈیجیٹل سوچ، بہتر کاروبار – Digital Soch, Behter Karobar",
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Okara",
+      "addressRegion": "Punjab",
+      "addressCountry": "PK"
+     },
+     "priceRange": "$$",
+     "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+       "Monday",
+       "Tuesday",
+       "Wednesday",
+       "Thursday",
+       "Friday",
+       "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+     },
+     "knowsAbout": [
+      "Website development",
+      "Logo design",
+      "Google Business Profile",
+      "Google Ads",
+      "Social media marketing",
+      "Business software"
+     ],
+     "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Digital services",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Website Development"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Logo Design & Branding"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Google Business Profile"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Google Ads"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Social Media Marketing"
+        }
+       },
+       {
+        "@type": "Offer",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Business Software"
+        }
+       }
+      ]
+     },
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://nayadaur.digital/#website",
+     "url": "https://nayadaur.digital/",
+     "name": "NayaDaur Digital",
+     "inLanguage": [
+      "en",
+      "ur"
+     ],
+     "alternateName": "NayaDaur Digital – ڈیجیٹل سوچ، بہتر کاروبار",
+     "publisher": {
+      "@id": "https://nayadaur.digital/#organization"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Which businesses do you work with?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Small businesses, shops, startups, professionals and creators in Okara and across Pakistan."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you work with me if I am not in Okara?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We work remotely over WhatsApp, phone calls and email."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How do payments work?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually an advance first and the balance on delivery. Amounts are written in your quote."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who pays for ad budgets and domains?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You do. Ad budgets go to Google or Meta and domains to the registrar. Our fee is separate."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long does a project take?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually a few days for a logo and one to a few weeks for a website."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is a free digital audit?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A review of your Google, social, WhatsApp and website presence, with clear next steps."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/portfolio/": {
+  "title": "Portfolio: Concept Samples & Demos | NayaDaur Digital",
+  "description": "Browse NayaDaur Digital concept samples: brand identities, bilingual logos, packaging, menus, a QR review stand and an udhaar dashboard mockup.",
+  "canonical": "/portfolio/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Portfolio",
+       "item": "https://nayadaur.digital/portfolio/"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/pricing/": {
+  "title": "Pricing & Packages | NayaDaur Digital",
+  "description": "How NayaDaur Digital pricing works: four packages with custom quotes, what is included and not included, and what affects the cost of your project.",
+  "canonical": "/pricing/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Pricing",
+       "item": "https://nayadaur.digital/pricing/"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/privacy-policy/": {
+  "title": "Privacy Policy | NayaDaur Digital",
+  "description": "How NayaDaur Digital handles information on this website: what is collected, third-party services used and how to contact us.",
+  "canonical": "/privacy-policy/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Privacy Policy",
+       "item": "https://nayadaur.digital/privacy-policy/"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/business-software/": {
+  "title": "Custom Business Software & Automation Pakistan | NayaDaur Digital",
+  "description": "Custom invoicing, udhaar (credit ledger) and small business tools built in Python for Pakistani shops, with Urdu-friendly interfaces and scope agreed up front.",
+  "canonical": "/services/business-software/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Business Software",
+       "item": "https://nayadaur.digital/services/business-software/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/business-software/#service",
+     "name": "Business Software",
+     "serviceType": "Business Software",
+     "url": "https://nayadaur.digital/services/business-software/",
+     "description": "Custom invoicing, udhaar (credit ledger) and small business tools built in Python for Pakistani shops, with Urdu-friendly interfaces and scope agreed up front.",
+     "provider": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/business-software/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tax filing or full accounting software. Data storage and backups are agreed before building; backups are your responsibility unless agreed otherwise. The mockup on this site is a concept, not a client system."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is an udhaar management system?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Software that records what each customer owes, their payments and balance, replacing the paper notebook."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does it work in Urdu?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The interface and printed bills can be in Urdu, English or both."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you build something custom?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tell us the repeated task and we will say honestly if a small tool is the right fix."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What happens after delivery?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ask about support when you request a quote. We will state what is included."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/google-ads/": {
+  "title": "Google Ads Management in Pakistan | NayaDaur Digital",
+  "description": "Google Ads management for small businesses in Pakistan: Search and Maps ads, call and WhatsApp tracking, and clear reporting. Ad budget paid directly to Google.",
+  "canonical": "/services/google-ads/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Google Ads",
+       "item": "https://nayadaur.digital/services/google-ads/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/google-ads/#service",
+     "name": "Google Ads",
+     "serviceType": "Google Ads",
+     "url": "https://nayadaur.digital/services/google-ads/",
+     "description": "Google Ads management for small businesses in Pakistan: Search and Maps ads, call and WhatsApp tracking, and clear reporting. Ad budget paid directly to Google.",
+     "provider": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/google-ads/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ad budget, paid directly to Google; our fee is separate. Guaranteed leads, sales or return on spend. Google reviews ads and may reject some."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much budget do I need?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on city, competition and goal. After a short review we suggest a starting budget, and say honestly if ads are not the right first step."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who pays Google?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You do, through your own Google Ads account. We manage the campaigns."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Ads or a Maps profile first?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually a Google Business Profile first: it is free and builds trust. Ads add speed."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How soon will I see results?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ads can show soon after approval, but useful results take a few weeks of data."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/google-business-profile/": {
+  "title": "Google Business Profile Setup in Okara | NayaDaur Digital",
+  "description": "Google Business Profile and Google Maps listing setup for Pakistani businesses: correct details, categories, photos and a QR review system that brings real reviews.",
+  "canonical": "/services/google-business-profile/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Google Business Profile",
+       "item": "https://nayadaur.digital/services/google-business-profile/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/google-business-profile/#service",
+     "name": "Google Business Profile",
+     "serviceType": "Google Business Profile",
+     "url": "https://nayadaur.digital/services/google-business-profile/",
+     "description": "Google Business Profile and Google Maps listing setup for Pakistani businesses: correct details, categories, photos and a QR review system that brings real reviews.",
+     "provider": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/google-business-profile/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Google decides verification and ranking; we cannot speed up or guarantee either. We never buy, fake or incentivise reviews. Business details must be real: no fake addresses or virtual locations."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is a Google Business Profile free?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Creating and managing a profile is free. You pay only for our setup work."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "I have no shop. Can I still be on Google?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often yes, as a service-area business that hides its address, if Google rules allow."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long does verification take?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the method Google offers. We cannot control the timing."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I get more reviews?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, from genuine customers. The QR system makes it easy for them to leave one."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/graphic-design/": {
+  "title": "Graphic Design Services in Okara, Pakistan | NayaDaur Digital",
+  "description": "Graphic design for Pakistani businesses: social media posts, menu cards, banners, packaging labels, flyers and product catalog design, print-ready and on brand.",
+  "canonical": "/services/graphic-design/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Graphic Design",
+       "item": "https://nayadaur.digital/services/graphic-design/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/graphic-design/#service",
+     "name": "Graphic Design",
+     "serviceType": "Graphic Design",
+     "url": "https://nayadaur.digital/services/graphic-design/",
+     "description": "Graphic design for Pakistani businesses: social media posts, menu cards, banners, packaging labels, flyers and product catalog design, print-ready and on brand.",
+     "provider": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/graphic-design/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On-site photography; we edit photos you supply. Printing and material costs, paid to your printer. Revision rounds beyond what the quote states."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you design in Urdu?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Urdu, English or bilingual layouts."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I edit Canva designs later?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We hand over Canva designs so your team can change text and photos."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Will the files work for printing?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We agree sizes with you or your printer first."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you edit my product photos?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We clean up supplied photos for catalogs and social posts."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/": {
+  "title": "Digital Services for Small Businesses in Pakistan | NayaDaur Digital",
+  "description": "Websites, logo and branding, Google Business Profile, Google Ads, social media, business software and graphic design for businesses in Okara and across Pakistan.",
+  "canonical": "/services/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/logo-design-branding/": {
+  "title": "Logo Design & Branding in Okara, Pakistan | NayaDaur Digital",
+  "description": "Professional logo design, Urdu and bilingual logos and brand kits for Pakistani businesses. Consistent colors, fonts and templates for print and social media.",
+  "canonical": "/services/logo-design-branding/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Logo Design & Branding",
+       "item": "https://nayadaur.digital/services/logo-design-branding/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/logo-design-branding/#service",
+     "name": "Logo Design & Branding",
+     "serviceType": "Logo Design & Branding",
+     "url": "https://nayadaur.digital/services/logo-design-branding/",
+     "description": "Professional logo design, Urdu and bilingual logos and brand kits for Pakistani businesses. Consistent colors, fonts and templates for print and social media.",
+     "provider": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/logo-design-branding/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Trademark registration, which is a separate legal process. Concepts or revisions beyond what the quote states. Printing and signboard making; we supply print-ready files."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you design a logo in Urdu?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, including calligraphy-style lettering. Share the name and the feeling you want."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is a brand kit?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A short guide to your logo versions, colors, fonts and templates."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long does a logo take?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually a few days, depending on how quickly feedback arrives."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I get files for printing?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Exact formats are confirmed in your quote."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/social-media-marketing/": {
+  "title": "Social Media Marketing & Ads in Okara | NayaDaur Digital",
+  "description": "Social media setup, WhatsApp Business setup and Facebook and Instagram ads management for Pakistani small businesses, with creatives that match your brand.",
+  "canonical": "/services/social-media-marketing/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Social Media Marketing",
+       "item": "https://nayadaur.digital/services/social-media-marketing/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/social-media-marketing/#service",
+     "name": "Social Media Marketing",
+     "serviceType": "Social Media Marketing",
+     "url": "https://nayadaur.digital/services/social-media-marketing/",
+     "description": "Social media setup, WhatsApp Business setup and Facebook and Instagram ads management for Pakistani small businesses, with creatives that match your brand.",
+     "provider": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/social-media-marketing/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ad budgets, paid directly to Meta; our fee is separate. Bought followers or likes, and guaranteed reach or sales. Meta reviews ads and can reject or limit them."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you post for me every day?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our listed services are setup, creatives and ads. Ask if you need regular posting and we will say plainly whether we can."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who pays for ads?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You pay Meta directly from your own ad account. We manage the campaigns."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is WhatsApp Business setup?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A business profile with your details, catalog, quick replies and labels."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you design the posts too?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We create matching creatives, or you can order them separately."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/website-development/": {
+  "title": "Website Development in Okara & Pakistan | NayaDaur Digital",
+  "description": "Mobile-friendly business websites, landing pages and online stores for small businesses in Okara and across Pakistan. Clear scope, WhatsApp-first enquiries.",
+  "canonical": "/services/website-development/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://nayadaur.digital/services/website-development/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/website-development/#service",
+     "name": "Website Development",
+     "serviceType": "Website Development",
+     "url": "https://nayadaur.digital/services/website-development/",
+     "description": "Mobile-friendly business websites, landing pages and online stores for small businesses in Okara and across Pakistan. Clear scope, WhatsApp-first enquiries.",
+     "provider": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/website-development/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Domain registration, paid to the registrar (ideally in your name). Hosting, as stated in your written quote. Text and photos, unless agreed in advance. Third-party fees such as payment gateways or couriers. A promised Google ranking: results depend on competition."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long does a website take?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually one to a few weeks, depending on pages and how fast you send content. A landing page is faster."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need to buy a domain?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For an address like yourbusiness.com or .pk, yes. We help you choose and register it."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can customers order through WhatsApp?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Product pages can open a WhatsApp chat with the item already named."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can the site be in Urdu?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. English, Urdu or bilingual layouts with proper Urdu typography."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/terms/": {
+  "title": "Terms of Use | NayaDaur Digital",
+  "description": "Terms for using the NayaDaur Digital website and a summary of how projects, quotes, payments and revisions are handled.",
+  "canonical": "/terms/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Terms of Use",
+       "item": "https://nayadaur.digital/terms/"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
