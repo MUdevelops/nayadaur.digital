@@ -1,0 +1,88 @@
+NayaDaur Digital - search title & description update (2026-10-23)
+
+Only <head> data changed (title, meta description, social tags, favicon links). Page content is unchanged.
+
+After uploading: Google Search Console > URL Inspection > Request Indexing for the pages you care about (start with the homepage).
+Favicon: confirm https://nayadaur.digital/favicon.ico and /assets/images/favicon-48.png open in a browser. Google can take days to weeks to refresh.
+
+PAGE | TITLE | DESCRIPTION
+
+/404/
+  Page Not Found | NayaDaur Digital
+  The page you are looking for could not be found. Visit the NayaDaur Digital homepage or message us on WhatsApp.
+
+/about/
+  About NayaDaur Digital | Okara-Based Digital Agency
+  Meet NayaDaur Digital, an Okara-based agency helping small businesses across Pakistan with branding, websites, Google visibility, ads and software.
+
+/blog/does-small-business-need-website-or-just-social-media/
+  Website or Social Media for Your Small Business? | NayaDaur
+  Does a small business in Pakistan need a website, or are Facebook and Instagram enough? A practical guide to choosing based on how your customers find you.
+
+/blog/how-to-get-your-business-on-google-maps-in-pakistan/
+  Get Your Business on Google Maps in Pakistan | NayaDaur
+  A step-by-step guide to creating a Google Business Profile in Pakistan: what to prepare, how verification works, common mistakes and genuine reviews.
+
+/blog/
+  Guides for Small Businesses in Pakistan | NayaDaur Digital
+  Practical guides on Google Maps, websites and social media for small businesses in Pakistan, written by the NayaDaur Digital team in Okara.
+
+/blog/what-to-prepare-before-hiring-website-developer-pakistan/
+  Before You Hire a Website Developer in Pakistan | NayaDaur
+  A checklist for business owners hiring a website developer in Pakistan: goals, content, domain ownership, scope, payment terms and questions to ask first.
+
+/contact/
+  Contact NayaDaur Digital | WhatsApp, Phone & Email
+  Contact NayaDaur Digital by WhatsApp, phone or email. Build your enquiry message and send it in one tap. Serving Okara and clients across Pakistan.
+
+/
+  NayaDaur Digital | Website, Branding & Google Ads Pakistan
+  NayaDaur Digital brings your logo, website, Google listing, ads and everyday business software together in one place. Based in Okara, serving all Pakistan.
+
+/portfolio/
+  Portfolio: Concept Designs & Samples | NayaDaur Digital
+  Browse NayaDaur Digital concept samples: brand identities, bilingual logos, packaging, menus, a QR review stand and an udhaar dashboard mockup.
+
+/pricing/
+  Pricing & Packages | NayaDaur Digital
+  See how NayaDaur Digital pricing works: four starter packages, custom quotes, what is included and excluded, and what affects the cost of your project.
+
+/privacy-policy/
+  Privacy Policy | NayaDaur Digital
+  Read how NayaDaur Digital handles information on this website, including what is collected, which third-party services are used and how to contact us.
+
+/services/business-software/
+  Invoice & Credit Ledger Software | NayaDaur Digital
+  Custom invoicing, credit ledger (udhaar) and small business tools for Pakistani shops, with Urdu-friendly screens, print layouts and a clear scope.
+
+/services/google-ads/
+  Google Ads Management in Pakistan | NayaDaur Digital
+  Google Ads management for small businesses in Pakistan: Search and Maps campaigns, call and WhatsApp tracking, clear reports. Ad budget is paid to Google.
+
+/services/google-business-profile/
+  Google Business Profile Setup in Pakistan | NayaDaur Digital
+  Get found on Google Search and Maps. Google Business Profile setup with accurate details, photos and a QR system that helps you earn genuine reviews.
+
+/services/graphic-design/
+  Graphic Design for Businesses in Pakistan | NayaDaur Digital
+  Graphic design for Pakistani businesses: social posts, menu cards, banners, packaging labels, flyers and catalogues, delivered print-ready and on brand.
+
+/services/
+  Digital Services for Pakistani Businesses | NayaDaur Digital
+  Explore websites, logo and branding, Google Business Profile, Google Ads, social media, business software and graphic design for Pakistani businesses.
+
+/services/logo-design-branding/
+  Logo Design & Branding in Okara, Pakistan | NayaDaur Digital
+  Professional logo design, Urdu and bilingual logos and complete brand kits for Pakistani businesses, with consistent colours, fonts and print-ready files.
+
+/services/social-media-marketing/
+  Social Media Marketing & Ads in Pakistan | NayaDaur Digital
+  Social media and WhatsApp Business setup plus Facebook and Instagram ads management for Pakistani small businesses, with creatives that match your brand.
+
+/services/website-development/
+  Website Development in Okara, Pakistan | NayaDaur Digital
+  Mobile-friendly business websites, landing pages and online stores for small businesses in Okara and across Pakistan. Clear scope, WhatsApp-first.
+
+/terms/
+  Terms of Use | NayaDaur Digital
+  Terms for using the NayaDaur Digital website, with a summary of how projects, quotes, payments and revisions are handled.

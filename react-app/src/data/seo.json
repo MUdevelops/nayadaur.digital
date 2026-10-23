@@ -1,6 +1,6 @@
 {
  "/404/": {
-  "title": "Page not found | NayaDaur Digital",
+  "title": "Page Not Found | NayaDaur Digital",
   "description": "The page you are looking for could not be found. Visit the NayaDaur Digital homepage or message us on WhatsApp.",
   "robots": "noindex, follow",
   "ogUrl": "/404/",
@@ -55,8 +55,8 @@
   }
  },
  "/about/": {
-  "title": "About NayaDaur Digital | Digital Soch, Behter Karobar",
-  "description": "NayaDaur Digital helps small businesses in Okara and across Pakistan with websites, branding, Google listings, ads and software. See how we work.",
+  "title": "About NayaDaur Digital | Okara-Based Digital Agency",
+  "description": "Meet NayaDaur Digital, an Okara-based agency helping small businesses across Pakistan with branding, websites, Google visibility, ads and software.",
   "canonical": "/about/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -127,12 +127,10 @@
   }
  },
  "/blog/does-small-business-need-website-or-just-social-media/": {
-  "title": "Website or Social Media for a Small Business? | NayaDaur Digital",
-  "description": "Does a small business in Pakistan need a website, or are Facebook and Instagram enough? A practical guide to choosing based on how customers find you.",
+  "title": "Website or Social Media for Your Small Business? | NayaDaur",
+  "description": "Does a small business in Pakistan need a website, or are Facebook and Instagram enough? A practical guide to choosing based on how your customers find you.",
   "canonical": "/blog/does-small-business-need-website-or-just-social-media/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
-  "ogTitle": "Does Your Small Business Need a Website or Just Social Media?",
-  "twitterTitle": "Does Your Small Business Need a Website or Just Social Media?",
   "ogType": "article",
   "extra": [
    {
@@ -272,12 +270,10 @@
   }
  },
  "/blog/how-to-get-your-business-on-google-maps-in-pakistan/": {
-  "title": "How to Get Your Business on Google Maps in Pakistan | NayaDaur Digital",
-  "description": "A step-by-step guide to creating a Google Business Profile in Pakistan: what to prepare, how verification works, common mistakes and how to earn genuine reviews.",
+  "title": "Get Your Business on Google Maps in Pakistan | NayaDaur",
+  "description": "A step-by-step guide to creating a Google Business Profile in Pakistan: what to prepare, how verification works, common mistakes and genuine reviews.",
   "canonical": "/blog/how-to-get-your-business-on-google-maps-in-pakistan/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
-  "ogTitle": "How to Get Your Business on Google Maps in Pakistan",
-  "twitterTitle": "How to Get Your Business on Google Maps in Pakistan",
   "ogType": "article",
   "extra": [
    {
@@ -425,8 +421,8 @@
   }
  },
  "/blog/": {
-  "title": "Guides for Pakistani Small Businesses | NayaDaur Digital",
-  "description": "Practical guides on Google Maps, websites and social media for small businesses in Pakistan, written by NayaDaur Digital.",
+  "title": "Guides for Small Businesses in Pakistan | NayaDaur Digital",
+  "description": "Practical guides on Google Maps, websites and social media for small businesses in Pakistan, written by the NayaDaur Digital team in Okara.",
   "canonical": "/blog/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -497,12 +493,10 @@
   }
  },
  "/blog/what-to-prepare-before-hiring-website-developer-pakistan/": {
-  "title": "What to Prepare Before Hiring a Website Developer | NayaDaur Digital",
-  "description": "A checklist for Pakistani business owners hiring a website developer: goals, content, domain ownership, scope, payment terms and questions to ask before you start.",
+  "title": "Before You Hire a Website Developer in Pakistan | NayaDaur",
+  "description": "A checklist for business owners hiring a website developer in Pakistan: goals, content, domain ownership, scope, payment terms and questions to ask first.",
   "canonical": "/blog/what-to-prepare-before-hiring-website-developer-pakistan/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
-  "ogTitle": "What to Prepare Before Hiring a Website Developer in Pakistan",
-  "twitterTitle": "What to Prepare Before Hiring a Website Developer in Pakistan",
   "ogType": "article",
   "extra": [
    {
@@ -643,7 +637,7 @@
  },
  "/contact/": {
   "title": "Contact NayaDaur Digital | WhatsApp, Phone & Email",
-  "description": "Contact NayaDaur Digital on WhatsApp, phone or email. Build your enquiry message, then send it by WhatsApp or email. Serving Okara and clients across Pakistan.",
+  "description": "Contact NayaDaur Digital by WhatsApp, phone or email. Build your enquiry message and send it in one tap. Serving Okara and clients across Pakistan.",
   "canonical": "/contact/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -714,17 +708,15 @@
   }
  },
  "/": {
-  "title": "NayaDaur Digital | ڈیجیٹل سوچ، بہتر کاروبار – Website, Logo & Google Ads Pakistan",
-  "description": "NayaDaur Digital (ڈیجیٹل سوچ، بہتر کاروبار) – Digital Soch, Behter Karobar. Logo, website, Google Business Profile, ads and business software for Pakistani businesses. Apna karobar online laayein, zyada customers tak pohanchein.",
+  "title": "NayaDaur Digital | Website, Branding & Google Ads Pakistan",
+  "description": "NayaDaur Digital brings your logo, website, Google listing, ads and everyday business software together in one place. Based in Okara, serving all Pakistan.",
   "canonical": "/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
-  "ogTitle": "NayaDaur Digital | ڈیجیٹل سوچ، بہتر کاروبار – Digital Soch, Behter Karobar",
-  "twitterTitle": "NayaDaur Digital | ڈیجیٹل سوچ، بہتر کاروبار",
   "extra": [
    {
     "tag": "meta",
     "name": "keywords",
-    "content": "NayaDaur Digital, نیا دور ڈیجیٹل, ڈیجیٹل سوچ بہتر کاروبار, website development Pakistan, logo design Pakistan, Google Business Profile Okara, Google Ads Pakistan, business software Pakistan, digital marketing Okara"
+    "content": "NayaDaur Digital, website development Pakistan, logo design Pakistan, Google Business Profile Okara, Google Ads Pakistan, business software Pakistan, digital marketing Okara"
    },
    {
     "tag": "meta",
@@ -759,11 +751,6 @@
     "as": "image",
     "href": "/assets/images/hero-orbit-512.webp",
     "fetchpriority": "high"
-   },
-   {
-    "tag": "meta",
-    "property": "og:locale:alternate",
-    "content": "ur_PK"
    }
   ],
   "jsonLd": {
@@ -774,11 +761,10 @@
      "@id": "https://nayadaur.digital/#organization",
      "name": "NayaDaur Digital",
      "alternateName": [
-      "نیا دور ڈیجیٹل",
       "NayaDaur",
       "Naya Daur Digital"
      ],
-     "slogan": "ڈیجیٹل سوچ، بہتر کاروبار – Digital Soch, Behter Karobar",
+     "slogan": "Digital Soch, Behter Karobar",
      "address": {
       "@type": "PostalAddress",
       "addressLocality": "Okara",
@@ -903,7 +889,7 @@
       "en",
       "ur"
      ],
-     "alternateName": "NayaDaur Digital – ڈیجیٹل سوچ، بہتر کاروبار",
+     "alternateName": "NayaDaur Digital – Digital Soch, Behter Karobar",
      "publisher": {
       "@id": "https://nayadaur.digital/#organization"
      }
@@ -966,7 +952,7 @@
   }
  },
  "/portfolio/": {
-  "title": "Portfolio: Concept Samples & Demos | NayaDaur Digital",
+  "title": "Portfolio: Concept Designs & Samples | NayaDaur Digital",
   "description": "Browse NayaDaur Digital concept samples: brand identities, bilingual logos, packaging, menus, a QR review stand and an udhaar dashboard mockup.",
   "canonical": "/portfolio/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
@@ -1039,7 +1025,7 @@
  },
  "/pricing/": {
   "title": "Pricing & Packages | NayaDaur Digital",
-  "description": "How NayaDaur Digital pricing works: four packages with custom quotes, what is included and not included, and what affects the cost of your project.",
+  "description": "See how NayaDaur Digital pricing works: four starter packages, custom quotes, what is included and excluded, and what affects the cost of your project.",
   "canonical": "/pricing/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -1111,7 +1097,7 @@
  },
  "/privacy-policy/": {
   "title": "Privacy Policy | NayaDaur Digital",
-  "description": "How NayaDaur Digital handles information on this website: what is collected, third-party services used and how to contact us.",
+  "description": "Read how NayaDaur Digital handles information on this website, including what is collected, which third-party services are used and how to contact us.",
   "canonical": "/privacy-policy/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -1182,8 +1168,8 @@
   }
  },
  "/services/business-software/": {
-  "title": "Custom Business Software & Automation Pakistan | NayaDaur Digital",
-  "description": "Custom invoicing, udhaar (credit ledger) and small business tools built in Python for Pakistani shops, with Urdu-friendly interfaces and scope agreed up front.",
+  "title": "Invoice & Credit Ledger Software | NayaDaur Digital",
+  "description": "Custom invoicing, credit ledger (udhaar) and small business tools for Pakistani shops, with Urdu-friendly screens, print layouts and a clear scope.",
   "canonical": "/services/business-software/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -1328,7 +1314,7 @@
  },
  "/services/google-ads/": {
   "title": "Google Ads Management in Pakistan | NayaDaur Digital",
-  "description": "Google Ads management for small businesses in Pakistan: Search and Maps ads, call and WhatsApp tracking, and clear reporting. Ad budget paid directly to Google.",
+  "description": "Google Ads management for small businesses in Pakistan: Search and Maps campaigns, call and WhatsApp tracking, clear reports. Ad budget is paid to Google.",
   "canonical": "/services/google-ads/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -1472,8 +1458,8 @@
   }
  },
  "/services/google-business-profile/": {
-  "title": "Google Business Profile Setup in Okara | NayaDaur Digital",
-  "description": "Google Business Profile and Google Maps listing setup for Pakistani businesses: correct details, categories, photos and a QR review system that brings real reviews.",
+  "title": "Google Business Profile Setup in Pakistan | NayaDaur Digital",
+  "description": "Get found on Google Search and Maps. Google Business Profile setup with accurate details, photos and a QR system that helps you earn genuine reviews.",
   "canonical": "/services/google-business-profile/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -1617,8 +1603,8 @@
   }
  },
  "/services/graphic-design/": {
-  "title": "Graphic Design Services in Okara, Pakistan | NayaDaur Digital",
-  "description": "Graphic design for Pakistani businesses: social media posts, menu cards, banners, packaging labels, flyers and product catalog design, print-ready and on brand.",
+  "title": "Graphic Design for Businesses in Pakistan | NayaDaur Digital",
+  "description": "Graphic design for Pakistani businesses: social posts, menu cards, banners, packaging labels, flyers and catalogues, delivered print-ready and on brand.",
   "canonical": "/services/graphic-design/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -1762,8 +1748,8 @@
   }
  },
  "/services/": {
-  "title": "Digital Services for Small Businesses in Pakistan | NayaDaur Digital",
-  "description": "Websites, logo and branding, Google Business Profile, Google Ads, social media, business software and graphic design for businesses in Okara and across Pakistan.",
+  "title": "Digital Services for Pakistani Businesses | NayaDaur Digital",
+  "description": "Explore websites, logo and branding, Google Business Profile, Google Ads, social media, business software and graphic design for Pakistani businesses.",
   "canonical": "/services/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -1835,7 +1821,7 @@
  },
  "/services/logo-design-branding/": {
   "title": "Logo Design & Branding in Okara, Pakistan | NayaDaur Digital",
-  "description": "Professional logo design, Urdu and bilingual logos and brand kits for Pakistani businesses. Consistent colors, fonts and templates for print and social media.",
+  "description": "Professional logo design, Urdu and bilingual logos and complete brand kits for Pakistani businesses, with consistent colours, fonts and print-ready files.",
   "canonical": "/services/logo-design-branding/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -1979,8 +1965,8 @@
   }
  },
  "/services/social-media-marketing/": {
-  "title": "Social Media Marketing & Ads in Okara | NayaDaur Digital",
-  "description": "Social media setup, WhatsApp Business setup and Facebook and Instagram ads management for Pakistani small businesses, with creatives that match your brand.",
+  "title": "Social Media Marketing & Ads in Pakistan | NayaDaur Digital",
+  "description": "Social media and WhatsApp Business setup plus Facebook and Instagram ads management for Pakistani small businesses, with creatives that match your brand.",
   "canonical": "/services/social-media-marketing/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -2124,8 +2110,8 @@
   }
  },
  "/services/website-development/": {
-  "title": "Website Development in Okara & Pakistan | NayaDaur Digital",
-  "description": "Mobile-friendly business websites, landing pages and online stores for small businesses in Okara and across Pakistan. Clear scope, WhatsApp-first enquiries.",
+  "title": "Website Development in Okara, Pakistan | NayaDaur Digital",
+  "description": "Mobile-friendly business websites, landing pages and online stores for small businesses in Okara and across Pakistan. Clear scope, WhatsApp-first.",
   "canonical": "/services/website-development/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -2270,7 +2256,7 @@
  },
  "/terms/": {
   "title": "Terms of Use | NayaDaur Digital",
-  "description": "Terms for using the NayaDaur Digital website and a summary of how projects, quotes, payments and revisions are handled.",
+  "description": "Terms for using the NayaDaur Digital website, with a summary of how projects, quotes, payments and revisions are handled.",
   "canonical": "/terms/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {

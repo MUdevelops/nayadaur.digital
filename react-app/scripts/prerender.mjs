@@ -13,7 +13,7 @@ const template = fs.readFileSync(path.join(dist, 'index.html'), 'utf8')
 
 const write = (url, file) => {
   const { html, head } = render(url)
-  let page = template.replace('<!--app-head-->', head).replace('<!--app-html-->', html)
+  let page = template.replace('<!--app-head-->', () => head).replace('<!--app-html-->', () => html)
   if (url === '/') page = page.replace('<body>', '<body class="home">')
   fs.mkdirSync(path.dirname(file), { recursive: true })
   fs.writeFileSync(file, page)

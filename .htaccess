@@ -53,3 +53,5 @@ Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
 </IfModule>
 
 AddType application/manifest+json .webmanifest
+AddType image/x-icon .ico
+AddType image/png .png
