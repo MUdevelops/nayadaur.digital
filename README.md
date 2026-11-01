@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/readme/nayadaur-hero.svg" alt="NayaDaur Digital — local businesses, digitally connected" width="100%">
+<img src="nayadaur-hero.svg" alt="NayaDaur Digital — local businesses, digitally connected" width="100%">
 
 # NayaDaur Digital
 
@@ -36,7 +36,7 @@ This repository contains the source code of the official website at **[nayadaur.
 
 ## Our Mission
 
-<img src="assets/readme/business-growth.svg" alt="Visibility, opportunity, creativity, community and sustainable growth rising together" width="100%">
+<img src="business-growth.svg" alt="Visibility, opportunity, creativity, community and sustainable growth rising together" width="100%">
 
 | Pillar | What it means for a local business |
 | :-- | :-- |
@@ -84,7 +84,7 @@ This repository contains the source code of the official website at **[nayadaur.
 
 ## How We Work
 
-<img src="assets/readme/digital-ecosystem.svg" alt="From local business to customer connection: understand, design, develop, launch, grow" width="100%">
+<img src="digital-ecosystem.svg" alt="From local business to customer connection: understand, design, develop, launch, grow" width="100%">
 
 | Step | What happens |
 | :-- | :-- |
