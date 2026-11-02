@@ -13,7 +13,7 @@ export default function Pricing() {
             <span>اشتہاری بجٹ اور ڈومین کی فیس الگ ادا ہوتی ہے۔ پیکجز کی قیمتیں نیچے دیکھیں۔</span>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/pricing-640.webp" srcSet="/assets/images/pricing-640.webp 640w, /assets/images/pricing-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Stack of boxes illustrating package pricing" decoding="async" />
+            <img src="/assets/images/pricing-640.webp?v=4" srcSet="/assets/images/pricing-640.webp?v=4 640w, /assets/images/pricing-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Stack of boxes illustrating package pricing" decoding="async" />
           </figure>
         </div>
       </section>

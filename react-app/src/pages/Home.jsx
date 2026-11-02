@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="hero2__visual rv" style={{ "--i": "2" }}>
             <div className="orb">
-              <img src="/assets/images/hero-orbit-512.webp" srcSet="/assets/images/hero-orbit-512.webp 512w, /assets/images/hero-orbit.webp 1024w" sizes="(max-width:899px) 70vw,460px" width="1024" height="1024" alt="NayaDaur Digital: Urdu letter Noon surrounded by service icons" fetchPriority="high" decoding="async" />
+              <img src="/assets/images/hero-orbit-512.webp?v=4" srcSet="/assets/images/hero-orbit-512.webp?v=4 512w, /assets/images/hero-orbit.webp?v=4 1024w" sizes="(max-width:899px) 70vw,460px" width="1024" height="1024" alt="NayaDaur Digital: Urdu letter Noon surrounded by service icons" fetchPriority="high" decoding="async" />
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
       <section className="section" id="about" aria-labelledby="about-t">
         <div className="container two two--center">
           <figure className="about__img rv">
-            <img src="/assets/images/about-section-640.webp" srcSet="/assets/images/about-section-640.webp 640w, /assets/images/about-section-1200.webp 1200w" sizes="(max-width:859px) 92vw,520px" width="1200" height="805" alt="Illustration of a Pakistani high street with shops at sunrise" loading="lazy" decoding="async" />
+            <img src="/assets/images/about-section-640.webp?v=4" srcSet="/assets/images/about-section-640.webp?v=4 640w, /assets/images/about-section-1200.webp?v=4 1200w" sizes="(max-width:859px) 92vw,520px" width="1200" height="805" alt="Illustration of a Pakistani high street with shops at sunrise" loading="lazy" decoding="async" />
           </figure>
           <div className="rv" style={{ "--i": "1" }}>
             <span className="eyebrow">Who we are</span>
@@ -82,7 +82,7 @@ export default function Home() {
           <div className="grid grid--3">
             <article className="card card--img rv" style={{ "--i": "0" }}>
               <div className="card__media">
-                <img src="/assets/images/web-designing-service-640.webp" srcSet="/assets/images/web-designing-service-640.webp 640w, /assets/images/web-designing-service-1200.webp 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Website design illustration: laptop and phone showing a business website" loading="lazy" decoding="async" />
+                <img src="/assets/images/web-designing-service-640.webp?v=4" srcSet="/assets/images/web-designing-service-640.webp?v=4 640w, /assets/images/web-designing-service-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Website design illustration: laptop and phone showing a business website" loading="lazy" decoding="async" />
               </div>
               <div className="card__body">
                 <h3><Link to="/services/website-development/">Website Development</Link></h3>
@@ -92,7 +92,7 @@ export default function Home() {
             </article>
             <article className="card card--img rv" style={{ "--i": "1" }}>
               <div className="card__media">
-                <img src="/assets/images/logo-design-service-640.webp" srcSet="/assets/images/logo-design-service-640.webp 640w, /assets/images/logo-design-service-1200.webp 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Logo design and branding desk with brand kit and colour swatches" loading="lazy" decoding="async" />
+                <img src="/assets/images/logo-design-service-640.webp?v=4" srcSet="/assets/images/logo-design-service-640.webp?v=4 640w, /assets/images/logo-design-service-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Logo design and branding desk with brand kit and colour swatches" loading="lazy" decoding="async" />
               </div>
               <div className="card__body">
                 <h3><Link to="/services/logo-design-branding/">Logo Design &amp; Branding</Link></h3>
@@ -102,7 +102,7 @@ export default function Home() {
             </article>
             <article className="card card--img rv" style={{ "--i": "2" }}>
               <div className="card__media">
-                <img src="/assets/images/google-business-profile-service-640.webp" srcSet="/assets/images/google-business-profile-service-640.webp 640w, /assets/images/google-business-profile-service-1200.webp 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Google Maps pin over a shop with star reviews and QR code" loading="lazy" decoding="async" />
+                <img src="/assets/images/google-business-profile-service-640.webp?v=4" srcSet="/assets/images/google-business-profile-service-640.webp?v=4 640w, /assets/images/google-business-profile-service-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Google Maps pin over a shop with star reviews and QR code" loading="lazy" decoding="async" />
               </div>
               <div className="card__body">
                 <h3><Link to="/services/google-business-profile/">Google Business Profile</Link></h3>
@@ -112,7 +112,7 @@ export default function Home() {
             </article>
             <article className="card card--img rv" style={{ "--i": "3" }}>
               <div className="card__media">
-                <img src="/assets/images/ads-compaign-management-service-640.webp" srcSet="/assets/images/ads-compaign-management-service-640.webp 640w, /assets/images/ads-compaign-management-service-1200.webp 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Google Ads search bar with growth chart illustration" loading="lazy" decoding="async" />
+                <img src="/assets/images/ads-compaign-management-service-640.webp?v=4" srcSet="/assets/images/ads-compaign-management-service-640.webp?v=4 640w, /assets/images/ads-compaign-management-service-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Google Ads search bar with growth chart illustration" loading="lazy" decoding="async" />
               </div>
               <div className="card__body">
                 <h3><Link to="/services/google-ads/">Google Ads</Link></h3>
@@ -122,7 +122,7 @@ export default function Home() {
             </article>
             <article className="card card--img rv" style={{ "--i": "4" }}>
               <div className="card__media">
-                <img src="/assets/images/social-media-service-640.webp" srcSet="/assets/images/social-media-service-640.webp 640w, /assets/images/social-media-service-1200.webp 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Social media profiles and megaphone illustration" loading="lazy" decoding="async" />
+                <img src="/assets/images/social-media-service-640.webp?v=4" srcSet="/assets/images/social-media-service-640.webp?v=4 640w, /assets/images/social-media-service-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Social media profiles and megaphone illustration" loading="lazy" decoding="async" />
               </div>
               <div className="card__body">
                 <h3><Link to="/services/social-media-marketing/">Social Media Marketing</Link></h3>
@@ -132,7 +132,7 @@ export default function Home() {
             </article>
             <article className="card card--img rv" style={{ "--i": "5" }}>
               <div className="card__media">
-                <img src="/assets/images/business-software-setup-640.webp" srcSet="/assets/images/business-software-setup-640.webp 640w, /assets/images/business-software-setup-1200.webp 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Invoice software on a desktop with ledger book and receipt printer" loading="lazy" decoding="async" />
+                <img src="/assets/images/business-software-setup-640.webp?v=4" srcSet="/assets/images/business-software-setup-640.webp?v=4 640w, /assets/images/business-software-setup-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Invoice software on a desktop with ledger book and receipt printer" loading="lazy" decoding="async" />
               </div>
               <div className="card__body">
                 <h3><Link to="/services/business-software/">Business Software</Link></h3>
@@ -186,28 +186,28 @@ export default function Home() {
           <div className="pf-grid">
             <figure className="pf rv" style={{ "--i": "0" }}>
               <Link className="pb" to="/portfolio/" aria-label="View portfolio: Brand identity">
-                <img src="/assets/images/sample-1-700.webp" srcSet="/assets/images/sample-1-700.webp 700w, /assets/images/sample-1.webp 1400w" sizes="(max-width:559px) 92vw,(max-width:959px) 46vw,260px" width="1400" height="939" alt="Concept brand identity for a fictional botanicals brand, Baagh Botanicals, with color palette" loading="lazy" decoding="async" />
+                <img src="/assets/images/sample-1-700.webp?v=4" srcSet="/assets/images/sample-1-700.webp?v=4 700w, /assets/images/sample-1.webp?v=4 1400w" sizes="(max-width:559px) 92vw,(max-width:959px) 46vw,260px" width="1400" height="939" alt="Concept brand identity for a fictional botanicals brand, Baagh Botanicals, with color palette" loading="lazy" decoding="async" />
                 <span className="pill">Concept sample</span>
               </Link>
               <figcaption>Brand identity</figcaption>
             </figure>
             <figure className="pf rv" style={{ "--i": "1" }}>
               <Link className="pb" to="/portfolio/" aria-label="View portfolio: Brand kit">
-                <img src="/assets/images/sample-5-700.webp" srcSet="/assets/images/sample-5-700.webp 700w, /assets/images/sample-5.webp 1400w" sizes="(max-width:559px) 92vw,(max-width:959px) 46vw,260px" width="1400" height="939" alt="Concept brand kit for a fictional cafe called Chai Ghar" loading="lazy" decoding="async" />
+                <img src="/assets/images/sample-5-700.webp?v=4" srcSet="/assets/images/sample-5-700.webp?v=4 700w, /assets/images/sample-5.webp?v=4 1400w" sizes="(max-width:559px) 92vw,(max-width:959px) 46vw,260px" width="1400" height="939" alt="Concept brand kit for a fictional cafe called Chai Ghar" loading="lazy" decoding="async" />
                 <span className="pill">Concept sample</span>
               </Link>
               <figcaption>Brand kit</figcaption>
             </figure>
             <figure className="pf rv" style={{ "--i": "2" }}>
               <Link className="pb" to="/portfolio/" aria-label="View portfolio: Bilingual logo">
-                <img src="/assets/images/sample-7-700.webp" srcSet="/assets/images/sample-7-700.webp 700w, /assets/images/sample-7.webp 1400w" sizes="(max-width:559px) 92vw,(max-width:959px) 46vw,260px" width="1400" height="939" alt="Concept bilingual Urdu and English logo for a fictional bakery" loading="lazy" decoding="async" />
+                <img src="/assets/images/sample-7-700.webp?v=4" srcSet="/assets/images/sample-7-700.webp?v=4 700w, /assets/images/sample-7.webp?v=4 1400w" sizes="(max-width:559px) 92vw,(max-width:959px) 46vw,260px" width="1400" height="939" alt="Concept bilingual Urdu and English logo for a fictional bakery" loading="lazy" decoding="async" />
                 <span className="pill">Concept sample</span>
               </Link>
               <figcaption>Bilingual logo</figcaption>
             </figure>
             <figure className="pf rv" style={{ "--i": "3" }}>
               <Link className="pb" to="/portfolio/" aria-label="View portfolio: Udhaar Manager dashboard">
-                <img src="/assets/images/udhaar-ledger-system-640.webp" srcSet="/assets/images/udhaar-ledger-system-640.webp 640w, /assets/images/udhaar-ledger-system.webp 1200w" sizes="(max-width:559px) 92vw,(max-width:959px) 46vw,260px" width="1200" height="805" alt="Concept mockup of the Udhaar Manager dashboard showing customers, balances and payments" loading="lazy" decoding="async" />
+                <img src="/assets/images/udhaar-ledger-system-640.webp?v=4" srcSet="/assets/images/udhaar-ledger-system-640.webp?v=4 640w, /assets/images/udhaar-ledger-system.webp?v=4 1200w" sizes="(max-width:559px) 92vw,(max-width:959px) 46vw,260px" width="1200" height="805" alt="Concept mockup of the Udhaar Manager dashboard showing customers, balances and payments" loading="lazy" decoding="async" />
                 <span className="pill">Concept sample</span>
               </Link>
               <figcaption>Udhaar Manager dashboard</figcaption>

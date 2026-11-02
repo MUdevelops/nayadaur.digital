@@ -16,7 +16,7 @@ export default function PostHiringDeveloper() {
           <h1>What to Prepare Before Hiring a Website Developer in Pakistan</h1>
           <p className="byline">By NayaDaur Digital · <time dateTime="2026-10-20">20 October 2026</time></p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/blog-hiring-a-developer-640.webp" srcSet="/assets/images/blog-hiring-a-developer-640.webp 640w, /assets/images/blog-hiring-a-developer-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Checklist and laptop with a handshake" decoding="async" />
+            <img src="/assets/images/blog-hiring-a-developer-640.webp?v=4" srcSet="/assets/images/blog-hiring-a-developer-640.webp?v=4 640w, /assets/images/blog-hiring-a-developer-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Checklist and laptop with a handshake" decoding="async" />
           </figure>
         </div>
       </section>

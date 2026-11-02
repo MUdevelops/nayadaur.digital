@@ -14,7 +14,7 @@ export default function Contact() {
             <span>ہم آپ کو واضح اگلے مراحل بتاتے ہیں۔ کوئی دباؤ نہیں، صرف سیدھی اور سچی بات۔</span>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/contact-640.webp" srcSet="/assets/images/contact-640.webp 640w, /assets/images/contact-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Phone, telephone and envelope illustrating contact options" decoding="async" />
+            <img src="/assets/images/contact-640.webp?v=4" srcSet="/assets/images/contact-640.webp?v=4 640w, /assets/images/contact-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Phone, telephone and envelope illustrating contact options" decoding="async" />
           </figure>
         </div>
       </section>

@@ -23,7 +23,7 @@ export default function ServicesSocialMediaMarketing() {
             <Link className="btn btn--line" to="/contact/?service=Facebook%20and%20Instagram%20Ads%20Management">Request a quote</Link>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/social-media-service-640.webp" srcSet="/assets/images/social-media-service-640.webp 640w, /assets/images/social-media-service-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Social media profiles and megaphone illustration" decoding="async" />
+            <img src="/assets/images/social-media-service-640.webp?v=4" srcSet="/assets/images/social-media-service-640.webp?v=4 640w, /assets/images/social-media-service-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Social media profiles and megaphone illustration" decoding="async" />
           </figure>
         </div>
       </section>
@@ -89,7 +89,7 @@ export default function ServicesSocialMediaMarketing() {
             <div>
               <div className="shots rv">
                 <figure className="shot">
-                  <img src="/assets/images/sample-6-700.webp" srcSet="/assets/images/sample-6-700.webp 700w, /assets/images/sample-6.webp 1400w" width="1400" height="939" alt="Concept menu card and banner for a fictional fast-food restaurant" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
+                  <img src="/assets/images/sample-6-700.webp?v=4" srcSet="/assets/images/sample-6-700.webp?v=4 700w, /assets/images/sample-6.webp?v=4 1400w" width="1400" height="939" alt="Concept menu card and banner for a fictional fast-food restaurant" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
                   <figcaption>Menu and banner</figcaption>
                 </figure>
               </div>

@@ -23,7 +23,7 @@ export default function ServicesWebsiteDevelopment() {
             <Link className="btn btn--line" to="/contact/?service=Landing%20Pages%20and%20Frontend%20Websites">Request a quote</Link>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/web-designing-service-640.webp" srcSet="/assets/images/web-designing-service-640.webp 640w, /assets/images/web-designing-service-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Website design illustration with laptop and phone" decoding="async" />
+            <img src="/assets/images/web-designing-service-640.webp?v=4" srcSet="/assets/images/web-designing-service-640.webp?v=4 640w, /assets/images/web-designing-service-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Website design illustration with laptop and phone" decoding="async" />
           </figure>
         </div>
       </section>
@@ -97,27 +97,27 @@ export default function ServicesWebsiteDevelopment() {
               <div className="rv">
                 <svg aria-labelledby="wf-t" className="illus" role="img" viewBox="0 0 320 400">
                   <title id="wf-t">Wireframe of a small business homepage with header, hero, service cards and contact section</title>
-                  <rect fill="#fff" height="388" rx="14" stroke="#0B5D3B" strokeOpacity=".3" strokeWidth="2" width="308" x="6" y="6" />
-                  <rect fill="#0B5D3B" height="34" rx="14" width="308" x="6" y="6" />
-                  <rect fill="#B6F23A" height="14" rx="4" width="54" x="18" y="16" />
-                  <rect fill="#128c4a" height="18" rx="9" width="88" x="214" y="14" />
-                  <rect fill="#0B5D3B" height="14" rx="4" width="170" x="28" y="62" />
-                  <rect fill="#0B5D3B" height="14" rx="4" width="130" x="28" y="84" />
-                  <rect fill="#c9d3cc" height="7" rx="3" width="200" x="28" y="110" />
-                  <rect fill="#c9d3cc" height="7" rx="3" width="170" x="28" y="124" />
-                  <rect fill="#B6F23A" height="26" rx="13" width="96" x="28" y="146" />
-                  <path d="M230 70a40 40 0 0180 0v100h-80z" fill="#e6efe3" />
-                  <g fill="#fff" stroke="#0B5D3B" strokeOpacity=".25">
+                  <rect fill="#fff" height="388" rx="14" stroke="#0B192C" strokeOpacity=".3" strokeWidth="2" width="308" x="6" y="6" />
+                  <rect fill="#0B192C" height="34" rx="14" width="308" x="6" y="6" />
+                  <rect fill="#38BDF8" height="14" rx="4" width="54" x="18" y="16" />
+                  <rect fill="#2f6fdb" height="18" rx="9" width="88" x="214" y="14" />
+                  <rect fill="#0B192C" height="14" rx="4" width="170" x="28" y="62" />
+                  <rect fill="#0B192C" height="14" rx="4" width="130" x="28" y="84" />
+                  <rect fill="#c5d0e0" height="7" rx="3" width="200" x="28" y="110" />
+                  <rect fill="#c5d0e0" height="7" rx="3" width="170" x="28" y="124" />
+                  <rect fill="#38BDF8" height="26" rx="13" width="96" x="28" y="146" />
+                  <path d="M230 70a40 40 0 0180 0v100h-80z" fill="#e3ecf8" />
+                  <g fill="#fff" stroke="#0B192C" strokeOpacity=".25">
                     <rect height="86" rx="10" width="88" x="20" y="196" />
                     <rect height="86" rx="10" width="88" x="116" y="196" />
                     <rect height="86" rx="10" width="88" x="212" y="196" />
                   </g>
-                  <g fill="#0B5D3B">
+                  <g fill="#0B192C">
                     <rect height="22" rx="8" width="26" x="32" y="208" />
                     <rect height="22" rx="8" width="26" x="128" y="208" />
                     <rect height="22" rx="8" width="26" x="224" y="208" />
                   </g>
-                  <g fill="#c9d3cc">
+                  <g fill="#c5d0e0">
                     <rect height="7" rx="3" width="60" x="32" y="242" />
                     <rect height="7" rx="3" width="44" x="32" y="256" />
                     <rect height="7" rx="3" width="60" x="128" y="242" />
@@ -125,11 +125,11 @@ export default function ServicesWebsiteDevelopment() {
                     <rect height="7" rx="3" width="60" x="224" y="242" />
                     <rect height="7" rx="3" width="44" x="224" y="256" />
                   </g>
-                  <rect fill="#0B5D3B" height="48" rx="10" width="280" x="20" y="302" />
-                  <rect fill="#B6F23A" height="9" rx="4" width="100" x="34" y="318" />
+                  <rect fill="#0B192C" height="48" rx="10" width="280" x="20" y="302" />
+                  <rect fill="#38BDF8" height="9" rx="4" width="100" x="34" y="318" />
                   <rect fill="#fff" fillOpacity=".6" height="6" rx="3" width="150" x="34" y="332" />
-                  <rect fill="#B6F23A" height="20" rx="10" width="72" x="214" y="316" />
-                  <rect fill="#c9d3cc" height="8" rx="4" width="280" x="20" y="362" />
+                  <rect fill="#38BDF8" height="20" rx="10" width="72" x="214" y="316" />
+                  <rect fill="#c5d0e0" height="8" rx="4" width="280" x="20" y="362" />
                 </svg>
                 <h3>How we structure a small-business homepage</h3>
                 <ul className="checks">

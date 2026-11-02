@@ -23,7 +23,7 @@ export default function ServicesBusinessSoftware() {
             <Link className="btn btn--line" to="/contact/?service=Udhaar%20Management%20System">Request a quote</Link>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/business-software-setup-640.webp" srcSet="/assets/images/business-software-setup-640.webp 640w, /assets/images/business-software-setup-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Invoice software desktop with ledger and receipt printer" decoding="async" />
+            <img src="/assets/images/business-software-setup-640.webp?v=4" srcSet="/assets/images/business-software-setup-640.webp?v=4 640w, /assets/images/business-software-setup-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Invoice software desktop with ledger and receipt printer" decoding="async" />
           </figure>
         </div>
       </section>
@@ -89,7 +89,7 @@ export default function ServicesBusinessSoftware() {
             <div>
               <div className="shots rv">
                 <figure className="shot">
-                  <img src="/assets/images/udhaar-ledger-system-640.webp" srcSet="/assets/images/udhaar-ledger-system-640.webp 640w, /assets/images/udhaar-ledger-system.webp 1200w" width="1200" height="805" alt="Concept mockup of the Udhaar Manager dashboard showing customers, balances and payment status" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
+                  <img src="/assets/images/udhaar-ledger-system-640.webp?v=4" srcSet="/assets/images/udhaar-ledger-system-640.webp?v=4 640w, /assets/images/udhaar-ledger-system.webp?v=4 1200w" width="1200" height="805" alt="Concept mockup of the Udhaar Manager dashboard showing customers, balances and payment status" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
                   <figcaption>Concept mockup of an udhaar dashboard, not a real screenshot.</figcaption>
                 </figure>
               </div>

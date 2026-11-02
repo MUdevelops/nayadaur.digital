@@ -23,7 +23,7 @@ export default function ServicesLogoDesignBranding() {
             <Link className="btn btn--line" to="/contact/?service=Logo%20and%20Brand%20Kit">Request a quote</Link>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/logo-design-service-640.webp" srcSet="/assets/images/logo-design-service-640.webp 640w, /assets/images/logo-design-service-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Logo design and brand kit desk illustration" decoding="async" />
+            <img src="/assets/images/logo-design-service-640.webp?v=4" srcSet="/assets/images/logo-design-service-640.webp?v=4 640w, /assets/images/logo-design-service-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Logo design and brand kit desk illustration" decoding="async" />
           </figure>
         </div>
       </section>
@@ -83,15 +83,15 @@ export default function ServicesLogoDesignBranding() {
             <div>
               <div className="shots rv">
                 <figure className="shot">
-                  <img src="/assets/images/sample-1-700.webp" srcSet="/assets/images/sample-1-700.webp 700w, /assets/images/sample-1.webp 1400w" width="1400" height="939" alt="Concept brand identity for a fictional botanicals brand, Baagh Botanicals, with color palette" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
+                  <img src="/assets/images/sample-1-700.webp?v=4" srcSet="/assets/images/sample-1-700.webp?v=4 700w, /assets/images/sample-1.webp?v=4 1400w" width="1400" height="939" alt="Concept brand identity for a fictional botanicals brand, Baagh Botanicals, with color palette" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
                   <figcaption>Brand identity</figcaption>
                 </figure>
                 <figure className="shot">
-                  <img src="/assets/images/sample-5-700.webp" srcSet="/assets/images/sample-5-700.webp 700w, /assets/images/sample-5.webp 1400w" width="1400" height="939" alt="Concept brand kit for a fictional cafe called Chai Ghar" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
+                  <img src="/assets/images/sample-5-700.webp?v=4" srcSet="/assets/images/sample-5-700.webp?v=4 700w, /assets/images/sample-5.webp?v=4 1400w" width="1400" height="939" alt="Concept brand kit for a fictional cafe called Chai Ghar" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
                   <figcaption>Brand kit</figcaption>
                 </figure>
                 <figure className="shot">
-                  <img src="/assets/images/sample-7-700.webp" srcSet="/assets/images/sample-7-700.webp 700w, /assets/images/sample-7.webp 1400w" width="1400" height="939" alt="Concept bilingual Urdu and English logo for a fictional bakery" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
+                  <img src="/assets/images/sample-7-700.webp?v=4" srcSet="/assets/images/sample-7-700.webp?v=4 700w, /assets/images/sample-7.webp?v=4 1400w" width="1400" height="939" alt="Concept bilingual Urdu and English logo for a fictional bakery" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
                   <figcaption>Bilingual logo</figcaption>
                 </figure>
               </div>

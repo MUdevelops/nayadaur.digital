@@ -13,7 +13,7 @@ export default function Services() {
             <span>ہر کام کا دائرہ کار پہلے تحریری طور پر طے ہوتا ہے۔ شروعات کے لیے واٹس ایپ پر رابطہ کریں۔</span>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/services-page-640.webp" srcSet="/assets/images/services-page-640.webp 640w, /assets/images/services-page-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Seven NayaDaur Digital service icons" decoding="async" />
+            <img src="/assets/images/services-page-640.webp?v=4" srcSet="/assets/images/services-page-640.webp?v=4 640w, /assets/images/services-page-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Seven NayaDaur Digital service icons" decoding="async" />
           </figure>
         </div>
       </section>

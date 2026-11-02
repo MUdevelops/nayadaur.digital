@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" width="240" height="150" aria-hidden="true" focusable="false">
+  <rect x="10" y="10" width="150" height="110" rx="14" fill="#F8F5EC" stroke="#0B192C" stroke-opacity=".35" stroke-width="2"/>
+  <g stroke="#0B192C" stroke-opacity=".28" stroke-width="1.5" stroke-linecap="round">
+    <line x1="26" y1="104" x2="92" y2="104"/><line x1="26" y1="92" x2="68" y2="92"/>
+  </g>
+  <g stroke="#0B192C" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="3 4">
+    <line x1="40" y1="96" x2="62" y2="40"></line>
+    <line x1="132" y1="30" x2="112" y2="86"></line>
+  </g>
+  <path d="M40 96C42 40 82 28 86 62S122 100 132 30" fill="none" stroke="#0B192C" stroke-width="4" stroke-linecap="round" stroke-dasharray="260" stroke-dashoffset="0">
+    </path>
+  <g fill="#F8F5EC" stroke="#0B192C" stroke-width="2.5">
+    <rect x="35" y="91" width="10" height="10" rx="2"/>
+    <rect x="127" y="25" width="10" height="10" rx="2"></rect>
+  </g>
+  <circle cx="62" cy="40" r="4" fill="#38BDF8" stroke="#0B192C" stroke-width="2"/>
+  <circle cx="112" cy="86" r="4" fill="#38BDF8" stroke="#0B192C" stroke-width="2"/>
+  <g>
+    <circle cx="190" cy="40" r="22" fill="#0B192C"/>
+    <circle cx="190" cy="40" r="9" fill="#38BDF8"/>
+  </g>
+  <g>
+    <circle cx="206" cy="88" r="17" fill="#38BDF8" stroke="#0B192C" stroke-width="2.5"/>
+  </g>
+  <g>
+    <circle cx="170" cy="118" r="13" fill="#F8F5EC" stroke="#0B192C" stroke-width="2.5"/>
+  </g>
+</svg>

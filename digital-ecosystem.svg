@@ -4,17 +4,17 @@
   <rect width="1200" height="400" rx="28" fill="#FAF5E8"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
     <!-- connectors -->
-    <g stroke="#0B5D3B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 8">
+    <g stroke="#0B192C" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 8">
       <line x1="184" y1="150" x2="296" y2="150"><animate attributeName="stroke-dashoffset" values="32;0" dur="1.6s" repeatCount="indefinite"/></line>
       <line x1="424" y1="150" x2="536" y2="150"><animate attributeName="stroke-dashoffset" values="32;0" dur="1.6s" repeatCount="indefinite"/></line>
       <line x1="664" y1="150" x2="776" y2="150"><animate attributeName="stroke-dashoffset" values="32;0" dur="1.6s" repeatCount="indefinite"/></line>
       <line x1="904" y1="150" x2="1016" y2="150"><animate attributeName="stroke-dashoffset" values="32;0" dur="1.6s" repeatCount="indefinite"/></line>
     </g>
-    <g fill="#0B5D3B">
+    <g fill="#0B192C">
       <polygon points="296,141 312,150 296,159"/><polygon points="536,141 552,150 536,159"/>
       <polygon points="776,141 792,150 776,159"/><polygon points="1016,141 1032,150 1016,159"/>
     </g>
-    <g fill="#A3E635" stroke="#0B5D3B" stroke-width="2">
+    <g fill="#38BDF8" stroke="#0B192C" stroke-width="2">
       <circle cx="184" cy="150" r="6"><animate attributeName="cx" values="184;296" dur="2.4s" repeatCount="indefinite"/></circle>
       <circle cx="424" cy="150" r="6"><animate attributeName="cx" values="424;536" dur="2.4s" begin="0.4s" repeatCount="indefinite"/></circle>
       <circle cx="664" cy="150" r="6"><animate attributeName="cx" values="664;776" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
@@ -23,41 +23,41 @@
 
     <!-- nodes -->
     <g>
-      <circle cx="120" cy="150" r="64" fill="#0B5D3B"/>
-      <circle cx="120" cy="150" r="64" fill="none" stroke="#A3E635" stroke-width="3"><animate attributeName="r" values="64;78" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="150" r="64" fill="#0B192C"/>
+      <circle cx="120" cy="150" r="64" fill="none" stroke="#38BDF8" stroke-width="3"><animate attributeName="r" values="64;78" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" repeatCount="indefinite"/></circle>
       <rect x="92" y="148" width="56" height="34" rx="3" fill="#FAF5E8"/>
-      <rect x="88" y="128" width="64" height="20" rx="3" fill="#A3E635"/>
-      <rect x="112" y="158" width="16" height="24" fill="#0B5D3B"/>
+      <rect x="88" y="128" width="64" height="20" rx="3" fill="#38BDF8"/>
+      <rect x="112" y="158" width="16" height="24" fill="#0B192C"/>
     </g>
     <g>
-      <circle cx="360" cy="150" r="64" fill="#10B981"/>
-      <circle cx="360" cy="150" r="64" fill="none" stroke="#A3E635" stroke-width="3"><animate attributeName="r" values="64;78" dur="3s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="360" cy="150" r="64" fill="#3B82F6"/>
+      <circle cx="360" cy="150" r="64" fill="none" stroke="#38BDF8" stroke-width="3"><animate attributeName="r" values="64;78" dur="3s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" begin="0.6s" repeatCount="indefinite"/></circle>
       <polygon points="360,116 392,150 360,184 328,150" fill="#FAF5E8"/>
-      <polygon points="360,132 376,150 360,168 344,150" fill="#0B5D3B"/>
+      <polygon points="360,132 376,150 360,168 344,150" fill="#0B192C"/>
     </g>
     <g>
-      <circle cx="600" cy="150" r="64" fill="#0B5D3B"/>
-      <circle cx="600" cy="150" r="64" fill="none" stroke="#A3E635" stroke-width="3"><animate attributeName="r" values="64;78" dur="3s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="600" cy="150" r="64" fill="#0B192C"/>
+      <circle cx="600" cy="150" r="64" fill="none" stroke="#38BDF8" stroke-width="3"><animate attributeName="r" values="64;78" dur="3s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" begin="1.2s" repeatCount="indefinite"/></circle>
       <rect x="566" y="124" width="68" height="52" rx="6" fill="#FAF5E8"/>
-      <rect x="566" y="124" width="68" height="14" rx="6" fill="#A3E635"/>
-      <rect x="576" y="146" width="30" height="5" rx="2.5" fill="#10B981"/>
-      <rect x="576" y="158" width="46" height="5" rx="2.5" fill="#0B5D3B"/>
+      <rect x="566" y="124" width="68" height="14" rx="6" fill="#38BDF8"/>
+      <rect x="576" y="146" width="30" height="5" rx="2.5" fill="#3B82F6"/>
+      <rect x="576" y="158" width="46" height="5" rx="2.5" fill="#0B192C"/>
     </g>
     <g>
-      <circle cx="840" cy="150" r="64" fill="#10B981"/>
-      <circle cx="840" cy="150" r="64" fill="none" stroke="#A3E635" stroke-width="3"><animate attributeName="r" values="64;78" dur="3s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" begin="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="840" cy="150" r="64" fill="#3B82F6"/>
+      <circle cx="840" cy="150" r="64" fill="none" stroke="#38BDF8" stroke-width="3"><animate attributeName="r" values="64;78" dur="3s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" begin="1.8s" repeatCount="indefinite"/></circle>
       <path d="M840 118 a22 22 0 0 1 22 22 c0 16 -22 40 -22 40 s-22 -24 -22 -40 a22 22 0 0 1 22 -22z" fill="#FAF5E8"/>
-      <circle cx="840" cy="140" r="8" fill="#0B5D3B"/>
+      <circle cx="840" cy="140" r="8" fill="#0B192C"/>
     </g>
     <g>
-      <circle cx="1080" cy="150" r="64" fill="#0B5D3B"/>
-      <circle cx="1080" cy="150" r="64" fill="none" stroke="#A3E635" stroke-width="3"><animate attributeName="r" values="64;78" dur="3s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" begin="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1080" cy="150" r="64" fill="#0B192C"/>
+      <circle cx="1080" cy="150" r="64" fill="none" stroke="#38BDF8" stroke-width="3"><animate attributeName="r" values="64;78" dur="3s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" begin="2.4s" repeatCount="indefinite"/></circle>
       <path d="M1054 126 h52 a8 8 0 0 1 8 8 v26 a8 8 0 0 1 -8 8 h-30 l-14 14 v-14 h-8 a8 8 0 0 1 -8 -8 v-26 a8 8 0 0 1 8 -8z" fill="#FAF5E8"/>
-      <circle cx="1068" cy="147" r="4" fill="#0B5D3B"/><circle cx="1080" cy="147" r="4" fill="#0B5D3B"/><circle cx="1092" cy="147" r="4" fill="#0B5D3B"/>
+      <circle cx="1068" cy="147" r="4" fill="#0B192C"/><circle cx="1080" cy="147" r="4" fill="#0B192C"/><circle cx="1092" cy="147" r="4" fill="#0B192C"/>
     </g>
 
     <!-- labels -->
-    <g font-size="17" font-weight="700" fill="#111111">
+    <g font-size="17" font-weight="700" fill="#0b192c">
       <text x="120" y="256">LOCAL BUSINESS</text>
       <text x="360" y="256">BRAND IDENTITY</text>
       <text x="600" y="256">WEBSITE</text>
@@ -66,11 +66,11 @@
     </g>
     <!-- workflow pills -->
     <g font-size="14" font-weight="700" fill="#FAF5E8">
-      <rect x="64" y="298" width="112" height="36" rx="18" fill="#0B5D3B"/><text x="120" y="321">UNDERSTAND</text>
-      <rect x="304" y="298" width="112" height="36" rx="18" fill="#0B5D3B"/><text x="360" y="321">DESIGN</text>
-      <rect x="544" y="298" width="112" height="36" rx="18" fill="#0B5D3B"/><text x="600" y="321">DEVELOP</text>
-      <rect x="784" y="298" width="112" height="36" rx="18" fill="#0B5D3B"/><text x="840" y="321">LAUNCH</text>
-      <rect x="1024" y="298" width="112" height="36" rx="18" fill="#0B5D3B"/><text x="1080" y="321">GROW</text>
+      <rect x="64" y="298" width="112" height="36" rx="18" fill="#0B192C"/><text x="120" y="321">UNDERSTAND</text>
+      <rect x="304" y="298" width="112" height="36" rx="18" fill="#0B192C"/><text x="360" y="321">DESIGN</text>
+      <rect x="544" y="298" width="112" height="36" rx="18" fill="#0B192C"/><text x="600" y="321">DEVELOP</text>
+      <rect x="784" y="298" width="112" height="36" rx="18" fill="#0B192C"/><text x="840" y="321">LAUNCH</text>
+      <rect x="1024" y="298" width="112" height="36" rx="18" fill="#0B192C"/><text x="1080" y="321">GROW</text>
     </g>
   </g>
 </svg>

@@ -2,34 +2,34 @@
   <title id="t">NayaDaur Digital mission and growth</title>
   <desc id="d">Five rising columns labelled Visibility, Opportunity, Creativity, Community and Sustainable Growth, connected by an upward trend line.</desc>
   <rect width="1200" height="440" rx="28" fill="#FAF5E8"/>
-  <circle cx="1100" cy="70" r="140" fill="#A3E635" opacity="0.15"/>
-  <line x1="70" y1="340" x2="1130" y2="340" stroke="#0B5D3B" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="1100" cy="70" r="140" fill="#38BDF8" opacity="0.15"/>
+  <line x1="70" y1="340" x2="1130" y2="340" stroke="#0B192C" stroke-width="3" stroke-linecap="round"/>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
     <!-- columns: baseline y=340 -->
-    <rect x="110" y="260" width="130" height="80" rx="10" fill="#0B5D3B"><animate attributeName="y" values="340;260" dur="1s" begin="0.2s" fill="freeze"/><animate attributeName="height" values="0;80" dur="1s" begin="0.2s" fill="freeze"/></rect>
-    <rect x="320" y="210" width="130" height="130" rx="10" fill="#10B981"><animate attributeName="y" values="340;210" dur="1s" begin="0.5s" fill="freeze"/><animate attributeName="height" values="0;130" dur="1s" begin="0.5s" fill="freeze"/></rect>
-    <rect x="530" y="160" width="130" height="180" rx="10" fill="#0B5D3B"><animate attributeName="y" values="340;160" dur="1s" begin="0.8s" fill="freeze"/><animate attributeName="height" values="0;180" dur="1s" begin="0.8s" fill="freeze"/></rect>
-    <rect x="740" y="110" width="130" height="230" rx="10" fill="#10B981"><animate attributeName="y" values="340;110" dur="1s" begin="1.1s" fill="freeze"/><animate attributeName="height" values="0;230" dur="1s" begin="1.1s" fill="freeze"/></rect>
-    <rect x="950" y="60" width="130" height="280" rx="10" fill="#A3E635" stroke="#0B5D3B" stroke-width="3"><animate attributeName="y" values="340;60" dur="1s" begin="1.4s" fill="freeze"/><animate attributeName="height" values="0;280" dur="1s" begin="1.4s" fill="freeze"/></rect>
+    <rect x="110" y="260" width="130" height="80" rx="10" fill="#0B192C"><animate attributeName="y" values="340;260" dur="1s" begin="0.2s" fill="freeze"/><animate attributeName="height" values="0;80" dur="1s" begin="0.2s" fill="freeze"/></rect>
+    <rect x="320" y="210" width="130" height="130" rx="10" fill="#3B82F6"><animate attributeName="y" values="340;210" dur="1s" begin="0.5s" fill="freeze"/><animate attributeName="height" values="0;130" dur="1s" begin="0.5s" fill="freeze"/></rect>
+    <rect x="530" y="160" width="130" height="180" rx="10" fill="#0B192C"><animate attributeName="y" values="340;160" dur="1s" begin="0.8s" fill="freeze"/><animate attributeName="height" values="0;180" dur="1s" begin="0.8s" fill="freeze"/></rect>
+    <rect x="740" y="110" width="130" height="230" rx="10" fill="#3B82F6"><animate attributeName="y" values="340;110" dur="1s" begin="1.1s" fill="freeze"/><animate attributeName="height" values="0;230" dur="1s" begin="1.1s" fill="freeze"/></rect>
+    <rect x="950" y="60" width="130" height="280" rx="10" fill="#38BDF8" stroke="#0B192C" stroke-width="3"><animate attributeName="y" values="340;60" dur="1s" begin="1.4s" fill="freeze"/><animate attributeName="height" values="0;280" dur="1s" begin="1.4s" fill="freeze"/></rect>
 
     <!-- trend line -->
-    <polyline points="175,236 385,186 595,136 805,86 1015,36" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14 10" opacity="0.55">
+    <polyline points="175,236 385,186 595,136 805,86 1015,36" fill="none" stroke="#0b192c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14 10" opacity="0.55">
       <animate attributeName="stroke-dashoffset" values="48;0" dur="2s" repeatCount="indefinite"/>
     </polyline>
-    <g fill="#FAF5E8" stroke="#0B5D3B" stroke-width="4">
+    <g fill="#FAF5E8" stroke="#0B192C" stroke-width="4">
       <circle cx="175" cy="236" r="12"/><circle cx="385" cy="186" r="12"/><circle cx="595" cy="136" r="12"/><circle cx="805" cy="86" r="12"/>
       <circle cx="1015" cy="36" r="12"><animate attributeName="r" values="12;17;12" dur="2.4s" repeatCount="indefinite"/></circle>
     </g>
 
     <!-- labels -->
-    <g font-size="19" font-weight="700" fill="#111111">
+    <g font-size="19" font-weight="700" fill="#0b192c">
       <text x="175" y="376">VISIBILITY</text>
       <text x="385" y="376">OPPORTUNITY</text>
       <text x="595" y="376">CREATIVITY</text>
       <text x="805" y="376">COMMUNITY</text>
       <text x="1015" y="376">SUSTAINABLE GROWTH</text>
     </g>
-    <g font-size="14" fill="#0B5D3B">
+    <g font-size="14" fill="#0B192C">
       <text x="175" y="402">be found online</text>
       <text x="385" y="402">reach new customers</text>
       <text x="595" y="402">a brand worth noticing</text>

@@ -80,8 +80,8 @@ export default function Header() {
       <div className="container nav">
         <Link className="brand" to="/" aria-label="NayaDaur Digital home" onClick={goTop}>
           <img
-            src="/assets/images/logo.webp"
-            srcSet="/assets/images/logo-320.webp 320w, /assets/images/logo.webp 640w"
+            src="/assets/images/logo.webp?v=4"
+            srcSet="/assets/images/logo-320.webp?v=4 320w, /assets/images/logo.webp?v=4 640w"
             sizes="132px"
             width="137"
             height="52"

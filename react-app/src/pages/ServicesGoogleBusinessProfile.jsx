@@ -23,7 +23,7 @@ export default function ServicesGoogleBusinessProfile() {
             <Link className="btn btn--line" to="/contact/?service=Google%20Business%20Profile%20Setup%20and%20Optimization">Request a quote</Link>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/google-business-profile-service-640.webp" srcSet="/assets/images/google-business-profile-service-640.webp 640w, /assets/images/google-business-profile-service-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Google Maps pin over a shop with star reviews" decoding="async" />
+            <img src="/assets/images/google-business-profile-service-640.webp?v=4" srcSet="/assets/images/google-business-profile-service-640.webp?v=4 640w, /assets/images/google-business-profile-service-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Google Maps pin over a shop with star reviews" decoding="async" />
           </figure>
         </div>
       </section>
@@ -90,7 +90,7 @@ export default function ServicesGoogleBusinessProfile() {
             <div>
               <div className="shots rv">
                 <figure className="shot">
-                  <img src="/assets/images/sample-4-700.webp" srcSet="/assets/images/sample-4-700.webp 700w, /assets/images/sample-4.webp 1400w" width="1400" height="939" alt="Concept QR review stand for a fictional salon" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
+                  <img src="/assets/images/sample-4-700.webp?v=4" srcSet="/assets/images/sample-4-700.webp?v=4 700w, /assets/images/sample-4.webp?v=4 1400w" width="1400" height="939" alt="Concept QR review stand for a fictional salon" sizes="(max-width:859px) 92vw,260px" loading="lazy" decoding="async" />
                   <figcaption>QR review stand</figcaption>
                 </figure>
               </div>

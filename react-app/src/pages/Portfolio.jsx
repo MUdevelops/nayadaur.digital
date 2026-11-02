@@ -14,7 +14,7 @@ export default function Portfolio() {
             <span>لوگو، برانڈ کٹ اور ڈیش بورڈ کے نمونے دیکھیں۔ پسند آئے تو واٹس ایپ پر رابطہ کریں۔</span>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/portfolio-640.webp" srcSet="/assets/images/portfolio-640.webp 640w, /assets/images/portfolio-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Brand identity desk with colour swatches" decoding="async" />
+            <img src="/assets/images/portfolio-640.webp?v=4" srcSet="/assets/images/portfolio-640.webp?v=4 640w, /assets/images/portfolio-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Brand identity desk with colour swatches" decoding="async" />
           </figure>
         </div>
       </section>

@@ -13,7 +13,7 @@ export default function About() {
             <span>لوگو، ویب سائٹ، گوگل پروفائل اور اشتہارات ایک ہی ٹیم سے۔ صاف بات، تحریری منصوبہ اور سیدھا رابطہ۔</span>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/about-section-640.webp" srcSet="/assets/images/about-section-640.webp 640w, /assets/images/about-section-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Illustration of a Pakistani high street at sunrise" decoding="async" />
+            <img src="/assets/images/about-section-640.webp?v=4" srcSet="/assets/images/about-section-640.webp?v=4 640w, /assets/images/about-section-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Illustration of a Pakistani high street at sunrise" decoding="async" />
           </figure>
         </div>
       </section>

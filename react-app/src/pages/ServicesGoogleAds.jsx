@@ -23,7 +23,7 @@ export default function ServicesGoogleAds() {
             <Link className="btn btn--line" to="/contact/?service=Google%20Ads%20(Search%20and%20Maps)">Request a quote</Link>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/ads-compaign-management-service-640.webp" srcSet="/assets/images/ads-compaign-management-service-640.webp 640w, /assets/images/ads-compaign-management-service-1200.webp 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Google Ads search and growth chart illustration" decoding="async" />
+            <img src="/assets/images/ads-compaign-management-service-640.webp?v=4" srcSet="/assets/images/ads-compaign-management-service-640.webp?v=4 640w, /assets/images/ads-compaign-management-service-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Google Ads search and growth chart illustration" decoding="async" />
           </figure>
         </div>
       </section>
@@ -88,18 +88,18 @@ export default function ServicesGoogleAds() {
               <div className="rv">
                 <svg aria-labelledby="ad-t" className="illus" role="img" viewBox="0 0 320 260">
                   <title id="ad-t">Illustration of how a Google search ad is laid out: sponsored label, business name, headline, description and call button</title>
-                  <rect fill="#fff" height="248" rx="14" stroke="#0B5D3B" strokeOpacity=".3" strokeWidth="2" width="308" x="6" y="6" />
-                  <rect fill="#f1f3f1" height="30" rx="15" stroke="#cfd6d0" width="276" x="22" y="22" />
-                  <rect fill="#9aa59d" height="8" rx="4" width="130" x="38" y="33" />
-                  <text fill="#0B5D3B" fontFamily="Outfit,sans-serif" fontSize="12" fontWeight="700" x="22" y="82">Sponsored</text>
-                  <circle cx="34" cy="106" fill="#0B5D3B" r="9" />
+                  <rect fill="#fff" height="248" rx="14" stroke="#0B192C" strokeOpacity=".3" strokeWidth="2" width="308" x="6" y="6" />
+                  <rect fill="#f0f3f8" height="30" rx="15" stroke="#cbd3e0" width="276" x="22" y="22" />
+                  <rect fill="#98a4b8" height="8" rx="4" width="130" x="38" y="33" />
+                  <text fill="#0B192C" fontFamily="Outfit,sans-serif" fontSize="12" fontWeight="700" x="22" y="82">Sponsored</text>
+                  <circle cx="34" cy="106" fill="#0B192C" r="9" />
                   <text fill="#333" fontFamily="Outfit,sans-serif" fontSize="12" x="50" y="110">Your business name</text>
                   <text fill="#0b4d9d" fontFamily="Outfit,sans-serif" fontSize="17" fontWeight="700" x="22" y="140">Headline that matches the search</text>
-                  <rect fill="#c9d3cc" height="7" rx="3" width="250" x="22" y="152" />
-                  <rect fill="#c9d3cc" height="7" rx="3" width="200" x="22" y="166" />
-                  <rect fill="#0B5D3B" height="28" rx="14" width="84" x="22" y="196" />
+                  <rect fill="#c5d0e0" height="7" rx="3" width="250" x="22" y="152" />
+                  <rect fill="#c5d0e0" height="7" rx="3" width="200" x="22" y="166" />
+                  <rect fill="#0B192C" height="28" rx="14" width="84" x="22" y="196" />
                   <text fill="#fff" fontFamily="Outfit,sans-serif" fontSize="12" fontWeight="700" textAnchor="middle" x="64" y="214">Call now</text>
-                  <rect fill="#128c4a" height="28" rx="14" width="104" x="116" y="196" />
+                  <rect fill="#2f6fdb" height="28" rx="14" width="104" x="116" y="196" />
                   <text fill="#fff" fontFamily="Outfit,sans-serif" fontSize="12" fontWeight="700" textAnchor="middle" x="168" y="214">WhatsApp</text>
                 </svg>
                 <h3>What a search ad is made of</h3>

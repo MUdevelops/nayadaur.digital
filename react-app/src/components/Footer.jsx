@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="container footer__grid">
         <div className="footer__brand">
           <Link to="/" aria-label="NayaDaur Digital home">
-            <img className="footer__logo" src="/assets/images/logo-320.webp" width="126" height="48" alt="NayaDaur Digital" loading="lazy" decoding="async" />
+            <img className="footer__logo" src="/assets/images/logo-320.webp?v=4" width="126" height="48" alt="NayaDaur Digital" loading="lazy" decoding="async" />
           </Link>
           <p className="footer__note">
             <strong className="ur" lang="ur">ڈیجیٹل سوچ، بہتر کاروبار</strong>

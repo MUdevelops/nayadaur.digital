@@ -1,0 +1,42 @@
+NAYADAUR DIGITAL - ENHANCEMENT PASS (additive, no redesign)
+
+What changed
+  react-app/src/styles/enhance.css   new enhancement layer (imported in src/main.jsx after style.css)
+  react-app/public/assets/illustrations/*.svg   4 animated SVGs + 4 static twins (reduced motion)
+  assets/enhance.css                 same CSS, linked from every prebuilt HTML page
+  assets/illustrations/*.svg         same SVGs for the prebuilt release
+
+Prebuilt release (repo root): pages link /assets/enhance.css?v=13 after the hashed style file.
+If you edit enhance.css, copy it to assets/enhance.css and bump ?v=13 in the HTML (caches are 1 year).
+After "npm run build", react-app/dist bundles enhance.css into the hashed stylesheet automatically,
+so the extra <link> is only needed for the prebuilt root release.
+
+No page text, markup, scripts, SEO data, routes, images or configuration were changed.
+
+COLOUR SYSTEM PASS (v9, Midnight Navy; replaces the v8 green palette)
+  Colour only. Palette: primary Midnight Navy #0B192C, deep navy #070F1D, accent blue #3B82F6,
+  sky accent #38BDF8 (hover #7DD3FC), ivory #FAF5E8, card #FFFDF7, card hover #EEF4FC, border #E7E2D3,
+  text #111827, muted #55657A. Navigation and footer text is white (#fff) on navy.
+  CSS token names are unchanged (--g = navy, --g-d = deep navy, --lime = sky accent, --emerald = accent blue).
+  Applied to: style.css, enhance.css, every prebuilt page, the prebuilt JS bundle, React sources, SVG illustrations,
+  theme-color / manifest, and brand images (logo, hero, icons, favicons, social card, section illustrations).
+  Deliberately unchanged: portfolio samples (sample-*.webp, udhaar-ledger-system*.webp) because they are client/product work
+  with their own palettes, the WhatsApp button green (#25D366, WhatsApp brand colour), gold pricing accents, error red.
+  The hashed style/JS files were renamed (new hash) and image URLs now end in ?v=3 so 1-year caches refresh.
+
+IMAGE BORDER CLEAN-UP (cropped on request)
+  Solid dark edge lines were cropped off (640 and 1200 widths, in assets/images and react-app/public/assets/images):
+    logo-design-service (top+left), ads-compaign-management-service (bottom), social-media-service (top),
+    pricing (right), blog-google-maps (bottom). Artwork itself is untouched; only the border pixels are removed.
+  Their URLs now end in ?v=2 (HTML, React pages, prebuilt JS bundle) so visitors' 1-year image cache refreshes.
+
+FOLLOW-UP PASS (navy details)
+  Floating WhatsApp button is Midnight Navy #0B192C (white icon). Header/footer WhatsApp links are unchanged.
+  Concept samples (sample-1..7, udhaar-ledger-system) recoloured from green to navy.
+  Black and near-black pixels in service/section images, and #000 / #111 / rgba(0,0,0,x) in CSS and SVG, are now deep navy #070F1D.
+  Favicon, app icons and apple-touch icon redrawn: larger mark, crisp edges, navy gradient, glowing sky dot, rounded favicons.
+  Floating WhatsApp button changed to sky blue #38BDF8 with a navy icon (white on sky was too low in contrast).
+  /favicon.ico link now versioned (?v=4) so browsers drop the cached old favicon.
+  Floating WhatsApp button restyled: sky-blue gradient circle (#7CC8FF to #0B54AE) with a white icon.
+  Favicon, app icons and apple-touch icon now use the supplied Glowing Cyan Arc logo (cropped per size; favicons rounded). Icon URLs ?v=5.
+  Floating WhatsApp button now solid sky #38BDF8 with navy icon, identical to the CTA WhatsApp button.

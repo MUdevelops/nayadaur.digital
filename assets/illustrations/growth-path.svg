@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="1200" height="80" preserveAspectRatio="xMaxYMax meet" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0"><stop offset="0" stop-color="#38BDF8" stop-opacity="0"/><stop offset="1" stop-color="#38BDF8" stop-opacity=".6"/></linearGradient>
+    <linearGradient id="fadeFill" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0"><stop offset="0" stop-color="#38BDF8" stop-opacity="0"/><stop offset="1" stop-color="#38BDF8" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="fadeBase" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0"><stop offset="0" stop-color="#F8F5EC" stop-opacity="0"/><stop offset="1" stop-color="#F8F5EC" stop-opacity=".14"/></linearGradient>
+  </defs>
+  <line x1="0" y1="77" x2="1200" y2="77" stroke="url(#fadeBase)" stroke-width="2"/>
+  <path d="M0 70C120 67 200 61 300 56S460 49 560 41S760 33 860 25S1060 14 1180 8L1200 7V77H0Z" fill="url(#fadeFill)"/>
+  <path d="M0 70C120 67 200 61 300 56S460 49 560 41S760 33 860 25S1060 14 1180 8" fill="none" stroke="url(#fade)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1300" stroke-dashoffset="0">
+    <animate attributeName="stroke-dashoffset" values="1300;0;0;0" keyTimes="0;.4;.92;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;1;0" keyTimes="0;.4;.92;1" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#38BDF8">
+    <circle cx="300" cy="56" r="4"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.12;.2;.92;1" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="41" r="4"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.22;.3;.92;1" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="25" r="4"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.32;.4;.92;1" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="8" r="5"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.38;.46;.92;1" dur="9s" repeatCount="indefinite"/></circle>
+  </g>
+  <circle cx="1180" cy="8" r="5" fill="none" stroke="#38BDF8" stroke-opacity=".7" stroke-width="2">
+    <animate attributeName="r" values="5;15" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values=".7;0" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,7 +1,7 @@
 import seo from './data/seo.json'
 
 export const ORIGIN = 'https://nayadaur.digital'
-const OG_IMAGE = `${ORIGIN}/assets/images/og-image.jpg`
+const OG_IMAGE = `${ORIGIN}/assets/images/og-image.jpg?v=4`
 const OG_IMAGE_ALT = 'NayaDaur Digital logo with service icons: Digital Soch, Behter Karobar'
 
 export function getSeo(path) {
