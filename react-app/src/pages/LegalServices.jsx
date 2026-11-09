@@ -30,7 +30,7 @@ export default function LegalServices() {
           <h1 className="rv">Legal Services for Brands and Businesses in Pakistan</h1>
           <p className="phero__ur rv" lang="ur" dir="rtl" style={{ '--i': '1' }}>
             <span>ٹریڈ مارک، کاپی رائٹ اور برانڈ کا مکمل قانونی تحفظ۔</span>
-            <span>تمام قانونی خدمات شین لیگل ایسوسی ایٹس فراہم کرتے ہیں۔</span>
+            <span>تمام قانونی خدمات شائن لیگل ایسوسی ایٹس فراہم کرتے ہیں۔</span>
             <span>آپ کی محنت اور آپ کا برانڈ، دونوں محفوظ۔</span>
           </p>
           <p className="phero__lead rv" style={{ '--i': '1' }}>
