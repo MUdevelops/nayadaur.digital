@@ -13,14 +13,14 @@ export default function Services() {
             <span>ہر کام کا دائرہ کار پہلے تحریری طور پر طے ہوتا ہے۔ شروعات کے لیے واٹس ایپ پر رابطہ کریں۔</span>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
-            <img src="/assets/images/services-page-640.webp?v=4" srcSet="/assets/images/services-page-640.webp?v=4 640w, /assets/images/services-page-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Seven NayaDaur Digital service icons" decoding="async" />
+            <img src="/assets/images/services-page-640.webp?v=4" srcSet="/assets/images/services-page-640.webp?v=4 640w, /assets/images/services-page-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="NayaDaur Digital service icons" decoding="async" />
           </figure>
         </div>
       </section>
       <section className="section" aria-labelledby="all-t">
         <div className="container">
           <h2 className="vh" id="all-t">All services</h2>
-          <div className="grid grid--4">
+          <div className="grid grid--3">
             <article className="card card--svc rv" style={{ "--i": "0" }}>
               <div className="card__icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4h18v12H3zM8 20h8M12 16v4" /></svg>
@@ -74,6 +74,13 @@ export default function Services() {
             </article>
             <article className="card card--svc rv" style={{ "--i": "7" }}>
               <div className="card__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3l8 3v6c0 5-3.4 8.4-8 9.5C7.4 20.4 4 17 4 12V6zM9 12l2 2 4-4" /></svg>
+              </div>
+              <h3><Link to="/services/legal-services/">Legal Services</Link></h3>
+              <p>Trademark, copyright and brand protection, provided by Shine Legal Associates.</p>
+            </article>
+            <article className="card card--svc rv" style={{ "--i": "8" }}>
+              <div className="card__icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11 4a7 7 0 100 14 7 7 0 000-14zM21 21l-5-5" /></svg>
               </div>
               <h3><Link to="/contact/?service=Free%20Digital%20Audit">Not sure where to start?</Link></h3>
@@ -87,7 +94,7 @@ export default function Services() {
           <div className="sec-head rv"><h2 id="list-t">Everything we offer</h2></div>
           <div className="faq">
             <details>
-              <summary>See the full list (15 items)</summary>
+              <summary>See the full list (22 items)</summary>
               <ul>
                 <li>Logo and Brand Kit</li>
                 <li>Urdu and Bilingual Logo / Calligraphy</li>
@@ -104,6 +111,13 @@ export default function Services() {
                 <li>QR-Based Review System</li>
                 <li>Local Invoice System</li>
                 <li>Udhaar Management System</li>
+                <li>Legal: IPO Pakistan Services (Shine Legal Associates)</li>
+                <li>Legal: Trademark Registration</li>
+                <li>Legal: Copyright Legal Protection</li>
+                <li>Legal: Intellectual Property Rights Consultancy</li>
+                <li>Legal: Brand Protection and Enforcement</li>
+                <li>Legal: Business and Legal Consultancy</li>
+                <li>Legal: Litigation and Dispute Resolution</li>
               </ul>
             </details>
           </div>
@@ -118,7 +132,7 @@ export default function Services() {
               <p>Tell us what you sell. We suggest the first step, or review your online presence with a free digital audit.</p>
             </div>
             <p className="actions">
-              <a className="btn btn--lime" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20your%20services%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>WhatsApp us</a>
+              <a className="btn btn--lime" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20aap%20ki%20services%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>WhatsApp us</a>
               <a className="btn btn--ghost" href="tel:+923219211464"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg>Call 0321 9211464</a>
             </p>
           </div>

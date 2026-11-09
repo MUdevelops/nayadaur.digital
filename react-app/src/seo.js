@@ -12,6 +12,8 @@ export function getSeo(path) {
 /** Every <meta>/<link> a page needs in <head>, built from its entry in data/seo.json */
 export function buildTags(e) {
   const url = e.canonical ? ORIGIN + e.canonical : null
+  const img = e.ogImage ? ORIGIN + e.ogImage : OG_IMAGE
+  const imgAlt = e.ogImageAlt || OG_IMAGE_ALT
   const ogUrl = e.ogUrl ? ORIGIN + e.ogUrl : url
   const tags = []
   const meta = (key, content, attr = 'name') => tags.push({ tag: 'meta', attrs: { [attr]: key, content } })
@@ -25,14 +27,14 @@ export function buildTags(e) {
   meta('og:title', e.ogTitle || e.title, 'property')
   meta('og:description', e.description, 'property')
   if (ogUrl) meta('og:url', ogUrl, 'property')
-  meta('og:image', OG_IMAGE, 'property')
+  meta('og:image', img, 'property')
   meta('og:image:width', '1200', 'property')
   meta('og:image:height', '630', 'property')
-  meta('og:image:alt', OG_IMAGE_ALT, 'property')
+  meta('og:image:alt', imgAlt, 'property')
   meta('twitter:card', 'summary_large_image')
   meta('twitter:title', e.twitterTitle || e.title)
   meta('twitter:description', e.description)
-  meta('twitter:image', OG_IMAGE)
+  meta('twitter:image', img)
   for (const x of e.extra || []) {
     const { tag, ...attrs } = x
     tags.push({ tag, attrs })

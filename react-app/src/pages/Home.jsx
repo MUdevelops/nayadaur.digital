@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <div className="container">
           <ul className="stats rv">
-            <li><Counter to={7} /><span>Digital services</span></li>
+            <li><Counter to={8} /><span>Digital services</span></li>
             <li><Counter to={5} /><span>Step clear process</span></li>
             <li><Counter to={3} /><span>Languages supported</span></li>
             <li><b>24/7</b><span>WhatsApp access</span></li>
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="sec-head sec-head--c rv">
             <span className="eyebrow">What we do</span>
             <h2 id="services-t">Digital services for Pakistani businesses</h2>
-            <p>Seven focused services. Start with one and add more when you are ready.</p>
+            <p>Eight focused services. Start with one and add more when you are ready.</p>
           </div>
           <div className="grid grid--3">
             <article className="card card--img rv" style={{ "--i": "0" }}>
@@ -140,11 +140,45 @@ export default function Home() {
                 <span className="link-more" aria-hidden="true">Learn more</span>
               </div>
             </article>
-            <article className="card card--cta rv" style={{ "--i": "6" }}>
+            <article className="card card--img rv" style={{ "--i": "6" }}>
+              <div className="card__media">
+                <img src="/assets/images/legal-services-hub-640.webp?v=6" srcSet="/assets/images/legal-services-hub-640.webp?v=6 640w, /assets/images/legal-services-hub-1200.webp?v=6 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Scales of justice in front of a protective shield with a sealed certificate" loading="lazy" decoding="async" />
+              </div>
+              <div className="card__body">
+                <h3><Link to="/services/legal-services/">Legal Services</Link></h3>
+                <p>Trademark, copyright and brand protection, provided by Shine Legal Associates.</p>
+                <span className="link-more" aria-hidden="true">Learn more</span>
+              </div>
+            </article>
+            <article className="card card--cta rv" style={{ "--i": "7" }}>
               <h3><Link to="/contact/?service=Free%20Digital%20Audit">Not sure where to start?</Link></h3>
               <p>Ask for a free digital audit of your online presence. We reply with clear next steps.</p>
               <span className="link-more" aria-hidden="true">Get free audit</span>
             </article>
+          </div>
+        </div>
+      </section>
+      <section className="section section--dark section--pattern on-dark" id="legal" aria-labelledby="legal-t">
+        <div className="container">
+          <div className="two two--center">
+            <div>
+              <div className="sec-head rv">
+                <span className="eyebrow eyebrow--l">New: Legal Services</span>
+                <h2 id="legal-t">Your brand, designed and legally protected</h2>
+                <p>Trademark registration, copyright protection and action against copycats, provided by Shine Legal Associates.</p>
+              </div>
+              <ul className="checks checks--light">
+                <li className="rv"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-check" /></svg><span>Register your name and logo as a trademark</span></li>
+                <li className="rv" style={{ "--i": "1" }}><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-check" /></svg><span>Protect your designs, content and software</span></li>
+                <li className="rv" style={{ "--i": "2" }}><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-check" /></svg><span>Remove copycat profiles and imitation listings</span></li>
+              </ul>
+              <p className="actions">
+                <Link className="btn btn--lime" to="/services/legal-services/">Explore legal services</Link>
+              </p>
+            </div>
+            <figure className="legal-fig rv">
+              <img src="/assets/images/legal-shield-640.webp?v=6" srcSet="/assets/images/legal-shield-640.webp?v=6 640w, /assets/images/legal-shield-1100.webp?v=6 1100w" sizes="(max-width:859px) 80vw,420px" width="1100" height="1100" alt="A protective shield guarding a profile card, a shop and a sign from broken copies" loading="lazy" decoding="async" />
+            </figure>
           </div>
         </div>
       </section>
@@ -260,7 +294,7 @@ export default function Home() {
                 </li>
               </ul>
               <p className="price ur" lang="ur" dir="rtl">1500 روپے</p>
-              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital%21%20Mujhe%20the%20Shuruaat%20%28Starter%29%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
+              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital%21%20Mujhe%20Shuruaat%20%28Starter%29%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
             </article>
             <article className="pkg rv" style={{ "--i": "1" }}>
               <h3>Pehchan (Identity)</h3>
@@ -283,7 +317,7 @@ export default function Home() {
                 </li>
               </ul>
               <p className="price ur" lang="ur" dir="rtl">2000 روپے</p>
-              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital%21%20Mujhe%20the%20Pehchan%20%28Identity%29%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
+              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital%21%20Mujhe%20Pehchan%20%28Identity%29%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
             </article>
             <article className="pkg pkg--pop rv" style={{ "--i": "2" }}>
               <span className="badge">Most requested</span>
@@ -307,7 +341,7 @@ export default function Home() {
                 </li>
               </ul>
               <p className="price ur" lang="ur" dir="rtl">5000 روپے</p>
-              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital%21%20Mujhe%20the%20Taraqqi%20%28Growth%29%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
+              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital%21%20Mujhe%20Taraqqi%20%28Growth%29%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
             </article>
             <article className="pkg rv" style={{ "--i": "3" }}>
               <h3>Kamyabi (Complete)</h3>
@@ -334,7 +368,7 @@ export default function Home() {
                 </li>
               </ul>
               <p className="price ur" lang="ur" dir="rtl">10000 روپے</p>
-              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital%21%20Mujhe%20the%20Kamyabi%20%28Complete%29%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
+              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital%21%20Mujhe%20Kamyabi%20%28Complete%29%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
             </article>
           </div>
           <p className="note rv">Ad budgets and domain fees are paid separately. <Link to="/pricing/">See how pricing works</Link>.</p>
@@ -379,7 +413,7 @@ export default function Home() {
               <p>Message us on WhatsApp. We reply with clear next steps, not a hard sell.</p>
             </div>
             <p className="actions">
-              <a className="btn btn--lime" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20my%20project%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>WhatsApp us</a>
+              <a className="btn btn--lime" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20apne%20project%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>WhatsApp us</a>
               <a className="btn btn--ghost" href="tel:+923219211464"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg>Call 0321 9211464</a>
             </p>
           </div>

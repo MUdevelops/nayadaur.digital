@@ -348,7 +348,7 @@ body{font-feature-settings:"kern","liga"}
 .fw{position:absolute;top:-70px;font-family:'Noto Nastaliq Urdu','Jameel Noori Nastaleeq',serif;color:var(--g);opacity:0;white-space:nowrap;will-change:transform,opacity;animation:fall linear infinite}
 @keyframes fall{0%{transform:translate3d(0,0,0) rotate(-4deg);opacity:0}10%{opacity:var(--o,.2)}85%{opacity:var(--o,.2)}100%{transform:translate3d(var(--dx,20px),var(--h,720px),0) rotate(5deg);opacity:0}}
 .hero2__badge{background:#fff;border-color:var(--line);color:var(--g)}
-.hero2 h1 .ur{color:var(--g);font-size:clamp(1.6rem,4.2vw,2.6rem);line-height:1.9;margin-bottom:-.15em}
+.hero2 h1 .ur{color:var(--lime);font-size:clamp(1.6rem,4.2vw,2.6rem);line-height:1.9;margin-bottom:-.15em}
 .hero2 h1 .roman{color:var(--ink);font-size:clamp(2.3rem,6vw,4.4rem);line-height:1.05;font-weight:800}
 .hero2__lead{color:var(--muted);font-size:clamp(1.05rem,2vw,1.3rem)}
 .hero2__lead2{color:var(--ink);font-weight:700;font-style:normal}

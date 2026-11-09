@@ -422,7 +422,7 @@
  },
  "/blog/": {
   "title": "Guides for Small Businesses in Pakistan | NayaDaur Digital",
-  "description": "Practical guides on Google Maps, websites and social media for small businesses in Pakistan, written by the NayaDaur Digital team in Okara.",
+  "description": "Practical guides on Google Maps, websites, social media and trademark protection for small businesses in Pakistan, written by the NayaDaur Digital team in Okara.",
   "canonical": "/blog/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -709,7 +709,7 @@
  },
  "/": {
   "title": "NayaDaur Digital | Website, Branding & Google Ads Pakistan",
-  "description": "NayaDaur Digital brings your logo, website, Google listing, ads and everyday business software together in one place. Based in Okara, serving all Pakistan.",
+  "description": "NayaDaur Digital brings your logo, website, Google listing, ads, business software and legal protection together in one place. Based in Okara, serving all Pakistan.",
   "canonical": "/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "extra": [
@@ -1749,7 +1749,7 @@
  },
  "/services/": {
   "title": "Digital Services for Pakistani Businesses | NayaDaur Digital",
-  "description": "Explore websites, logo and branding, Google Business Profile, Google Ads, social media, business software and graphic design for Pakistani businesses.",
+  "description": "Explore websites, logo and branding, Google Business Profile, Google Ads, social media, business software, graphic design and legal services for Pakistani businesses.",
   "canonical": "/services/",
   "robots": "index, follow, max-image-preview:large, max-snippet:-1",
   "jsonLd": {
@@ -2320,6 +2320,1398 @@
        "position": 2,
        "name": "Terms of Use",
        "item": "https://nayadaur.digital/terms/"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/legal-services/ipo-services/": {
+  "title": "IPO Pakistan Services: Trademark, Copyright & More | NayaDaur",
+  "description": "Filings and records at the Intellectual Property Organisation of Pakistan, handled by Shine Legal Associates: trademarks, copyright, designs, renewals and more.",
+  "canonical": "/services/legal-services/ipo-services/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogImage": "/assets/images/og-legal.jpg?v=6",
+  "ogImageAlt": "Scales of justice and a protective shield: legal services by Shine Legal Associates through NayaDaur Digital",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Legal Services",
+       "item": "https://nayadaur.digital/services/legal-services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "IPO Pakistan Services",
+       "item": "https://nayadaur.digital/services/legal-services/ipo-services/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/legal-services/ipo-services/#service",
+     "name": "All IPO Services",
+     "serviceType": "All IPO Services",
+     "url": "https://nayadaur.digital/services/legal-services/ipo-services/",
+     "description": "Filings and records at the Intellectual Property Organisation of Pakistan, handled by Shine Legal Associates: trademarks, copyright, designs, renewals and more.",
+     "provider": {
+      "@type": "LegalService",
+      "name": "Shine Legal Associates",
+      "slogan": "Protecting Ideas, Securing Futures"
+     },
+     "broker": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": {
+      "@type": "Country",
+      "name": "Pakistan"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/legal-services/ipo-services/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guarantees that an application will be accepted. Protection outside Pakistan, which needs separate filings. Government fees, which are quoted separately."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I deal with IPO Pakistan directly?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Shine Legal Associates prepares and files on your behalf and keeps you updated."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long do filings take?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the type of filing, the office's processing and any objections. Shine gives an estimate after reviewing your case."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can one application cover everything?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually not. Trademarks, copyright and designs are separate rights with separate filings. Shine explains what each one protects."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What does it cost?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fees depend on the filing type and the number of classes or works. You receive a written quote before anything is filed."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/legal-services/trademark-registration/": {
+  "title": "Trademark Registration in Pakistan | NayaDaur Digital",
+  "description": "Register your brand name, logo or slogan as a trademark in Pakistan. Search, filing and follow-up by Shine Legal Associates, arranged through NayaDaur Digital.",
+  "canonical": "/services/legal-services/trademark-registration/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogImage": "/assets/images/og-legal.jpg?v=6",
+  "ogImageAlt": "Scales of justice and a protective shield: legal services by Shine Legal Associates through NayaDaur Digital",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Legal Services",
+       "item": "https://nayadaur.digital/services/legal-services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Trademark Registration",
+       "item": "https://nayadaur.digital/services/legal-services/trademark-registration/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/legal-services/trademark-registration/#service",
+     "name": "Trademark Registration",
+     "serviceType": "Trademark Registration",
+     "url": "https://nayadaur.digital/services/legal-services/trademark-registration/",
+     "description": "Register your brand name, logo or slogan as a trademark in Pakistan. Search, filing and follow-up by Shine Legal Associates, arranged through NayaDaur Digital.",
+     "provider": {
+      "@type": "LegalService",
+      "name": "Shine Legal Associates",
+      "slogan": "Protecting Ideas, Securing Futures"
+     },
+     "broker": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": {
+      "@type": "Country",
+      "name": "Pakistan"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/legal-services/trademark-registration/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Logo design itself, which NayaDaur Digital can do separately. Guarantees of acceptance. Registration in other countries."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Why register a trademark?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It gives you a stronger, clearer legal position against copycats than relying on use alone, and it is a real asset if you sell or franchise your brand."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I register a logo and a name?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They can be registered separately or together. Shine advises which route suits your brand."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does registration work outside Pakistan?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Trademark rights are territorial. If you sell abroad, ask about filings in those countries."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is acceptance guaranteed?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The office may raise objections, for example if a similar mark exists. A search first reduces that risk."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/legal-services/copyright-legal-protection/": {
+  "title": "Copyright Legal Protection in Pakistan | NayaDaur Digital",
+  "description": "Protect original artwork, designs, content, photographs and software with copyright registration, ownership agreements and takedown support from Shine Legal Associates.",
+  "canonical": "/services/legal-services/copyright-legal-protection/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogImage": "/assets/images/og-legal.jpg?v=6",
+  "ogImageAlt": "Scales of justice and a protective shield: legal services by Shine Legal Associates through NayaDaur Digital",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Legal Services",
+       "item": "https://nayadaur.digital/services/legal-services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Copyright Legal Protection",
+       "item": "https://nayadaur.digital/services/legal-services/copyright-legal-protection/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/legal-services/copyright-legal-protection/#service",
+     "name": "Copyright Legal Protection",
+     "serviceType": "Copyright Legal Protection",
+     "url": "https://nayadaur.digital/services/legal-services/copyright-legal-protection/",
+     "description": "Protect original artwork, designs, content, photographs and software with copyright registration, ownership agreements and takedown support from Shine Legal Associates.",
+     "provider": {
+      "@type": "LegalService",
+      "name": "Shine Legal Associates",
+      "slogan": "Protecting Ideas, Securing Futures"
+     },
+     "broker": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": {
+      "@type": "Country",
+      "name": "Pakistan"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/legal-services/copyright-legal-protection/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guarantees of removal or outcome. Registration of brand names, which is a trademark matter. Court proceedings, quoted separately."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need to register copyright?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Protection generally arises when original work is created, but a registration gives you an official record that is useful as evidence. Shine confirms what applies to your work."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does copyright protect a brand name?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not usually. Names and logos used as brand identifiers are normally protected as trademarks. Shine can advise on both."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who owns a logo or website I paid for?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the agreement. A written assignment makes ownership clear."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can copied content be removed?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often yes, through notices to the website, platform or seller. Results depend on the case."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/legal-services/ip-rights-consultancy/": {
+  "title": "Intellectual Property Consultancy in Pakistan | NayaDaur Digital",
+  "description": "Practical intellectual property advice: what to protect, in what order and how. Strategy, contracts and ownership guidance from Shine Legal Associates.",
+  "canonical": "/services/legal-services/ip-rights-consultancy/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogImage": "/assets/images/og-legal.jpg?v=6",
+  "ogImageAlt": "Scales of justice and a protective shield: legal services by Shine Legal Associates through NayaDaur Digital",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Legal Services",
+       "item": "https://nayadaur.digital/services/legal-services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "IP Rights Consultancy",
+       "item": "https://nayadaur.digital/services/legal-services/ip-rights-consultancy/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/legal-services/ip-rights-consultancy/#service",
+     "name": "Intellectual Property Rights Consultancy",
+     "serviceType": "Intellectual Property Rights Consultancy",
+     "url": "https://nayadaur.digital/services/legal-services/ip-rights-consultancy/",
+     "description": "Practical intellectual property advice: what to protect, in what order and how. Strategy, contracts and ownership guidance from Shine Legal Associates.",
+     "provider": {
+      "@type": "LegalService",
+      "name": "Shine Legal Associates",
+      "slogan": "Protecting Ideas, Securing Futures"
+     },
+     "broker": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": {
+      "@type": "Country",
+      "name": "Pakistan"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/legal-services/ip-rights-consultancy/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Filings and court work, which are quoted separately. Tax or accounting advice. Guarantees of any legal outcome."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is intellectual property?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It covers things like brand names and logos (trademarks), creative work (copyright), designs and inventions."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is a consultation a legal opinion?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shine Legal Associates gives legal advice in writing where it is needed. NayaDaur Digital does not give legal advice."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you review my contract?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, as part of business and legal consultancy. See that service for details."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need to hire you for filings afterwards?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The advice is yours to use as you see fit."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/legal-services/brand-protection-enforcement/": {
+  "title": "Brand Protection & Enforcement in Pakistan | NayaDaur Digital",
+  "description": "Stop copycats and impersonators. Notices, social media profile takedowns and action against physical copies, by Shine Legal Associates and NayaDaur Digital.",
+  "canonical": "/services/legal-services/brand-protection-enforcement/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogImage": "/assets/images/og-legal.jpg?v=6",
+  "ogImageAlt": "Scales of justice and a protective shield: legal services by Shine Legal Associates through NayaDaur Digital",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Legal Services",
+       "item": "https://nayadaur.digital/services/legal-services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Brand Protection & Enforcement",
+       "item": "https://nayadaur.digital/services/legal-services/brand-protection-enforcement/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/legal-services/brand-protection-enforcement/#service",
+     "name": "Brand Protection & Enforcement",
+     "serviceType": "Brand Protection & Enforcement",
+     "url": "https://nayadaur.digital/services/legal-services/brand-protection-enforcement/",
+     "description": "Stop copycats and impersonators. Notices, social media profile takedowns and action against physical copies, by Shine Legal Associates and NayaDaur Digital.",
+     "provider": {
+      "@type": "LegalService",
+      "name": "Shine Legal Associates",
+      "slogan": "Protecting Ideas, Securing Futures"
+     },
+     "broker": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": {
+      "@type": "Country",
+      "name": "Pakistan"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/legal-services/brand-protection-enforcement/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guaranteed takedowns or outcomes. Court proceedings, which are quoted separately. Cyber-crime investigations."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need a registered trademark?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It makes enforcement much stronger. If you have none yet, Shine can advise whether to register first."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can fake social media profiles be removed?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Platforms often act on valid complaints. Outcomes depend on the platform and the evidence."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you act against a physical shop?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shine can advise on notices and legal steps. What is possible depends on the facts."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Will you guarantee removal?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No lawyer can. You receive an honest assessment first."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/legal-services/business-legal-consultancy/": {
+  "title": "Business & Legal Consultancy in Pakistan | NayaDaur Digital",
+  "description": "Contracts, agreements, policies and everyday business legal advice for growing businesses, provided by Shine Legal Associates through NayaDaur Digital.",
+  "canonical": "/services/legal-services/business-legal-consultancy/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogImage": "/assets/images/og-legal.jpg?v=6",
+  "ogImageAlt": "Scales of justice and a protective shield: legal services by Shine Legal Associates through NayaDaur Digital",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Legal Services",
+       "item": "https://nayadaur.digital/services/legal-services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Business & Legal Consultancy",
+       "item": "https://nayadaur.digital/services/legal-services/business-legal-consultancy/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/legal-services/business-legal-consultancy/#service",
+     "name": "Business & Legal Consultancy",
+     "serviceType": "Business & Legal Consultancy",
+     "url": "https://nayadaur.digital/services/legal-services/business-legal-consultancy/",
+     "description": "Contracts, agreements, policies and everyday business legal advice for growing businesses, provided by Shine Legal Associates through NayaDaur Digital.",
+     "provider": {
+      "@type": "LegalService",
+      "name": "Shine Legal Associates",
+      "slogan": "Protecting Ideas, Securing Futures"
+     },
+     "broker": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": {
+      "@type": "Country",
+      "name": "Pakistan"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/legal-services/business-legal-consultancy/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tax, audit and accounting work. Guarantees about how a counterparty will behave. Court appearances, which fall under litigation."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you review a contract I was sent?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Send the document and Shine will explain the risks and suggest changes."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you cover company registration?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scope is confirmed by Shine after your enquiry. Ask us on WhatsApp and we will pass your question on."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you write terms for my website?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. NayaDaur Digital can place them on your site once they are ready."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is the first conversation free?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ask when you enquire. Any fee is quoted in writing before work begins."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/legal-services/litigation-dispute-resolution/": {
+  "title": "Litigation & Dispute Resolution in Pakistan | NayaDaur Digital",
+  "description": "Representation in intellectual property and business disputes: notices, negotiation, mediation and court proceedings by Shine Legal Associates.",
+  "canonical": "/services/legal-services/litigation-dispute-resolution/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogImage": "/assets/images/og-legal.jpg?v=6",
+  "ogImageAlt": "Scales of justice and a protective shield: legal services by Shine Legal Associates through NayaDaur Digital",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Legal Services",
+       "item": "https://nayadaur.digital/services/legal-services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Litigation & Dispute Resolution",
+       "item": "https://nayadaur.digital/services/legal-services/litigation-dispute-resolution/"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "@id": "https://nayadaur.digital/services/legal-services/litigation-dispute-resolution/#service",
+     "name": "Litigation & Dispute Resolution",
+     "serviceType": "Litigation & Dispute Resolution",
+     "url": "https://nayadaur.digital/services/legal-services/litigation-dispute-resolution/",
+     "description": "Representation in intellectual property and business disputes: notices, negotiation, mediation and court proceedings by Shine Legal Associates.",
+     "provider": {
+      "@type": "LegalService",
+      "name": "Shine Legal Associates",
+      "slogan": "Protecting Ideas, Securing Futures"
+     },
+     "broker": {
+      "@id": "https://nayadaur.digital/#organization"
+     },
+     "areaServed": {
+      "@type": "Country",
+      "name": "Pakistan"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/legal-services/litigation-dispute-resolution/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is not included?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guarantees of any outcome. Criminal defence matters. Fees for courts and experts, which are separate."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do all disputes go to court?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Many are resolved through notices, negotiation or mediation."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long does a case take?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It varies widely with the forum and the facts. Shine gives a realistic range after reviewing your papers."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What will it cost?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fees depend on the work involved. You receive an estimate before starting."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I get a quick opinion first?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Start with a case assessment, then decide how to proceed."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/services/legal-services/": {
+  "title": "Legal Services for Brands in Pakistan | NayaDaur Digital",
+  "description": "Trademark registration, copyright protection, brand enforcement, IP consultancy and dispute resolution by Shine Legal Associates, arranged through NayaDaur Digital.",
+  "canonical": "/services/legal-services/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogImage": "/assets/images/og-legal.jpg?v=6",
+  "ogImageAlt": "Scales of justice and a protective shield: legal services by Shine Legal Associates through NayaDaur Digital",
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://nayadaur.digital/services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Legal Services",
+       "item": "https://nayadaur.digital/services/legal-services/"
+      }
+     ]
+    },
+    {
+     "@type": "ItemList",
+     "@id": "https://nayadaur.digital/services/legal-services/#list",
+     "name": "Legal services provided by Shine Legal Associates",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "All IPO Services",
+       "url": "https://nayadaur.digital/services/legal-services/ipo-services/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Trademark Registration",
+       "url": "https://nayadaur.digital/services/legal-services/trademark-registration/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Copyright Legal Protection",
+       "url": "https://nayadaur.digital/services/legal-services/copyright-legal-protection/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Intellectual Property Rights Consultancy",
+       "url": "https://nayadaur.digital/services/legal-services/ip-rights-consultancy/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 5,
+       "name": "Brand Protection & Enforcement",
+       "url": "https://nayadaur.digital/services/legal-services/brand-protection-enforcement/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 6,
+       "name": "Business & Legal Consultancy",
+       "url": "https://nayadaur.digital/services/legal-services/business-legal-consultancy/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 7,
+       "name": "Litigation & Dispute Resolution",
+       "url": "https://nayadaur.digital/services/legal-services/litigation-dispute-resolution/"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/services/legal-services/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Who provides the legal services?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shine Legal Associates, an independent law firm. NayaDaur Digital is a digital agency that introduces you and coordinates the design and digital side of your brand."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is NayaDaur Digital a law firm?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. We do not give legal advice. Legal advice, filings and representation come from Shine Legal Associates."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need a logo before I register a trademark?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not always. You can register a name first. If you want to register a logo, it helps to finish the design first."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much do legal services cost?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fees depend on the service and the amount of work. Shine confirms the scope and fee in writing before anything starts."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you help if someone is already copying my brand?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Shine will assess your position and advise on notices, platform complaints and further steps. Outcomes cannot be guaranteed."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "/blog/trademark-registration-pakistan-brand-protection/": {
+  "title": "Trademark Registration in Pakistan: Why Register Early | NayaDaur",
+  "description": "What a trademark covers, how registration works in Pakistan, common mistakes and what to do if someone copies your brand. General information, not legal advice.",
+  "canonical": "/blog/trademark-registration-pakistan-brand-protection/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+  "ogType": "article",
+  "ogImage": "/assets/images/og-blog-ip.jpg?v=6",
+  "ogImageAlt": "Desk with a laptop showing a brand mark and a registration certificate",
+  "extra": [
+   {
+    "tag": "meta",
+    "property": "article:published_time",
+    "content": "2026-11-09"
+   },
+   {
+    "tag": "meta",
+    "property": "article:modified_time",
+    "content": "2026-11-09"
+   }
+  ],
+  "jsonLd": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfessionalService",
+     "@id": "https://nayadaur.digital/#organization",
+     "name": "NayaDaur Digital",
+     "slogan": "Digital Soch, Behter Karobar",
+     "url": "https://nayadaur.digital/",
+     "description": "Web design, branding and digital solutions for businesses in Okara and across Pakistan.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://nayadaur.digital/assets/images/icon-512.png",
+      "width": 512,
+      "height": 512
+     },
+     "image": "https://nayadaur.digital/assets/images/og-image.jpg",
+     "telephone": "+923219211464",
+     "email": "info@nayadaur.digital",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Okara"
+      },
+      {
+       "@type": "Country",
+       "name": "Pakistan"
+      }
+     ],
+     "availableLanguage": [
+      "English",
+      "Urdu"
+     ],
+     "contactPoint": [
+      {
+       "@type": "ContactPoint",
+       "contactType": "customer service",
+       "telephone": "+923219211464",
+       "email": "info@nayadaur.digital",
+       "areaServed": "PK",
+       "availableLanguage": [
+        "English",
+        "Urdu"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://nayadaur.digital/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Guides",
+       "item": "https://nayadaur.digital/blog/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Why Every Pakistani Brand Should Register Its Trademark Early",
+       "item": "https://nayadaur.digital/blog/trademark-registration-pakistan-brand-protection/"
+      }
+     ]
+    },
+    {
+     "@type": "BlogPosting",
+     "@id": "https://nayadaur.digital/blog/trademark-registration-pakistan-brand-protection/#post",
+     "headline": "Why Every Pakistani Brand Should Register Its Trademark Early",
+     "description": "What a trademark covers, how registration works in Pakistan, common mistakes and what to do if someone copies your brand. General information, not legal advice.",
+     "image": "https://nayadaur.digital/assets/images/og-blog-ip.jpg",
+     "datePublished": "2026-11-09",
+     "dateModified": "2026-11-09",
+     "inLanguage": "en",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nayadaur.digital/blog/trademark-registration-pakistan-brand-protection/"
+     },
+     "author": {
+      "@type": "Organization",
+      "name": "NayaDaur Digital",
+      "url": "https://nayadaur.digital/"
+     },
+     "publisher": {
+      "@id": "https://nayadaur.digital/#organization"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://nayadaur.digital/blog/trademark-registration-pakistan-brand-protection/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Do I need a trademark if I already have a business registration?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Registering a business is a different process. A trademark protects your brand name and logo as identifiers of your goods or services. Ask a lawyer how both fit together for your business."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I register my logo and my name together?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They can be registered separately or together. A lawyer can advise which route suits your brand."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does a Pakistani trademark protect me abroad?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Trademark rights are territorial. If you sell in other countries, ask about registering there as well."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who handles the legal side if I work with NayaDaur Digital?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shine Legal Associates provides the legal services. NayaDaur Digital introduces you and handles the design and digital work."
+       }
       }
      ]
     }

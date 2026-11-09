@@ -24,7 +24,7 @@ export default function Contact() {
             <div className="rv">
               <h2 id="contact-t">Reach us directly</h2>
               <p className="actions">
-                <a className="btn" href="https://wa.me/923219211464" target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>Chat on WhatsApp</a>
+                <a className="btn" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20apne%20business%20ke%20liye%20madad%20chahiye.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>Chat on WhatsApp</a>
                 <a className="btn btn--line" href="tel:+923219211464"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg>Call 0321 9211464</a>
               </p>
               <dl className="dl">

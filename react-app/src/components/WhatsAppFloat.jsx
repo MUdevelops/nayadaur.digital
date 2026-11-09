@@ -1,10 +1,12 @@
-import { waLink } from '../site.js'
+import { useLocation } from 'react-router-dom'
+import { waLink, waTextForPath } from '../site.js'
 
 export default function WhatsAppFloat() {
+  const { pathname } = useLocation()
   return (
     <a
       className="wa-float"
-      href={waLink('Assalam o Alaikum NayaDaur Digital! Mujhe madad chahiye.')}
+      href={waLink(waTextForPath(pathname))}
       target="_blank"
       rel="noopener"
       aria-label="Chat with NayaDaur Digital on WhatsApp"

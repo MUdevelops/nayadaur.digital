@@ -22,6 +22,8 @@ Needs Node 18 or newer.
 | URLs | `src/routes.js` |
 | Title, description, social tags, JSON-LD per page | `src/data/seo.json` |
 | Header, footer, menu, back-to-top, WhatsApp button | `src/components/` |
+| Legal services content (7 pages) | `src/data/legal.json`, template `src/pages/LegalService.jsx` |
+| Intro animation | `src/components/Splash.jsx`, `src/styles/legal.css`, script in `index.html` |
 | Contact form options | `src/data/form-options.json` |
 | Portfolio samples and filters | `src/data/portfolio.json` |
 | Phone, WhatsApp number, email | `src/site.js` (and in page text where written out) |

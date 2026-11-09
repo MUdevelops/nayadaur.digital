@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { SERVICES } from './Header.jsx'
-import { SITE } from '../site.js'
+import { SITE, waLink, waTextForPath } from '../site.js'
 
 const COMPANY = [
   ['About', '/about/'],
@@ -13,6 +13,7 @@ const COMPANY = [
 ]
 
 export default function Footer() {
+  const { pathname } = useLocation()
   return (
     <footer className="site-footer">
       <div className="container footer__grid">
@@ -26,6 +27,8 @@ export default function Footer() {
             <strong>Digital Soch, Behter Karobar</strong>
             <br />
             Okara, Punjab, serving clients across Pakistan.
+            <br />
+            Legal services by Shine Legal Associates.
           </p>
         </div>
         <nav aria-label="Services">
@@ -47,7 +50,7 @@ export default function Footer() {
         <div>
           <h2 className="footer__title">Contact</h2>
           <a href={SITE.phoneHref}>{SITE.phoneDisplay}</a>
-          <a href={`https://wa.me/${SITE.waNumber}`} target="_blank" rel="noopener">WhatsApp</a>
+          <a href={waLink(waTextForPath(pathname))} target="_blank" rel="noopener">WhatsApp</a>
           <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
         </div>
         <p className="footer__legal">

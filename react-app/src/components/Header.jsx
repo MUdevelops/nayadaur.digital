@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import useScrolledPast from '../hooks/useScrolledPast.js'
-import { prefersReducedMotion, waLink } from '../site.js'
+import { prefersReducedMotion, waLink, waTextForPath } from '../site.js'
 
 export const SERVICES = [
   ['Website Development', '/services/website-development/'],
@@ -11,6 +11,7 @@ export const SERVICES = [
   ['Social Media Marketing', '/services/social-media-marketing/'],
   ['Business Software', '/services/business-software/'],
   ['Graphic Design', '/services/graphic-design/'],
+  ['Legal Services', '/services/legal-services/'],
 ]
 
 const LINKS = [
@@ -20,8 +21,6 @@ const LINKS = [
   ['Guides', '/blog/'],
   ['Contact', '/contact/'],
 ]
-
-const CTA_TEXT = 'Assalam o Alaikum NayaDaur Digital! Mujhe apne business ke liye madad chahiye. Meherbani kar ke rabta karein.'
 
 // "page" on the exact page, "true" on a parent section (e.g. Services while on a service page)
 const current = (pathname, href) => {
@@ -135,7 +134,7 @@ export default function Header() {
               </li>
             ))}
           </ul>
-          <a className="btn btn--sm nav__cta" href={waLink(CTA_TEXT)} target="_blank" rel="noopener">
+          <a className="btn btn--sm nav__cta" href={waLink(waTextForPath(pathname))} target="_blank" rel="noopener">
             <svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>
             WhatsApp
           </a>

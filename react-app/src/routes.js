@@ -17,12 +17,16 @@ import ServicesLogoDesignBranding from './pages/ServicesLogoDesignBranding.jsx'
 import ServicesSocialMediaMarketing from './pages/ServicesSocialMediaMarketing.jsx'
 import ServicesWebsiteDevelopment from './pages/ServicesWebsiteDevelopment.jsx'
 import Terms from './pages/Terms.jsx'
+import PostTrademarkRegistration from './pages/PostTrademarkRegistration.jsx'
+import LegalServices from './pages/LegalServices.jsx'
+import { LegalIpo, LegalTrademark, LegalCopyright, LegalIpConsultancy, LegalBrandProtection, LegalBusiness, LegalLitigation } from './pages/legalPages.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 export const routes = [
   { path: "/", Page: Home },
   { path: "/about/", Page: About },
   { path: "/blog/", Page: Blog },
+  { path: "/blog/trademark-registration-pakistan-brand-protection/", Page: PostTrademarkRegistration },
   { path: "/blog/does-small-business-need-website-or-just-social-media/", Page: PostWebsiteOrSocial },
   { path: "/blog/how-to-get-your-business-on-google-maps-in-pakistan/", Page: PostGoogleMaps },
   { path: "/blog/what-to-prepare-before-hiring-website-developer-pakistan/", Page: PostHiringDeveloper },
@@ -35,6 +39,14 @@ export const routes = [
   { path: "/services/google-ads/", Page: ServicesGoogleAds },
   { path: "/services/google-business-profile/", Page: ServicesGoogleBusinessProfile },
   { path: "/services/graphic-design/", Page: ServicesGraphicDesign },
+  { path: "/services/legal-services/", Page: LegalServices },
+  { path: "/services/legal-services/ipo-services/", Page: LegalIpo },
+  { path: "/services/legal-services/trademark-registration/", Page: LegalTrademark },
+  { path: "/services/legal-services/copyright-legal-protection/", Page: LegalCopyright },
+  { path: "/services/legal-services/ip-rights-consultancy/", Page: LegalIpConsultancy },
+  { path: "/services/legal-services/brand-protection-enforcement/", Page: LegalBrandProtection },
+  { path: "/services/legal-services/business-legal-consultancy/", Page: LegalBusiness },
+  { path: "/services/legal-services/litigation-dispute-resolution/", Page: LegalLitigation },
   { path: "/services/logo-design-branding/", Page: ServicesLogoDesignBranding },
   { path: "/services/social-media-marketing/", Page: ServicesSocialMediaMarketing },
   { path: "/services/website-development/", Page: ServicesWebsiteDevelopment },

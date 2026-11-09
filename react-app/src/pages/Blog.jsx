@@ -22,20 +22,27 @@ export default function Blog() {
           <h2 className="vh" id="all-t">All guides</h2>
           <div className="grid grid--3">
             <article className="card rv" style={{ "--i": "0" }}>
+              <p className="meta">Legal · 6 min read</p>
+              <h3>
+                <Link to="/blog/trademark-registration-pakistan-brand-protection/">Why Every Pakistani Brand Should Register Its Trademark Early</Link>
+              </h3>
+              <p>What a trademark covers, how registration works and mistakes to avoid.</p>
+            </article>
+            <article className="card rv" style={{ "--i": "1" }}>
               <p className="meta">Google Maps · 6 min read</p>
               <h3>
                 <Link to="/blog/how-to-get-your-business-on-google-maps-in-pakistan/">How to Get Your Business on Google Maps in Pakistan</Link>
               </h3>
               <p>Steps, verification and common mistakes.</p>
             </article>
-            <article className="card rv" style={{ "--i": "1" }}>
+            <article className="card rv" style={{ "--i": "2" }}>
               <p className="meta">Website · 6 min read</p>
               <h3>
                 <Link to="/blog/does-small-business-need-website-or-just-social-media/">Does Your Small Business Need a Website or Just Social Media?</Link>
               </h3>
               <p>Choose based on how customers find you.</p>
             </article>
-            <article className="card rv" style={{ "--i": "2" }}>
+            <article className="card rv" style={{ "--i": "0" }}>
               <p className="meta">Website · 7 min read</p>
               <h3>
                 <Link to="/blog/what-to-prepare-before-hiring-website-developer-pakistan/">What to Prepare Before Hiring a Website Developer in Pakistan</Link>
@@ -53,7 +60,7 @@ export default function Blog() {
               <p>Message us on WhatsApp. We reply with clear next steps.</p>
             </div>
             <p className="actions">
-              <a className="btn btn--lime" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20my%20project%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>WhatsApp us</a>
+              <a className="btn btn--lime" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20apne%20project%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>WhatsApp us</a>
               <a className="btn btn--ghost" href="tel:+923219211464"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg>Call 0321 9211464</a>
             </p>
           </div>

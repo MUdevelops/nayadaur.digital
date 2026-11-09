@@ -45,7 +45,7 @@ export default function Pricing() {
                 </li>
               </ul>
               <p className="price ur" lang="ur" dir="rtl">1500 روپے</p>
-              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20the%20Shuruaat%20(Starter)%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
+              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20Shuruaat%20(Starter)%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
             </article>
             <article className="pkg rv" style={{ "--i": "1" }}>
               <h3>Pehchan (Identity)</h3>
@@ -68,7 +68,7 @@ export default function Pricing() {
                 </li>
               </ul>
               <p className="price ur" lang="ur" dir="rtl">2000 روپے</p>
-              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20the%20Pehchan%20(Identity)%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
+              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20Pehchan%20(Identity)%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
             </article>
             <article className="pkg pkg--pop rv" style={{ "--i": "2" }}>
               <span className="badge">Most requested</span>
@@ -92,7 +92,7 @@ export default function Pricing() {
                 </li>
               </ul>
               <p className="price ur" lang="ur" dir="rtl">5000 روپے</p>
-              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20the%20Taraqqi%20(Growth)%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
+              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20Taraqqi%20(Growth)%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
             </article>
             <article className="pkg rv" style={{ "--i": "3" }}>
               <h3>Kamyabi (Complete)</h3>
@@ -119,7 +119,7 @@ export default function Pricing() {
                 </li>
               </ul>
               <p className="price ur" lang="ur" dir="rtl">10000 روپے</p>
-              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20the%20Kamyabi%20(Complete)%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
+              <a className="btn btn--line btn--sm" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20Kamyabi%20(Complete)%20package%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener">Ask about this package</a>
             </article>
           </div>
         </div>
@@ -219,7 +219,7 @@ export default function Pricing() {
               <p>Message us on WhatsApp. We reply with clear next steps.</p>
             </div>
             <p className="actions">
-              <a className="btn btn--lime" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20a%20quote%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>WhatsApp us</a>
+              <a className="btn btn--lime" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20ek%20quote%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>WhatsApp us</a>
               <a className="btn btn--ghost" href="tel:+923219211464"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg>Call 0321 9211464</a>
             </p>
           </div>
