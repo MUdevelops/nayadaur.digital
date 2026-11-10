@@ -7,6 +7,7 @@ const COMPANY = [
   ['Portfolio', '/portfolio/'],
   ['Pricing', '/pricing/'],
   ['Guides', '/blog/'],
+  ['Join Our Team', '/join-our-team/'],
   ['Contact', '/contact/'],
   ['Privacy Policy', '/privacy-policy/'],
   ['Terms', '/terms/'],

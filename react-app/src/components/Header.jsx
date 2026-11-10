@@ -12,6 +12,7 @@ export const SERVICES = [
   ['Business Software', '/services/business-software/'],
   ['Graphic Design', '/services/graphic-design/'],
   ['Legal Services', '/services/legal-services/'],
+  ['Future Services (2027)', '/services/future-services/'],
 ]
 
 const LINKS = [

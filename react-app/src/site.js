@@ -28,6 +28,8 @@ const WA_TOPICS = {
   '/services/business-software/': 'business software',
   '/services/graphic-design/': 'graphic design',
   '/services/legal-services/': 'legal services',
+  '/services/future-services/': 'Future Services (2027)',
+  '/join-our-team/': 'free internship programme',
   '/blog/trademark-registration-pakistan-brand-protection/': 'trademark registration',
   '/blog/how-to-get-your-business-on-google-maps-in-pakistan/': 'Google Business Profile setup',
   '/blog/what-to-prepare-before-hiring-website-developer-pakistan/': 'website development',

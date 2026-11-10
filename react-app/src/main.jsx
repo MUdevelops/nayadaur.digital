@@ -5,6 +5,7 @@ import App from './App.jsx'
 import './styles/style.css'
 import './styles/enhance.css'
 import './styles/legal.css'
+import './styles/future.css'
 
 const root = document.getElementById('root')
 const app = (

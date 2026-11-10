@@ -1,0 +1,182 @@
+[
+ {
+  "slug": "ai-automation",
+  "name": "AI Automation",
+  "card": "Automate repetitive work such as follow-ups, reports, order tracking and data entry.",
+  "img": "future-ai-automation",
+  "alt": "Gears and a robotic arm connected by glowing data lines, sorting document cards into neat stacks",
+  "icon": "M12 8a4 4 0 100 8 4 4 0 000-8zM12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2",
+  "wa": "AI automation",
+  "planned": [
+   "Enquiry and order follow-up workflows",
+   "Automatic reports, reminders and alerts",
+   "Data moving between forms, sheets and apps",
+   "Approval and notification flows for small teams"
+  ]
+ },
+ {
+  "slug": "software-development",
+  "name": "Custom Software Development",
+  "card": "Web and desktop software built around the way your business actually works.",
+  "img": "future-software-development",
+  "alt": "A glass code window feeding blocks that assemble into a finished software module",
+  "icon": "M8 8l-4 4 4 4M16 8l4 4-4 4M14 5l-4 14",
+  "wa": "custom software development",
+  "planned": [
+   "Business tools, portals and admin panels",
+   "Inventory, billing and record-keeping systems",
+   "Connections to the tools you already use",
+   "A support and maintenance plan after launch"
+  ]
+ },
+ {
+  "slug": "ai-chatbots",
+  "name": "AI Chatbots",
+  "card": "Chatbots for WhatsApp and your website that answer common questions in Urdu, Roman Urdu and English.",
+  "img": "future-ai-chatbots",
+  "alt": "Two chat bubbles and a glowing AI orb above a smartphone showing message bars",
+  "icon": "M4 5h16v11H9l-5 4zM9 10h.01M12 10h.01M15 10h.01",
+  "wa": "AI chatbots",
+  "planned": [
+   "Answers to product, price and timing questions",
+   "Order and booking enquiries collected for you",
+   "Easy handover to a real person",
+   "Replies in Urdu, Roman Urdu and English"
+  ]
+ },
+ {
+  "slug": "ar-3d-services",
+  "name": "AR & 3D Services",
+  "card": "3D product models and AR previews, so customers can see an item before they order.",
+  "img": "future-ar-3d",
+  "alt": "A hand holding a phone that projects a glowing 3D shoe model with AR corner brackets",
+  "icon": "M12 2l9 5v10l-9 5-9-5V7zM12 12l9-5M12 12v10M12 12L3 7",
+  "wa": "AR and 3D services",
+  "planned": [
+   "3D modelling of products and packaging",
+   "AR view on a customer's phone",
+   "3D renders for catalogues and ads",
+   "Interactive 3D viewers on your website"
+  ]
+ },
+ {
+  "slug": "android-app-development",
+  "name": "Android App Development",
+  "card": "Native Android apps for shops, services and startups, from first screen to Play Store.",
+  "img": "future-android-apps",
+  "alt": "A smartphone showing abstract app screens, surrounded by floating interface tiles",
+  "icon": "M7 2h10a1 1 0 011 1v18a1 1 0 01-1 1H7a1 1 0 01-1-1V3a1 1 0 011-1zM11 18h2",
+  "wa": "Android app development",
+  "planned": [
+   "Business, shop and service apps",
+   "Customer ordering and booking apps",
+   "Push notifications and in-app messaging",
+   "Help with Google Play publishing"
+  ]
+ },
+ {
+  "slug": "ai-voice-assistants",
+  "name": "AI Voice Assistants",
+  "card": "Voice assistants that can answer common calls and questions in Urdu and English.",
+  "img": "future-voice-assistants",
+  "alt": "A studio microphone with sound waves flowing into a chat bubble and a phone handset",
+  "icon": "M12 3a3 3 0 013 3v5a3 3 0 01-6 0V6a3 3 0 013-3zM5 11a7 7 0 0014 0M12 18v3",
+  "wa": "AI voice assistants",
+  "planned": [
+   "Answers to frequent questions over the phone",
+   "Appointment and order details captured",
+   "Voice replies for WhatsApp messages",
+   "Handover to your staff when needed"
+  ]
+ },
+ {
+  "slug": "ai-content-creation",
+  "name": "AI Content & Media",
+  "card": "Visuals, short videos and copy produced faster with AI and reviewed by a person.",
+  "img": "future-ai-content",
+  "alt": "A picture frame, video play button and pen nib bursting with sky-blue light",
+  "icon": "M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4zM19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z",
+  "wa": "AI content and media",
+  "planned": [
+   "Product and campaign visuals",
+   "Short videos for social media",
+   "Bilingual captions and copy",
+   "Templates that follow your brand kit"
+  ]
+ },
+ {
+  "slug": "crm-dashboards",
+  "name": "CRM & Business Dashboards",
+  "card": "Keep customers, leads and sales in one place, with dashboards that are easy to read.",
+  "img": "future-crm-dashboards",
+  "alt": "A floating glass dashboard with a bar chart, donut chart, line graph and contact cards",
+  "icon": "M9 11a3 3 0 100-6 3 3 0 000 6zM3 19a6 6 0 0112 0M17 8a2.5 2.5 0 110 5M21 19a5 5 0 00-4-4.9",
+  "wa": "CRM and business dashboards",
+  "planned": [
+   "Lead and customer tracking",
+   "Follow-up reminders for your team",
+   "Sales and stock overviews",
+   "Simple reports you can share"
+  ]
+ },
+ {
+  "slug": "ecommerce-payments",
+  "name": "E-Commerce & Payments",
+  "card": "Online stores that work with local payment options and delivery.",
+  "img": "future-ecommerce-payments",
+  "alt": "A shopping bag, a card terminal and a phone with a checkmark, surrounded by coins",
+  "icon": "M3 4h2l2.4 10.5a1 1 0 00.8.8h8.7a1 1 0 001-.8L20 8H6M9 20h.01M17 20h.01",
+  "wa": "e-commerce and payments",
+  "planned": [
+   "Store setup and product management",
+   "Local payment options such as EasyPaisa and JazzCash",
+   "Order tracking for you and your customers",
+   "Courier and delivery connections"
+  ]
+ },
+ {
+  "slug": "ui-ux-design",
+  "name": "UI/UX Design",
+  "card": "Clear, easy screens for websites and apps, designed and tested before development starts.",
+  "img": "future-ui-ux-design",
+  "alt": "Wireframe screens turning into polished screens beside a pen tool and colour swatches",
+  "icon": "M3 4h18v16H3zM3 9h18M9 9v11",
+  "wa": "UI/UX design",
+  "planned": [
+   "User flows and wireframes",
+   "Clickable prototypes to review",
+   "A design system for consistent screens",
+   "A usability review of existing sites and apps"
+  ]
+ },
+ {
+  "slug": "cloud-security-maintenance",
+  "name": "Cloud, Security & Maintenance",
+  "card": "Reliable hosting, backups and security checks for your website and apps.",
+  "img": "future-cloud-security",
+  "alt": "A glowing cloud above a server stack, protected by a glass shield with a check mark",
+  "icon": "M7 18h10a4 4 0 00.6-8A5.5 5.5 0 007 8.6 4.8 4.8 0 007 18z",
+  "wa": "cloud hosting, security and maintenance",
+  "planned": [
+   "Hosting setup and site migration",
+   "Regular backups",
+   "Security and uptime checks",
+   "Monthly maintenance plans"
+  ]
+ },
+ {
+  "slug": "data-analytics",
+  "name": "Data Analytics & Reporting",
+  "card": "Turn your sales, ads and website data into clear decisions.",
+  "img": "future-data-analytics",
+  "alt": "A magnifying glass over a rising layered chart with connected data points",
+  "icon": "M3 3v18h18M7 15l4-5 3 3 5-7",
+  "wa": "data analytics and reporting",
+  "planned": [
+   "Dashboards built from your own data",
+   "Website and ad performance reports",
+   "Customer and sales trends",
+   "A monthly summary in plain language"
+  ]
+ }
+]

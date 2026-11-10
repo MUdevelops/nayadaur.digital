@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import FutureTeaser from '../components/FutureTeaser.jsx'
 
 export default function Services() {
   return (
@@ -89,6 +90,7 @@ export default function Services() {
           </div>
         </div>
       </section>
+      <FutureTeaser id="future" />
       <section className="section section--tint" aria-labelledby="list-t">
         <div className="container container--narrow">
           <div className="sec-head rv"><h2 id="list-t">Everything we offer</h2></div>

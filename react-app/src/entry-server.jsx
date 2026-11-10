@@ -1,5 +1,5 @@
 import { renderToString } from 'react-dom/server'
-import { StaticRouter } from 'react-router-dom/server'
+import { StaticRouter } from 'react-router'
 import App from './App.jsx'
 import { getSeo, headToString } from './seo.js'
 import { routes } from './routes.js'

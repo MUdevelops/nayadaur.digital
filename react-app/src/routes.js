@@ -20,6 +20,8 @@ import Terms from './pages/Terms.jsx'
 import PostTrademarkRegistration from './pages/PostTrademarkRegistration.jsx'
 import LegalServices from './pages/LegalServices.jsx'
 import { LegalIpo, LegalTrademark, LegalCopyright, LegalIpConsultancy, LegalBrandProtection, LegalBusiness, LegalLitigation } from './pages/legalPages.jsx'
+import FutureServices from './pages/FutureServices.jsx'
+import JoinTeam from './pages/JoinTeam.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 export const routes = [
@@ -39,6 +41,7 @@ export const routes = [
   { path: "/services/google-ads/", Page: ServicesGoogleAds },
   { path: "/services/google-business-profile/", Page: ServicesGoogleBusinessProfile },
   { path: "/services/graphic-design/", Page: ServicesGraphicDesign },
+  { path: "/services/future-services/", Page: FutureServices },
   { path: "/services/legal-services/", Page: LegalServices },
   { path: "/services/legal-services/ipo-services/", Page: LegalIpo },
   { path: "/services/legal-services/trademark-registration/", Page: LegalTrademark },
@@ -50,6 +53,7 @@ export const routes = [
   { path: "/services/logo-design-branding/", Page: ServicesLogoDesignBranding },
   { path: "/services/social-media-marketing/", Page: ServicesSocialMediaMarketing },
   { path: "/services/website-development/", Page: ServicesWebsiteDevelopment },
+  { path: "/join-our-team/", Page: JoinTeam },
   { path: "/terms/", Page: Terms },
 ]
 

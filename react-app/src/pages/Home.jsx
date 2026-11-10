@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Counter from '../components/Counter.jsx'
 import FallingWords from '../components/FallingWords.jsx'
+import FutureTeaser from '../components/FutureTeaser.jsx'
 
 export default function Home() {
   return (
@@ -211,6 +212,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <FutureTeaser id="future" className="section--tint" />
       <section className="section" id="portfolio" aria-labelledby="portfolio-t">
         <div className="container">
           <div className="sec-head rv">
