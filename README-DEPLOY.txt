@@ -30,3 +30,14 @@ Old links used only the home page (#services etc. anchors still exist on the hom
 
 Edit React content and configuration under react-app/src/ and react-app/public/.
 See react-app/README.md for the project structure and page-editing guidance.
+
+
+GITHUB + HOSTINGER GIT DEPLOY (no build runs on Hostinger)
+The repository root holds the ready-built site, so Hostinger only copies files.
+After every change in react-app/src:
+  npm ci            (first time only)
+  npm run release   (builds, then copies react-app/dist into the repo root)
+  git add -A
+  git commit -m "Describe the change"
+  git push
+Hostinger then deploys the pushed files (automatic with the GitHub webhook, or press Deploy).

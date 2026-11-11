@@ -5,7 +5,8 @@
     "react-app"
   ],
   "scripts": {
-    "build": "npm run build --workspace nayadaur-digital"
+    "build": "npm run build --workspace nayadaur-digital",
+    "release": "npm run build && node scripts/sync-dist.mjs"
   },
   "engines": {
     "node": ">=18"

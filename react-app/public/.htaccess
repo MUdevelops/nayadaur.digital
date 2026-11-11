@@ -23,6 +23,9 @@ DirectoryIndex index.html
 DirectorySlash On
 Options -Indexes
 
+# Hide the source folders when the whole GitHub repo is deployed to public_html
+RedirectMatch 404 ^/(react-app|node_modules|scripts)(/|$)
+
 # Branded 404 page
 ErrorDocument 404 /404.html
 

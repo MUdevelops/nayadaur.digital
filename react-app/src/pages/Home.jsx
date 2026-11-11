@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom'
 import Counter from '../components/Counter.jsx'
 import FallingWords from '../components/FallingWords.jsx'
 import FutureTeaser from '../components/FutureTeaser.jsx'
+import { waLink } from '../site.js'
+
+const OFFER_WA = waLink('Assalam o Alaikum NayaDaur Digital! Mujhe Startup Offer (free Hostinger hosting ke saath website development) ke baare mein baat karni hai. Meherbani kar ke rabta karein.')
 
 export default function Home() {
   return (
@@ -15,8 +18,11 @@ export default function Home() {
               <span className="ur" lang="ur" dir="rtl">ڈیجیٹل سوچ، بہتر کاروبار</span>
               <span className="roman">Digital Soch, Behter Karobar</span>
             </h1>
-            <p className="hero2__lead rv" style={{ "--i": "2" }}>Logo, website, Google profile, ads and business software for Pakistani businesses.</p>
+            <p className="hero2__lead rv" style={{ "--i": "2" }}>Website development, logo design, Google Business Profile, Google Ads and business software for businesses in Okara and across Pakistan.</p>
             <p className="hero2__lead2 rv" style={{ "--i": "3" }}>Apna Karobar Online Laayein Taaky Zyada Customers ap tk pohanchein.</p>
+            <p className="hero2__offer rv" style={{ "--i": "3" }}>
+              <a href="#startup-offer"><b>Startup offer</b><span>Free secure Hostinger hosting with your new website</span></a>
+            </p>
             <p className="actions rv" style={{ "--i": "4" }}>
               <a className="btn btn--lg" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20apne%20business%20ke%20liye%20madad%20chahiye." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>Chat on WhatsApp</a>
               <a className="btn btn--line btn--lg" href="#services">Explore services</a>
@@ -42,6 +48,39 @@ export default function Home() {
           </ul>
         </div>
         <svg className="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30C240 70 480 0 720 25s480 45 720 5V60H0z" fill="var(--cream)" /></svg>
+      </section>
+      <section className="section section--tint offer" id="startup-offer" aria-labelledby="offer-t">
+        <div className="container">
+          <div className="offer__box rv">
+            <div className="offer__copy">
+              <span className="soon soon--inline">Startup offer</span>
+              <h2 id="offer-t">Startup Offer: Free Secure Hosting on Official Hostinger</h2>
+              <p>Starting a business or a startup? Have your website developed by NayaDaur Digital and we set up your hosting free of cost on <a href="https://www.hostinger.com" target="_blank" rel="noopener">official Hostinger</a>. Your site goes live on trusted, secure hosting from day one.</p>
+              <ul className="checks">
+                <li><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-check" /></svg><span>Free hosting with every new website development project</span></li>
+                <li><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-check" /></svg><span>Hosted on official Hostinger, not unknown servers</span></li>
+                <li><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-check" /></svg><span>HTTPS (SSL) security set up for you</span></li>
+                <li><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-check" /></svg><span>Written quote that lists what is included</span></li>
+              </ul>
+              <p className="actions">
+                <a className="btn" href={OFFER_WA} target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>Claim startup offer</a>
+                <Link className="btn btn--line" to="/services/website-development/">See website development</Link>
+              </p>
+              <p className="note">Domain name and ad budgets are paid separately. The free hosting period and plan are written in your quote.</p>
+            </div>
+            <div className="offer__side">
+              <figure className="offer__fig rv" style={{ "--i": "1" }}>
+                <img src="/assets/images/startup-offer-640.webp?v=8" srcSet="/assets/images/startup-offer-640.webp?v=8 640w, /assets/images/startup-offer-1200.webp?v=8 1200w" sizes="(max-width:859px) 92vw,440px" width="1200" height="800" alt="Laptop showing a website beside a glowing cloud server with a security shield, padlock and a star gift tag" loading="lazy" decoding="async" />
+              </figure>
+              <dl className="offer__facts" aria-label="Startup offer at a glance">
+                <div><img src="/assets/images/offer-icon-hosting-free.webp?v=8" width="40" height="40" alt="" loading="lazy" decoding="async" /><dt>Hosting</dt><dd>Free</dd></div>
+                <div><img src="/assets/images/offer-icon-security.webp?v=8" width="40" height="40" alt="" loading="lazy" decoding="async" /><dt>Security</dt><dd>HTTPS (SSL)</dd></div>
+                <div><img src="/assets/images/offer-icon-website.webp?v=8" width="40" height="40" alt="" loading="lazy" decoding="async" /><dt>Applies to</dt><dd>New website projects</dd></div>
+                <div><img src="/assets/images/offer-icon-launch.webp?v=8" width="40" height="40" alt="" loading="lazy" decoding="async" /><dt>Provider</dt><dd>Official Hostinger</dd></div>
+              </dl>
+            </div>
+          </div>
+        </div>
       </section>
       <section className="section" id="about" aria-labelledby="about-t">
         <div className="container two two--center">
@@ -404,6 +443,33 @@ export default function Home() {
               <summary>What is a free digital audit?</summary>
               <p>A review of your Google, social, WhatsApp and website presence, with clear next steps.</p>
             </details>
+            <details>
+              <summary>What is the startup offer?</summary>
+              <p>If you have a new website developed by us, we set up your hosting free of cost on official Hostinger, with HTTPS security. The hosting period and plan are written in your quote.</p>
+            </details>
+            <details>
+              <summary>Can I join NayaDaur Digital as an intern?</summary>
+              <p>Yes. We run a free 1-year internship for a Graphic Designer, a Digital Network and Marketing specialist and an AI Application Engineer. Salary starts after the year. See Join Our Team.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section className="section offer offer--join" id="join" aria-labelledby="join-t">
+        <div className="container">
+          <div className="offer__box rv">
+            <div className="offer__copy">
+              <span className="soon soon--inline">Applications open</span>
+              <h2 id="join-t">Join our team: free 1-year internship, then salary</h2>
+              <p>We are looking for a hardworking Graphic Designer, a Digital Network &amp; Marketing specialist and an AI Application Engineer who loves learning by doing. Year one is free learning on real projects. After the year, salary starts.</p>
+              <p className="actions">
+                <Link className="btn" to="/join-our-team/">See open roles and apply</Link>
+              </p>
+            </div>
+            <ul className="offer__roles" aria-label="Open roles">
+              <li>Graphic Designer</li>
+              <li>Digital Network &amp; Marketing</li>
+              <li>AI Application Engineer</li>
+            </ul>
           </div>
         </div>
       </section>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nayadaur.digital/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://nayadaur.digital/services/</loc>
@@ -75,5 +75,49 @@
   <url>
     <loc>https://nayadaur.digital/terms/</loc>
     <lastmod>2026-10-23</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/services/legal-services/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/services/legal-services/ipo-services/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/services/legal-services/trademark-registration/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/services/legal-services/copyright-legal-protection/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/services/legal-services/ip-rights-consultancy/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/services/legal-services/brand-protection-enforcement/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/services/legal-services/business-legal-consultancy/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/services/legal-services/litigation-dispute-resolution/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/blog/trademark-registration-pakistan-brand-protection/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/services/future-services/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://nayadaur.digital/join-our-team/</loc>
+    <lastmod>2026-11-11</lastmod>
   </url>
 </urlset>

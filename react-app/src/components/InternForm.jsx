@@ -2,11 +2,9 @@ import { useRef, useState } from 'react'
 import { SITE } from '../site.js'
 
 export const TRACKS = [
-  'Android App Development',
-  'Web Development',
-  'AI & Automation',
-  'UI/UX & Graphic Design',
-  'Digital Marketing & Content',
+  'Graphic Designer',
+  'Digital Network & Marketing',
+  'AI Application Engineer',
   'Not sure yet',
 ]
 
@@ -19,10 +17,10 @@ function buildMessage(f) {
   const bg = f.background.trim()
   const ab = f.about.trim()
   if (f.language === 'en') {
-    return 'Hello NayaDaur Digital! My name is ' + n + ' from ' + c + '. I would like to apply for the free 1-year internship, track: ' + f.track + '.' +
+    return 'Hello NayaDaur Digital! My name is ' + n + ' from ' + c + '. I would like to apply for the free 1-year internship, role: ' + f.track + '.' +
       (bg ? ' Background: ' + bg + '.' : '') + (ab ? ' About me: ' + ab + '.' : '') + ' Please tell me the next steps.'
   }
-  return 'Assalam o Alaikum NayaDaur Digital! Mera naam ' + n + ' hai (' + c + '). Mujhe 1 saal ki free internship ke liye apply karna hai, track: ' + f.track + '.' +
+  return 'Assalam o Alaikum NayaDaur Digital! Mera naam ' + n + ' hai (' + c + '). Mujhe 1 saal ki free internship ke liye apply karna hai, role: ' + f.track + '.' +
     (bg ? ' Background: ' + bg + '.' : '') + (ab ? ' Mere baare mein: ' + ab + '.' : '') + ' Meherbani kar ke agle steps bata dein.'
 }
 
@@ -106,7 +104,7 @@ export default function InternForm() {
         <input id="if-city" name="city" autoComplete="address-level2" value={fields.city} onChange={onField('city')} />
       </div>
       <div className="field field--full">
-        <label htmlFor="if-track">Track you are interested in</label>
+        <label htmlFor="if-track">Role you are interested in</label>
         <select id="if-track" name="track" value={fields.track} onChange={onField('track')}>
           {TRACKS.map((t) => (
             <option key={t} value={t}>{t}</option>

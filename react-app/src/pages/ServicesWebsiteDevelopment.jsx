@@ -22,6 +22,7 @@ export default function ServicesWebsiteDevelopment() {
             <a className="btn" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20website%20development%20ke%20baare%20mein%20baat%20karni%20hai.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>Chat on WhatsApp</a>
             <Link className="btn btn--line" to="/contact/?service=Landing%20Pages%20and%20Frontend%20Websites">Request a quote</Link>
           </p>
+          <p className="note rv" style={{ "--i": "2" }}>Starting a new business? See our <Link to="/#startup-offer">startup offer: free secure Hostinger hosting</Link> with your website.</p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
             <img src="/assets/images/web-designing-service-640.webp?v=4" srcSet="/assets/images/web-designing-service-640.webp?v=4 640w, /assets/images/web-designing-service-1200.webp?v=4 1200w" sizes="(max-width:899px) 92vw,520px" width="1200" height="805" alt="Website design illustration with laptop and phone" decoding="async" />
           </figure>
