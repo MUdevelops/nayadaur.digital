@@ -3,7 +3,7 @@ import { SITE } from '../site.js'
 
 export const TRACKS = [
   'Graphic Designer',
-  'Digital Network & Marketing',
+  'Digital Network & Marketing Specialist',
   'AI Application Engineer',
   'Not sure yet',
 ]

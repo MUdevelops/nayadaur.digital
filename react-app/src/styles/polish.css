@@ -1,0 +1,176 @@
+/* ==========================================================================
+   NayaDaur Digital - polish layer (v9)
+   Loaded LAST. Refines what is already there: no content or structure is removed.
+   1. Particle layer (hero + every blue section)
+   2. Blue heroes on every inner page (same family as the home hero)
+   3. "What we do": professional service cards
+   4. Section refinements (why, process, faq, forms, cta, footer)
+   ========================================================================== */
+
+/* ---- 1. particle layer ------------------------------------------------------------------ */
+.pfield{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none;z-index:1;opacity:0;transition:opacity 1.4s ease}
+.pfield.is-live{opacity:1}
+.pf-host{position:relative;isolation:isolate}
+/* copy always sits above the particles */
+.pf-host>.container{position:relative;z-index:2}
+/* decorative pseudo layers keep their place around the canvas */
+.phero::before,.site-footer::before{z-index:3}
+.cta-band::after{z-index:1}
+
+/* hero: let particles spread across the complete section. The scrim only calms the text column. */
+.hero2::before{background:linear-gradient(90deg,rgba(5,12,23,.5) 0%,rgba(5,12,23,.26) 44%,rgba(5,12,23,0) 72%),linear-gradient(180deg,rgba(5,12,23,0) 78%,rgba(5,12,23,.55))}
+.hero2::after{-webkit-mask-image:radial-gradient(ellipse 95% 90% at 60% 45%,#000,transparent 80%);mask-image:radial-gradient(ellipse 95% 90% at 60% 45%,#000,transparent 80%)}
+@media (max-width:899px){
+.hero2::before{background:linear-gradient(180deg,rgba(5,12,23,.04) 0%,rgba(5,12,23,.34) 40%,rgba(5,12,23,.6) 100%)}
+.hero2::after{-webkit-mask-image:radial-gradient(ellipse 100% 60% at 60% 30%,#000,transparent 80%);mask-image:radial-gradient(ellipse 100% 60% at 60% 30%,#000,transparent 80%)}
+}
+
+/* ---- 2. blue inner-page heroes ---------------------------------------------------------- */
+.phero{
+background:radial-gradient(760px 420px at 84% 18%,rgba(56,189,248,.17),transparent 64%),radial-gradient(560px 360px at 6% 100%,rgba(59,130,246,.14),transparent 66%),linear-gradient(165deg,var(--navy-0) 0%,var(--navy) 58%,var(--navy-2) 100%);
+color:#EAF1FA;border-bottom:1px solid var(--hair-l);isolation:isolate}
+.phero::after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background-image:linear-gradient(rgba(125,211,252,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(125,211,252,.05) 1px,transparent 1px);background-size:64px 64px;-webkit-mask-image:radial-gradient(ellipse 85% 90% at 70% 40%,#000,transparent 78%);mask-image:radial-gradient(ellipse 85% 90% at 70% 40%,#000,transparent 78%)}
+.phero h1{color:#fff;letter-spacing:-.025em}
+.phero__ur{color:var(--sky-2)}
+.phero__lead,.phero .note{color:#C4D4E8}
+.phero .note a{color:var(--sky-2)}
+.phero .meta,.phero .byline{color:#9FB4CF}
+.phero .crumbs ol{color:#9FB4CF}
+.phero .crumbs a{color:#9FB4CF;transition:color .2s}
+.phero .crumbs a:hover{color:#fff}
+.phero .crumbs [aria-current]{color:#fff}
+.phero .btn:not(.btn--line){background:var(--sky);border-color:var(--sky);color:#04101F}
+.phero .btn:not(.btn--line):hover{background:var(--sky-2);border-color:var(--sky-2)}
+.phero .btn--line{background:transparent;border-color:rgba(234,241,250,.45);color:#fff}
+.phero .btn--line:hover{background:#fff;border-color:#fff;color:var(--navy)}
+.phero :focus-visible{outline-color:var(--sky)}
+.phero__img img{border:1px solid rgba(125,211,252,.28);box-shadow:0 28px 70px -24px rgba(0,0,0,.65),0 0 0 8px rgba(56,189,248,.06)}
+
+/* ---- 3. What we do: professional service cards ------------------------------------------ */
+#services{position:relative}
+#services .sec-head--c{max-width:62ch;margin-bottom:clamp(32px,4.5vw,52px)}
+#services .grid--3{gap:clamp(16px,2.2vw,28px)}
+
+.svc{--svc-line:rgba(11,25,44,.11);position:relative;border-radius:18px;border:1px solid var(--svc-line);background:#fff;overflow:hidden;box-shadow:0 1px 2px rgba(11,25,44,.04),0 10px 28px -18px rgba(11,25,44,.28)}
+.svc.card--img .card__body{background:#fff;padding:clamp(20px,2.4vw,28px);gap:10px}
+.svc::before{content:'';position:absolute;left:0;right:0;top:0;height:3px;z-index:3;background:linear-gradient(90deg,var(--sky),#3B82F6);transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease)}
+
+.svc .card__media{aspect-ratio:3/2}
+.svc .card__media{border-bottom:1px solid var(--svc-line)}
+.svc__num,.svc__tag{position:absolute;z-index:2;font-family:var(--font-h);line-height:1}
+.svc__num{top:14px;left:14px;padding:7px 11px;border-radius:999px;font-weight:700;font-size:.74rem;letter-spacing:.14em;color:#fff;background:rgba(7,15,29,.62);border:1px solid rgba(125,211,252,.38);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.svc__tag{left:14px;bottom:14px;padding:6px 10px;border-radius:6px;font-weight:700;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:#04101F;background:var(--sky)}
+
+.svc h3{font-size:clamp(1.12rem,1.6vw,1.25rem);line-height:1.25;letter-spacing:-.01em;margin:0}
+.svc h3 a{color:var(--ink);text-decoration:none}
+.svc h3 a::after{content:'';position:absolute;inset:0;z-index:4}
+.svc .card__body p{color:var(--muted);font-size:.98rem;line-height:1.6;margin:0}
+
+/* "Learn more" becomes a footer row with an arrow button */
+.svc .link-more{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:16px;border-top:1px solid var(--svc-line);font-size:.92rem;letter-spacing:.01em;color:var(--navy)}
+.svc .link-more::after{content:'\2192';display:grid;place-items:center;flex:none;width:34px;height:34px;border-radius:50%;background:var(--navy);color:var(--sky);font-size:1rem;transition:background-color .25s,color .25s,transform .3s var(--ease)}
+
+@media (hover:hover){
+.svc:hover{border-color:rgba(56,189,248,.65);box-shadow:0 26px 48px -24px rgba(11,25,44,.5),0 0 0 1px rgba(56,189,248,.22)}
+.svc:hover::before{transform:scaleX(1)}
+.svc:hover .link-more::after{background:var(--sky);color:#04101F;transform:translateX(4px)}
+}
+.svc:has(a:focus-visible){box-shadow:0 0 0 3px var(--sky)}
+
+/* all service cards are the same size; the closing call-to-action takes the last two columns */
+@media (min-width:960px){
+#services .grid--3>.svc--cta{grid-column:span 2}
+#services .svc--cta h3,#services .svc--cta h3 a{font-size:clamp(1.4rem,2.2vw,1.75rem)}
+#services .svc--cta p{max-width:46ch}
+}
+
+/* closing call-to-action card */
+.svc--cta{background:radial-gradient(260px 200px at 100% 100%,rgba(56,189,248,.28),transparent 70%),linear-gradient(150deg,var(--navy),var(--navy-0));border-color:rgba(125,211,252,.22);padding:clamp(24px,2.8vw,34px);gap:12px;justify-content:center}
+.svc--cta h3,.svc--cta h3 a{color:#fff;font-size:clamp(1.25rem,2vw,1.5rem)}
+.svc--cta .card__body,.svc--cta p{color:#C4D4E8}
+.svc--cta p{margin:0;flex:none}
+.svc--cta .link-more{margin-top:18px;border-top-color:rgba(125,211,252,.24);color:var(--sky)}
+.svc--cta .link-more::after{background:var(--sky);color:#04101F}
+@media (hover:hover){.svc--cta:hover{border-color:var(--sky)}.svc--cta:hover .link-more::after{background:#fff}}
+
+/* ---- 4. section refinements ------------------------------------------------------------- */
+::selection{background:var(--sky);color:#04101F}
+.section--tint{border-block:1px solid rgba(11,25,44,.06)}
+
+/* why choose us: one panel, four cells. Same look on desktop, tablet and phone.
+   1px gaps over a line-coloured panel draw every divider, whatever the column count. */
+#why .why{--why-line:rgba(11,25,44,.12);display:grid;grid-template-columns:1fr;gap:1px;counter-reset:none;background:var(--why-line);border:1px solid var(--why-line);border-radius:22px;overflow:hidden;box-shadow:0 1px 2px rgba(11,25,44,.04),0 26px 50px -32px rgba(11,25,44,.4)}
+@media (min-width:600px){#why .why{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:960px){#why .why{grid-template-columns:repeat(4,1fr)}}
+#why .why .card{display:grid;grid-template-columns:56px 1fr;column-gap:16px;align-content:start;align-items:start;background:#fff;background-image:none;border:0;border-radius:0;box-shadow:none;padding:22px 20px;transition:background-color .25s}
+#why .why .card::before{content:none}
+#why .why .card:hover{background:#F7FBFF;box-shadow:none}
+#why .why .card__icon{grid-row:1/3;width:56px;height:56px;margin:0;border-radius:16px;background:linear-gradient(145deg,#16345C,var(--navy));box-shadow:0 14px 24px -14px rgba(11,25,44,.75),inset 0 0 0 1px rgba(125,211,252,.32),inset 0 1px 0 rgba(255,255,255,.12)}
+#why .why .card__icon svg{width:26px;height:26px;stroke:var(--sky)}
+#why .why .card h3{align-self:end;margin:0 0 6px;font-size:1.12rem;line-height:1.25;letter-spacing:-.01em;color:var(--ink)}
+#why .why .card p{margin:0;font-size:.96rem;line-height:1.6;color:var(--muted)}
+/* tablet and desktop: icon on top, text below */
+@media (min-width:600px){
+#why .why .card{display:flex;flex-direction:column;gap:0;padding:clamp(26px,2.8vw,36px)}
+#why .why .card__icon{margin-bottom:20px}
+#why .why .card h3{align-self:stretch;margin-bottom:8px}
+}
+
+/* process (dark): glass steps, glowing numerals */
+.steps li{background:rgba(255,255,255,.045);border:1px solid rgba(125,211,252,.18);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border-radius:14px}
+.steps li::before{box-shadow:0 0 0 6px rgba(56,189,248,.12),0 0 22px rgba(56,189,248,.45)}
+@media (hover:hover){.steps li:hover{background:rgba(255,255,255,.08);border-color:rgba(56,189,248,.55)}}
+
+/* faq */
+.faq details{border-radius:12px;border-color:rgba(11,25,44,.12);transition:border-color .25s,box-shadow .3s var(--ease)}
+.faq details[open]{border-color:var(--sky);box-shadow:0 14px 30px -20px rgba(11,25,44,.45)}
+.faq summary::after{border-color:var(--navy)}
+.faq details[open] summary{color:var(--navy)}
+
+/* forms: clear, branded focus */
+.lead-form input:focus,.lead-form select:focus,.lead-form textarea:focus{outline:2px solid transparent;border-color:var(--sky);box-shadow:0 0 0 4px rgba(56,189,248,.22)}
+
+/* cta band + footer */
+.cta-band::before{background:var(--sky)}
+.cta-band h2{letter-spacing:-.02em}
+.footer__title{padding-bottom:10px;margin-bottom:12px;border-bottom:1px solid rgba(125,211,252,.18)}
+.site-footer a:hover{color:var(--sky-2)}
+
+/* ---- accessibility + motion ----------------------------------------------------------- */
+@media (prefers-reduced-motion:reduce){
+.pfield{transition:none}
+.svc::before,.svc .link-more::after{transition:none}
+}
+@media (forced-colors:active){.pfield,.phero::after{display:none}}
+@media print{.pfield,.phero::after{display:none}}
+
+/* ---- 5. home contact section: white, blue button, venom tendrils ------------------------- */
+.contact-now{position:relative;isolation:isolate;overflow:hidden;background:#fff;text-align:center;padding-block:clamp(56px,7vw,84px) clamp(72px,8vw,100px);border-block:1px solid rgba(11,25,44,.06)}
+.venom{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none;z-index:1;opacity:0;transition:opacity .8s ease}
+.venom.is-live{opacity:1}
+.contact-now__inner{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center}
+.contact-now .eyebrow{margin-bottom:10px}
+.contact-now h2{max-width:20ch;margin-bottom:12px}
+.contact-now p{max-width:46ch;margin:0 auto 32px;color:var(--muted)}
+
+/* the pill: layered blue with a navy icon disc, double ring and a sheen on hover */
+.vbtn{--vb-ring:rgba(56,189,248,.16);position:relative;z-index:3;display:inline-flex;align-items:center;justify-content:center;gap:18px;min-width:min(340px,88vw);min-height:98px;padding:0 40px 0 16px;border-radius:999px;text-decoration:none;overflow:hidden;isolation:isolate;
+font:800 1.5rem/1 var(--font-h);letter-spacing:-.015em;color:#04101F;
+background:linear-gradient(180deg,#8EDBFD 0%,#38BDF8 46%,#0A8FD6 100%);
+box-shadow:inset 0 2px 0 rgba(255,255,255,.75),inset 0 -8px 18px rgba(3,105,161,.4),0 0 0 7px #fff,0 0 0 9px rgba(56,189,248,.45),0 0 0 17px var(--vb-ring),0 30px 50px -18px rgba(14,165,233,.7);
+transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+.vbtn::before{content:'';position:absolute;inset:9px;border-radius:999px;border:1px solid rgba(255,255,255,.42);pointer-events:none;z-index:1}
+.vbtn::after{content:'';position:absolute;top:0;bottom:0;left:-40%;width:34%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg) translateX(-120%);pointer-events:none;z-index:1}
+.vbtn__icon{position:relative;z-index:2;display:grid;place-items:center;flex:none;width:68px;height:68px;border-radius:50%;color:var(--sky);background:radial-gradient(circle at 30% 25%,#16345C 0%,#0B192C 70%);box-shadow:inset 0 1px 0 rgba(125,211,252,.35),0 8px 16px -6px rgba(4,16,31,.7);transition:transform .35s var(--ease)}
+.vbtn__icon svg{display:block;transition:transform .35s var(--ease)}
+.vbtn__label{position:relative;z-index:2;white-space:nowrap;text-shadow:0 1px 0 rgba(255,255,255,.35)}
+.vbtn:hover{transform:translateY(-3px) scale(1.03);--vb-ring:rgba(56,189,248,.24);box-shadow:inset 0 2px 0 rgba(255,255,255,.75),inset 0 -8px 18px rgba(3,105,161,.4),0 0 0 7px #fff,0 0 0 9px rgba(56,189,248,.7),0 0 0 21px var(--vb-ring),0 38px 58px -18px rgba(14,165,233,.8)}
+.vbtn:hover::after{transform:skewX(-20deg) translateX(520%);transition:transform .9s var(--ease)}
+.vbtn:hover .vbtn__icon svg{transform:translate(3px,-3px)}
+.vbtn:active{transform:translateY(0) scale(.99)}
+.vbtn:focus-visible{outline:3px solid var(--navy);outline-offset:12px}
+@media (max-width:599px){.contact-now{padding-bottom:130px}}
+@media (max-width:520px){.vbtn{min-width:80vw;min-height:88px;gap:14px;padding-right:30px;font-size:1.3rem}.vbtn__icon{width:60px;height:60px}}
+@media (prefers-reduced-motion:reduce){.venom{transition:none}.vbtn,.vbtn__icon,.vbtn__icon svg{transition:none}.vbtn:hover{transform:none}.vbtn:hover::after{transition:none;transform:skewX(-20deg) translateX(-120%)}.vbtn:hover .vbtn__icon svg{transform:none}}
+@media (forced-colors:active){.venom{display:none}.vbtn{border:2px solid CanvasText}}
+@media print{.venom{display:none}}

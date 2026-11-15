@@ -3,6 +3,7 @@ import Sprite from './Sprite.jsx'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import ToTop from './ToTop.jsx'
+import Particles from './Particles.jsx'
 import WhatsAppFloat from './WhatsAppFloat.jsx'
 import useSiteEffects from '../hooks/useSiteEffects.js'
 
@@ -18,6 +19,7 @@ export default function Layout({ children }) {
       <Footer />
       <ToTop />
       <WhatsAppFloat />
+      <Particles />
     </>
   )
 }

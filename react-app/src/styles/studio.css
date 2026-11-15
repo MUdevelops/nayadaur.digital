@@ -1,0 +1,187 @@
+/* ==========================================================================
+   NayaDaur Digital - studio layer (v8)
+   Art direction: midnight observatory. Deep navy field, one luminous sky-blue accent,
+   ivory paper for reading, hairline rules instead of boxed cards, sharper corners.
+   Loaded LAST (after style / enhance / legal / future) so it refines every page.
+   No content or markup is removed; JS-free except the particle canvas (see lib/particles.js).
+   ========================================================================== */
+:root{
+--sky:#38BDF8;--sky-2:#7DD3FC;--navy:#0B192C;--navy-0:#050C17;--navy-2:#10243F;
+--hair:rgba(11,25,44,.14);--hair-l:rgba(125,211,252,.2);
+--r:12px;--r-sm:8px;--btn-r:10px;
+--ease:cubic-bezier(.2,.7,.2,1);
+--sec:clamp(56px,8vw,104px);--max:1160px}
+
+/* ---- type ----------------------------------------------------------------- */
+body{font-feature-settings:'kern','liga';text-rendering:optimizeLegibility}
+h1,h2,h3{text-wrap:balance}
+h2{font-size:clamp(1.6rem,3.4vw,2.35rem);line-height:1.12;letter-spacing:-.022em}
+h3{letter-spacing:-.005em}
+.eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:.74rem;letter-spacing:.16em;color:var(--g)}
+.eyebrow::before{content:'';flex:none;width:28px;height:1px;background:currentColor;opacity:.7}
+.eyebrow--l{color:var(--sky)}
+.sec-head--c .eyebrow{justify-content:center}
+.sec-head--c .eyebrow::after{content:'';flex:none;width:28px;height:1px;background:currentColor;opacity:.7}
+
+/* ---- buttons: less pill, more instrument ------------------------------------- */
+.btn{border-radius:var(--btn-r);letter-spacing:.003em;position:relative;overflow:hidden}
+.btn::after{content:'';position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.28) 50%,transparent 70%);transform:translateX(-120%);pointer-events:none}
+.tabs button,.chip{border-radius:8px}
+.nav__cta{border-radius:var(--btn-r)}
+@media (prefers-reduced-motion:no-preference){
+.btn{transition:background-color .2s,color .2s,border-color .2s,box-shadow .25s var(--ease),translate .25s var(--ease)}
+.btn:hover{translate:0 -2px;box-shadow:0 10px 24px rgba(11,25,44,.18)}
+.btn:active{translate:0 0;box-shadow:none}
+.btn:hover::after{transform:translateX(120%);transition:transform .7s var(--ease)}
+}
+
+/* ---- header ---------------------------------------------------------------- */
+.site-header{background:rgba(11,25,44,.96);-webkit-backdrop-filter:saturate(1.5) blur(14px);backdrop-filter:saturate(1.5) blur(14px);border-bottom:1px solid var(--hair-l)}
+@supports (animation-timeline:scroll()){
+.site-header::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:2px;background:linear-gradient(90deg,var(--sky),var(--sky-2));transform:scaleX(0);transform-origin:0 50%;animation:nd-progress linear both;animation-timeline:scroll(root block)}
+@keyframes nd-progress{to{transform:scaleX(1)}}
+}
+@media (min-width:900px){
+.nav__link{border-radius:6px;position:relative}
+.nav__link:hover{background:none;color:#fff}
+.nav__link::after{content:'';position:absolute;left:12px;right:12px;bottom:7px;height:2px;border-radius:2px;background:var(--sky);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+.nav__link:hover::after,.nav__link[aria-current]::after{transform:scaleX(1)}
+.subnav{border-radius:var(--r);border:1px solid var(--hair-l)}
+}
+
+/* ---- hero: immersive, dark, with the 3D constellation ------------------------- */
+.hero2{background:radial-gradient(900px 560px at 76% 36%,rgba(56,189,248,.17),transparent 64%),linear-gradient(165deg,var(--navy-0) 0%,var(--navy) 55%,var(--navy-2) 100%);color:#EAF1FA;padding:clamp(40px,7vw,96px) 0 0;isolation:isolate}
+.hero2__bg{z-index:0}
+/* particle layer: see polish.css (.pfield). Falling words step aside once particles are live. */
+.hero2.has-pf .falling{display:none}
+.hero2 .fw{color:var(--sky-2)}
+.hero2::before{z-index:1;background:linear-gradient(90deg,rgba(5,12,23,.82) 0%,rgba(5,12,23,.5) 42%,rgba(5,12,23,0) 68%),linear-gradient(180deg,rgba(5,12,23,0) 70%,rgba(5,12,23,.9))}
+.hero2::after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background-image:linear-gradient(rgba(125,211,252,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(125,211,252,.055) 1px,transparent 1px);background-size:64px 64px;-webkit-mask-image:radial-gradient(ellipse 70% 80% at 72% 42%,#000,transparent 75%);mask-image:radial-gradient(ellipse 70% 80% at 72% 42%,#000,transparent 75%)}
+.hero2 .container{position:relative;z-index:2}
+.hero2__grid{padding-bottom:clamp(28px,5vw,48px)}
+.hero2__badge{border-radius:8px;background:rgba(255,255,255,.05);background-image:none;border:1px solid var(--hair-l);color:#D6E4F5;font-size:.82rem;letter-spacing:.02em;backdrop-filter:blur(6px)}
+.hero2__badge .dot{box-shadow:0 0 0 4px rgba(56,189,248,.18),0 0 14px rgba(56,189,248,.8)}
+.hero2 h1 .roman{color:#fff;letter-spacing:-.03em;font-size:clamp(2.25rem,6.2vw,4.6rem);line-height:1.02}
+.hero2 h1 .ur{color:var(--sky);text-shadow:0 0 28px rgba(56,189,248,.35)}
+.hero2__lead{color:#C4D4E8;max-width:46ch}
+.hero2__lead2{color:#fff;font-weight:600}
+.hero2__trust{color:#B4C6DC}.hero2__trust svg{color:var(--sky)}
+.hero2__offer a{background:rgba(255,255,255,.05);border:1px solid var(--hair-l);border-radius:8px;color:#fff;box-shadow:none}
+.hero2__offer a:hover{background:rgba(56,189,248,.12);border-color:var(--sky)}
+.hero2__offer a::after{color:var(--sky)}
+.hero2__offer b{border-radius:4px}
+.hero2 .btn:not(.btn--line){background:var(--sky);border-color:var(--sky);color:#04101F;box-shadow:0 0 0 0 rgba(56,189,248,.5)}
+.hero2 .btn:not(.btn--line):hover{background:var(--sky-2);border-color:var(--sky-2)}
+.hero2 .btn--line{background:transparent;border-color:rgba(234,241,250,.45);color:#fff}
+.hero2 .btn--line:hover{background:#fff;border-color:#fff;color:var(--navy)}
+.hero2 :focus-visible{outline-color:var(--sky)}
+
+/* logo seated on a luminous disc: the dark Noon needs a light ground */
+.orb{aspect-ratio:1;border-radius:50%;padding:3.5%;background:radial-gradient(circle at 50% 36%,#fff 0%,#FBF8EE 46%,#DCE9F6 100%);box-shadow:0 0 0 1px rgba(125,211,252,.6),0 0 0 14px rgba(56,189,248,.07),0 0 100px 8px rgba(56,189,248,.3),0 40px 90px rgba(0,0,0,.5)}
+.orb::before{inset:-9%;background:none;border:1px solid rgba(125,211,252,.25);border-radius:50%}
+.orb img{filter:none}
+
+/* stats: a ruled strip, not four floating cards */
+.stats{margin-top:clamp(28px,5vw,52px);gap:0;border:0;border-top:1px solid var(--hair-l);border-radius:0;background:none}
+.stats li{background:none;background-image:none;backdrop-filter:none;text-align:left;padding:20px 12px 20px 0;border-radius:0}
+.stats b{color:#fff}
+.stats span{color:#9FB4CF;font-size:.84rem;letter-spacing:.02em}
+@media (max-width:699px){.stats li:nth-child(n+3){border-top:1px solid var(--hair-l)}.stats li:nth-child(even){padding-left:16px;border-left:1px solid var(--hair-l)}}
+@media (min-width:700px){.stats li+li{border-left:1px solid var(--hair-l);padding-left:clamp(16px,3vw,32px)}}
+.hero2{padding-bottom:0}
+.hero2 .stats{margin-bottom:0}
+.hero2 .container:last-of-type{padding-bottom:4px}
+
+/* phones: copy sits on the field, so calm it with a vertical scrim instead of a side one */
+@media (max-width:899px){
+.hero2::before{background:linear-gradient(180deg,rgba(5,12,23,.1) 0%,rgba(5,12,23,.55) 38%,rgba(5,12,23,.9) 100%)}
+.hero2::after{-webkit-mask-image:radial-gradient(ellipse 90% 40% at 70% 14%,#000,transparent 80%);mask-image:radial-gradient(ellipse 90% 40% at 70% 14%,#000,transparent 80%)}
+}
+
+/* ---- sections: rhythm + asymmetric heads --------------------------------------- */
+.section{padding-block:var(--sec)}
+.section--tint{background:#F2EDDD}
+@media (min-width:900px){
+.section>.container>.sec-head:not(.sec-head--c){display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);column-gap:clamp(32px,6vw,88px);align-items:end;max-width:none;margin-bottom:clamp(32px,4vw,48px)}
+.section>.container>.sec-head:not(.sec-head--c)>*{grid-column:1}
+.section>.container>.sec-head:not(.sec-head--c)>p{grid-column:2;grid-row:1/span 3;align-self:end;max-width:46ch;padding-bottom:6px}
+.section>.container>.sec-head:not(.sec-head--c) h2{margin-bottom:0}
+}
+.sec-head--c{margin-inline:auto}
+
+/* services: first card leads, the rest follow a ruled grid */
+.card{border-radius:var(--r);box-shadow:none;border-color:var(--hair);background-image:none}
+.card--img .card__body{background-image:none}
+.card--img{padding:0;overflow:hidden;background:var(--card)}
+.card--img .card__media{overflow:hidden;background:var(--tint)}
+.card--img .card__body{padding:clamp(18px,2.4vw,26px);display:flex;flex-direction:column;gap:8px;flex:1}
+.card--img .card__body p{flex:1}
+.link-more{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--g)}
+.link-more::after{content:'\2192';transition:translate .3s var(--ease)}
+@media (prefers-reduced-motion:no-preference){
+.card--img .card__media img{transition:scale .7s var(--ease)}
+@media (hover:hover){
+.card--img:hover .card__media img{scale:1.05}
+.card:hover .link-more::after{translate:5px 0}
+.card:hover{border-color:var(--navy);box-shadow:0 18px 40px -18px rgba(11,25,44,.35)}
+}}
+@media (min-width:960px){
+}
+.card--cta{background:linear-gradient(150deg,var(--navy),var(--navy-0));border-color:var(--navy);color:#EAF1FA;justify-content:center}
+.card--cta h3,.card--cta h3 a{color:#fff}.card--cta p{color:#C4D4E8}.card--cta .link-more{color:var(--sky)}
+.card--cta:hover{border-color:var(--sky)}
+
+/* why: ruled columns with numerals instead of four identical boxes */
+.why{counter-reset:why;gap:0 clamp(20px,3vw,40px)}
+.why .card{counter-increment:why;background:none;background-image:none;border:0;border-top:2px solid var(--navy);border-radius:0;padding:20px 0 0;box-shadow:none}
+.why .card:hover{border-color:var(--navy);box-shadow:none}
+.why .card::before{content:'0' counter(why);font:700 .82rem/1 var(--font-h);letter-spacing:.14em;color:var(--g);opacity:.7;margin-bottom:6px}
+.why .card__icon{width:40px;height:40px;border-radius:10px;margin-bottom:10px}
+.why .card h3{font-size:1.15rem}
+
+/* process: dark chapter */
+.section--dark{background:radial-gradient(700px 360px at 85% 0%,rgba(56,189,248,.12),transparent 65%),var(--navy)}
+.steps li::before{border-radius:10px;width:40px;height:40px}
+.steps li{padding-top:4px}
+
+/* packages */
+.pkg{border-radius:var(--r);border-color:var(--hair);background-image:none}
+.pkg--pop{background:var(--navy);border-color:var(--navy);color:#EAF1FA}
+.pkg--pop h3,.pkg--pop .price{color:#fff}.pkg--pop li svg{color:var(--sky)}.pkg--pop .tag{color:#C4D4E8}
+.pkg--pop .btn{background:var(--sky);border-color:var(--sky);color:#04101F}
+.pkg--pop .btn:hover{background:var(--sky-2);border-color:var(--sky-2)}
+.badge{border-radius:4px;letter-spacing:.04em}
+@media (prefers-reduced-motion:no-preference){.pkg{transition:border-color .25s,box-shadow .3s var(--ease),translate .3s var(--ease)}@media (hover:hover){.pkg:hover{translate:0 -4px;box-shadow:0 20px 40px -20px rgba(11,25,44,.4)}}}
+
+/* offer, portfolio, forms, footer, CTA band */
+.offer__box{border-radius:var(--r);border:1px solid var(--hair);box-shadow:none;position:relative;overflow:hidden}
+.offer__box::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--sky),var(--g))}
+.pb{border-radius:var(--r)}
+.pill{border-radius:4px}
+.lead-form{border-radius:var(--r);box-shadow:none;border-color:var(--hair)}
+.lead-form input,.lead-form select,.lead-form textarea{border-radius:var(--r-sm)}
+.faq details{border-radius:var(--r-sm);box-shadow:none}
+.site-footer{position:relative}
+.site-footer::before{content:'';position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,var(--sky),transparent);opacity:.6}
+.cta-band{position:relative}
+
+/* inner pages: same family as the home hero */
+.phero{position:relative;background:linear-gradient(180deg,#fff 0%,#FBF8EE 100%)}
+.phero::before{content:'';position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,var(--navy),var(--sky) 45%,transparent 90%)}
+.phero h1{letter-spacing:-.025em}
+
+/* ---- motion: calmer, slightly longer reveals -------------------------------------- */
+.js .rv{transition-duration:.8s;transition-timing-function:var(--ease)}
+@media (prefers-reduced-motion:reduce){
+.btn::after{display:none}
+.site-header::after{display:none}
+.card--img .card__media img{transition:none}
+}
+@media (forced-colors:active){.hero2::after,.pfield{display:none}.orb{border:1px solid CanvasText}}
+@media print{.pfield,.hero2::after{display:none}}
+
+/* keep the decorative identity-mark SVG clear of the portfolio intro */
+@media (min-width:900px){
+#portfolio>.container>.sec-head{display:block;max-width:60ch}
+#portfolio>.container>.sec-head>p{padding-bottom:0}
+}

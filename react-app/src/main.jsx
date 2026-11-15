@@ -6,6 +6,8 @@ import './styles/style.css'
 import './styles/enhance.css'
 import './styles/legal.css'
 import './styles/future.css'
+import './styles/studio.css'
+import './styles/polish.css'
 
 const root = document.getElementById('root')
 const app = (

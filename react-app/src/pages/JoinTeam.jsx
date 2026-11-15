@@ -12,7 +12,7 @@ const TRACKS = [
     items: ['Logos, brand kits and bilingual lettering', 'Social media posts, banners and menus', 'Canva, Figma, Photoshop or Illustrator', 'Feedback and revisions on real client briefs'],
   },
   {
-    name: 'Digital Network & Marketing',
+    name: 'Digital Network & Marketing Specialist',
     icon: 'M3 17l6-6 4 4 8-8M15 7h6v6',
     text: 'Grow our clients online through social media, Google, WhatsApp Business and local connections.',
     items: ['Social media and WhatsApp Business setup', 'Google Business Profile and local search basics', 'Meta and Google ads support', 'Networking, outreach and simple reports'],
@@ -35,7 +35,7 @@ const QUALITIES = [
 
 const FAQ = [
   ['Is the internship paid?', 'Year one is a free learning year with no salary and no joining fee. After one year, salary starts for team members who complete the year and continue with the team. The amount and terms are shared in writing before year two.'],
-  ['Which roles are open?', 'Graphic Designer, Digital Network & Marketing, and AI Application Engineer. Choose one in the form, or choose "Not sure yet" and we will help you decide.'],
+  ['Which roles are open?', 'Graphic Designer, Digital Network & Marketing Specialist, and AI Application Engineer. Choose one in the form, or choose "Not sure yet" and we will help you decide.'],
   ['Do I need experience?', 'Not always. Tell us what you have tried, and share any projects or links. We may give a short task before confirming a place. Attitude matters more than a perfect CV.'],
   ['Can I join from another city?', 'Tell us your city when you apply. We will confirm how the internship runs for your location.'],
   ['How many hours a week?', 'The internship is part-time, so your studies and other commitments can continue. We agree weekly hours with you at the start.'],

@@ -2,9 +2,22 @@ import { Link } from 'react-router-dom'
 import Counter from '../components/Counter.jsx'
 import FallingWords from '../components/FallingWords.jsx'
 import FutureTeaser from '../components/FutureTeaser.jsx'
+import VenomContact from '../components/VenomContact.jsx'
 import { waLink } from '../site.js'
 
 const OFFER_WA = waLink('Assalam o Alaikum NayaDaur Digital! Mujhe Startup Offer (free Hostinger hosting ke saath website development) ke baare mein baat karni hai. Meherbani kar ke rabta karein.')
+
+const SERVICES = [
+  { to: '/services/website-development/', title: 'Website Development', tag: 'Web', img: 'web-designing-service', v: 4, alt: 'Website design illustration: laptop and phone showing a business website', text: 'Fast, mobile-friendly websites and stores that turn visitors into WhatsApp enquiries.' },
+  { to: '/services/logo-design-branding/', title: 'Logo Design & Branding', tag: 'Branding', img: 'logo-design-service', v: 4, alt: 'Logo design and branding desk with brand kit and colour swatches', text: 'Logos, Urdu lettering and brand kits for a consistent look everywhere.' },
+  { to: '/services/google-business-profile/', title: 'Google Business Profile', tag: 'Local', img: 'google-business-profile-service', v: 4, alt: 'Google Maps pin over a shop with star reviews and QR code', text: 'Show up on Google Maps with an accurate listing and genuine reviews.' },
+  { to: '/services/google-ads/', title: 'Google Ads', tag: 'Advertising', img: 'ads-compaign-management-service', v: 4, alt: 'Google Ads search bar with growth chart illustration', text: 'Search and Maps ads aimed at people already looking for you.' },
+  { to: '/services/social-media-marketing/', title: 'Social Media Marketing', tag: 'Social', img: 'social-media-service', v: 4, alt: 'Social media profiles and megaphone illustration', text: 'Tidy profiles, WhatsApp Business setup and managed Facebook and Instagram ads.' },
+  { to: '/services/business-software/', title: 'Business Software', tag: 'Software', img: 'business-software-setup', v: 4, alt: 'Invoice software on a desktop with ledger book and receipt printer', text: 'Invoice and udhaar software for local shops, in Urdu and English.' },
+  { to: '/services/legal-services/', title: 'Legal Services', tag: 'Legal', img: 'legal-services-hub', v: 6, alt: 'Scales of justice in front of a protective shield with a sealed certificate', text: 'Trademark, copyright and brand protection, provided by Shine Legal Associates.' },
+]
+
+const svcImg = (s, w) => `/assets/images/${s.img}-${w}.webp?v=${s.v}`
 
 export default function Home() {
   return (
@@ -120,77 +133,21 @@ export default function Home() {
             <p>Eight focused services. Start with one and add more when you are ready.</p>
           </div>
           <div className="grid grid--3">
-            <article className="card card--img rv" style={{ "--i": "0" }}>
-              <div className="card__media">
-                <img src="/assets/images/web-designing-service-640.webp?v=4" srcSet="/assets/images/web-designing-service-640.webp?v=4 640w, /assets/images/web-designing-service-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Website design illustration: laptop and phone showing a business website" loading="lazy" decoding="async" />
-              </div>
-              <div className="card__body">
-                <h3><Link to="/services/website-development/">Website Development</Link></h3>
-                <p>Fast, mobile-friendly websites and stores that turn visitors into WhatsApp enquiries.</p>
-                <span className="link-more" aria-hidden="true">Learn more</span>
-              </div>
-            </article>
-            <article className="card card--img rv" style={{ "--i": "1" }}>
-              <div className="card__media">
-                <img src="/assets/images/logo-design-service-640.webp?v=4" srcSet="/assets/images/logo-design-service-640.webp?v=4 640w, /assets/images/logo-design-service-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Logo design and branding desk with brand kit and colour swatches" loading="lazy" decoding="async" />
-              </div>
-              <div className="card__body">
-                <h3><Link to="/services/logo-design-branding/">Logo Design &amp; Branding</Link></h3>
-                <p>Logos, Urdu lettering and brand kits for a consistent look everywhere.</p>
-                <span className="link-more" aria-hidden="true">Learn more</span>
-              </div>
-            </article>
-            <article className="card card--img rv" style={{ "--i": "2" }}>
-              <div className="card__media">
-                <img src="/assets/images/google-business-profile-service-640.webp?v=4" srcSet="/assets/images/google-business-profile-service-640.webp?v=4 640w, /assets/images/google-business-profile-service-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Google Maps pin over a shop with star reviews and QR code" loading="lazy" decoding="async" />
-              </div>
-              <div className="card__body">
-                <h3><Link to="/services/google-business-profile/">Google Business Profile</Link></h3>
-                <p>Show up on Google Maps with an accurate listing and genuine reviews.</p>
-                <span className="link-more" aria-hidden="true">Learn more</span>
-              </div>
-            </article>
-            <article className="card card--img rv" style={{ "--i": "3" }}>
-              <div className="card__media">
-                <img src="/assets/images/ads-compaign-management-service-640.webp?v=4" srcSet="/assets/images/ads-compaign-management-service-640.webp?v=4 640w, /assets/images/ads-compaign-management-service-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Google Ads search bar with growth chart illustration" loading="lazy" decoding="async" />
-              </div>
-              <div className="card__body">
-                <h3><Link to="/services/google-ads/">Google Ads</Link></h3>
-                <p>Search and Maps ads aimed at people already looking for you.</p>
-                <span className="link-more" aria-hidden="true">Learn more</span>
-              </div>
-            </article>
-            <article className="card card--img rv" style={{ "--i": "4" }}>
-              <div className="card__media">
-                <img src="/assets/images/social-media-service-640.webp?v=4" srcSet="/assets/images/social-media-service-640.webp?v=4 640w, /assets/images/social-media-service-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Social media profiles and megaphone illustration" loading="lazy" decoding="async" />
-              </div>
-              <div className="card__body">
-                <h3><Link to="/services/social-media-marketing/">Social Media Marketing</Link></h3>
-                <p>Tidy profiles, WhatsApp Business setup and managed Facebook and Instagram ads.</p>
-                <span className="link-more" aria-hidden="true">Learn more</span>
-              </div>
-            </article>
-            <article className="card card--img rv" style={{ "--i": "5" }}>
-              <div className="card__media">
-                <img src="/assets/images/business-software-setup-640.webp?v=4" srcSet="/assets/images/business-software-setup-640.webp?v=4 640w, /assets/images/business-software-setup-1200.webp?v=4 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Invoice software on a desktop with ledger book and receipt printer" loading="lazy" decoding="async" />
-              </div>
-              <div className="card__body">
-                <h3><Link to="/services/business-software/">Business Software</Link></h3>
-                <p>Invoice and udhaar software for local shops, in Urdu and English.</p>
-                <span className="link-more" aria-hidden="true">Learn more</span>
-              </div>
-            </article>
-            <article className="card card--img rv" style={{ "--i": "6" }}>
-              <div className="card__media">
-                <img src="/assets/images/legal-services-hub-640.webp?v=6" srcSet="/assets/images/legal-services-hub-640.webp?v=6 640w, /assets/images/legal-services-hub-1200.webp?v=6 1200w" sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt="Scales of justice in front of a protective shield with a sealed certificate" loading="lazy" decoding="async" />
-              </div>
-              <div className="card__body">
-                <h3><Link to="/services/legal-services/">Legal Services</Link></h3>
-                <p>Trademark, copyright and brand protection, provided by Shine Legal Associates.</p>
-                <span className="link-more" aria-hidden="true">Learn more</span>
-              </div>
-            </article>
-            <article className="card card--cta rv" style={{ "--i": "7" }}>
+            {SERVICES.map((s, i) => (
+              <article className="card card--img svc rv" style={{ "--i": String(i) }} key={s.to}>
+                <div className="card__media">
+                  <img src={svcImg(s, 640)} srcSet={`${svcImg(s, 640)} 640w, ${svcImg(s, 1200)} 1200w`} sizes="(max-width:599px) 92vw,(max-width:959px) 46vw,360px" width="640" height="430" alt={s.alt} loading="lazy" decoding="async" />
+                  <span className="svc__num" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="svc__tag">{s.tag}</span>
+                </div>
+                <div className="card__body">
+                  <h3><Link to={s.to}>{s.title}</Link></h3>
+                  <p>{s.text}</p>
+                  <span className="link-more" aria-hidden="true">Learn more</span>
+                </div>
+              </article>
+            ))}
+            <article className="card card--cta svc svc--cta rv" style={{ "--i": "7" }}>
               <h3><Link to="/contact/?service=Free%20Digital%20Audit">Not sure where to start?</Link></h3>
               <p>Ask for a free digital audit of your online presence. We reply with clear next steps.</p>
               <span className="link-more" aria-hidden="true">Get free audit</span>
@@ -449,7 +406,7 @@ export default function Home() {
             </details>
             <details>
               <summary>Can I join NayaDaur Digital as an intern?</summary>
-              <p>Yes. We run a free 1-year internship for a Graphic Designer, a Digital Network and Marketing specialist and an AI Application Engineer. Salary starts after the year. See Join Our Team.</p>
+              <p>Yes. We run a free 1-year internship for a Graphic Designer, a Digital Network and Marketing Specialist and an AI Application Engineer. Salary starts after the year. See Join Our Team.</p>
             </details>
           </div>
         </div>
@@ -460,19 +417,20 @@ export default function Home() {
             <div className="offer__copy">
               <span className="soon soon--inline">Applications open</span>
               <h2 id="join-t">Join our team: free 1-year internship, then salary</h2>
-              <p>We are looking for a hardworking Graphic Designer, a Digital Network &amp; Marketing specialist and an AI Application Engineer who loves learning by doing. Year one is free learning on real projects. After the year, salary starts.</p>
+              <p>We are looking for a hardworking Graphic Designer, a Digital Network &amp; Marketing Specialist and an AI Application Engineer who loves learning by doing. Year one is free learning on real projects. After the year, salary starts.</p>
               <p className="actions">
                 <Link className="btn" to="/join-our-team/">See open roles and apply</Link>
               </p>
             </div>
             <ul className="offer__roles" aria-label="Open roles">
               <li>Graphic Designer</li>
-              <li>Digital Network &amp; Marketing</li>
+              <li>Digital Network &amp; Marketing Specialist</li>
               <li>AI Application Engineer</li>
             </ul>
           </div>
         </div>
       </section>
+      <VenomContact />
       <section className="cta-band on-dark" aria-labelledby="cta-t">
         <div className="container">
           <div className="cta-band__box rv">
