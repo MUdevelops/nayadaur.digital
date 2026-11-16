@@ -2,8 +2,9 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 
 /**
- * Puts the particle field behind every blue area of the site:
+ * Puts the particle field behind the blue (dark) areas of the site only:
  * the home hero, every inner-page hero, each dark section, the CTA band and the footer.
+ * Cream and white sections stay clean, with no particles at all.
  *
  * - Renders nothing, so prerendered HTML, SEO and hydration are unchanged.
  * - The engine is a separate chunk, loaded when the browser is idle (never on the critical path).

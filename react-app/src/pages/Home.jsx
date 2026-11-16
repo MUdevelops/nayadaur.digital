@@ -7,6 +7,15 @@ import { waLink } from '../site.js'
 
 const OFFER_WA = waLink('Assalam o Alaikum NayaDaur Digital! Mujhe Startup Offer (free Hostinger hosting ke saath website development) ke baare mein baat karni hai. Meherbani kar ke rabta karein.')
 
+const ORBIT_BADGES = [
+  [50.294, 12.018, 19.141],
+  [84.181, 30.643, 19.141],
+  [84.312, 69.475, 19.531],
+  [50.068, 87.769, 19.434],
+  [15.434, 69.47, 19.336],
+  [15.711, 30.625, 19.434],
+]
+
 const SERVICES = [
   { to: '/services/website-development/', title: 'Website Development', tag: 'Web', img: 'web-designing-service', v: 4, alt: 'Website design illustration: laptop and phone showing a business website', text: 'Fast, mobile-friendly websites and stores that turn visitors into WhatsApp enquiries.' },
   { to: '/services/logo-design-branding/', title: 'Logo Design & Branding', tag: 'Branding', img: 'logo-design-service', v: 4, alt: 'Logo design and branding desk with brand kit and colour swatches', text: 'Logos, Urdu lettering and brand kits for a consistent look everywhere.' },
@@ -47,8 +56,16 @@ export default function Home() {
             </ul>
           </div>
           <div className="hero2__visual rv" style={{ "--i": "2" }}>
-            <div className="orb">
-              <img src="/assets/images/hero-orbit-512.webp?v=4" srcSet="/assets/images/hero-orbit-512.webp?v=4 512w, /assets/images/hero-orbit.webp?v=4 1024w" sizes="(max-width:899px) 70vw,460px" width="1024" height="1024" alt="NayaDaur Digital: Urdu letter Noon surrounded by service icons" fetchPriority="high" decoding="async" />
+            <div className="orb" role="img" aria-label="NayaDaur Digital: Urdu letter Noon surrounded by service icons">
+              <div className="orb__stage">
+                <img className="orb__l orb__core" src="/assets/images/orbit-core.webp?v=8" srcSet="/assets/images/orbit-core-512.webp?v=8 512w, /assets/images/orbit-core.webp?v=8 1024w" sizes="(max-width:899px) 70vw,460px" width="1024" height="1024" alt="" aria-hidden="true" fetchPriority="high" decoding="async"/>
+                <div className="orb__spin" aria-hidden="true">
+                  <img className="orb__l orb__ring" src="/assets/images/orbit-ring.webp?v=8" srcSet="/assets/images/orbit-ring-512.webp?v=8 512w, /assets/images/orbit-ring.webp?v=8 1024w" sizes="(max-width:899px) 70vw,460px" width="1024" height="1024" alt="" decoding="async"/>
+                  {ORBIT_BADGES.map((b, i) => (
+                    <img key={i} className="orb__l orb__badge" src={`/assets/images/orbit-badge-${i + 1}.webp?v=8`} style={{ left: `${b[0]}%`, top: `${b[1]}%`, width: `${b[2]}%` }} width="200" height="200" alt="" decoding="async"/>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>

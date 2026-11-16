@@ -174,3 +174,30 @@ transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
 @media (prefers-reduced-motion:reduce){.venom{transition:none}.vbtn,.vbtn__icon,.vbtn__icon svg{transition:none}.vbtn:hover{transform:none}.vbtn:hover::after{transition:none;transform:skewX(-20deg) translateX(-120%)}.vbtn:hover .vbtn__icon svg{transform:none}}
 @media (forced-colors:active){.venom{display:none}.vbtn{border:2px solid CanvasText}}
 @media print{.venom{display:none}}
+
+/* ===== HERO FIRST SCREEN (desktop) =====
+   At 100% zoom the first screen shows the whole hero copy + logo (badge, headline,
+   paragraph, offer, buttons, trust line) between the header and the window bottom.
+   The numbers strip (8 / 5 / 3 / 24/7) sits just below the fold and shows on scroll.
+   Sizes scale with the viewport height (svh): a short laptop window gets a tighter
+   hero, a tall monitor gets the full-size one. Phones/tablets (<900px) are unchanged. */
+@media (min-width:900px){
+  .hero2{display:flex;flex-direction:column;padding-top:0}
+  .hero2__grid{flex:none;align-content:center;min-height:calc(100svh - var(--header-h) - 1px);padding-top:clamp(10px,3svh,48px);padding-bottom:clamp(10px,3svh,48px);gap:clamp(24px,4vw,56px)}
+  .hero2>.container:not(.hero2__grid){flex:none}
+  .hero2__badge{margin-bottom:clamp(6px,1.8svh,16px);padding:clamp(4px,.8svh,7px) 14px}
+  .hero2 h1{margin-bottom:clamp(6px,1.8svh,16px)}
+  .hero2 h1 .ur{font-size:clamp(1.3rem,min(4.2vw,5.6svh),2.6rem);line-height:1.55}
+  .hero2 h1 .roman{font-size:clamp(1.9rem,min(6.2vw,8.8svh),4.6rem);line-height:1.04}
+  .hero2__lead{font-size:clamp(.9rem,min(1.7vw,2.9svh),1.25rem);line-height:1.5;max-width:60ch;margin-bottom:clamp(4px,1svh,12px)}
+  .hero2__lead2{font-size:clamp(.86rem,2.6svh,1rem);line-height:1.45;max-width:none}
+  .hero2__offer{margin-top:clamp(6px,2svh,16px)}
+  .hero2__offer a{padding:clamp(4px,1svh,8px) 14px;font-size:clamp(.8rem,2.2svh,.92rem)}
+  .hero2 .actions{margin-top:clamp(8px,2.6svh,24px)}
+  .hero2 .btn--lg{min-height:clamp(40px,7.4svh,54px);padding-block:0;font-size:clamp(.9rem,2.3svh,1.05rem)}
+  .hero2__trust{margin-top:clamp(8px,2.4svh,24px);gap:4px clamp(14px,1.6vw,28px);font-size:clamp(.78rem,2.2svh,.93rem);line-height:1.35}
+  .hero2 .orb{width:min(440px,100%,calc(100svh - var(--header-h) - 90px))}
+  .stats{margin-top:clamp(16px,3svh,40px)}
+}
+/* very narrow + short window: drop the small trust line so the rest still fits the first screen */
+@media (min-width:900px) and (max-width:1050px) and (max-height:620px){.hero2__trust{display:none}}

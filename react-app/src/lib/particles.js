@@ -65,20 +65,22 @@ function rng(seed) {
   }
 }
 
-function pickColor(rand) {
+function pickColor(rand, weights = PALETTE_WEIGHTS) {
   let n = rand()
-  for (let i = 0; i < PALETTE_WEIGHTS.length; i += 1) {
-    n -= PALETTE_WEIGHTS[i]
+  for (let i = 0; i < weights.length; i += 1) {
+    n -= weights[i]
     if (n <= 0) return i
   }
   return 0
 }
 
+const DARK_LOOK = { theme: 'dark', line: [125, 211, 252], lineAlpha: [0.1, 0.2, 0.34], cursor: [186, 230, 253], cursorAlpha: 0.55, dprMax: 2 }
+
 const VARIANTS = {
   // density = px² of section area per particle; cap = maximum particles; alpha = overall strength
-  hero: { density: 9500, cap: 170, min: 36, alpha: 1, link: 138, hub: 0.07 },
-  section: { density: 15500, cap: 96, min: 26, alpha: 0.9, link: 120, hub: 0.05 },
-  soft: { density: 22000, cap: 60, min: 20, alpha: 0.7, link: 110, hub: 0.04 },
+  hero: { ...DARK_LOOK, density: 9500, cap: 170, min: 36, alpha: 1, link: 138, hub: 0.07 },
+  section: { ...DARK_LOOK, density: 15500, cap: 96, min: 26, alpha: 0.9, link: 120, hub: 0.05 },
+  soft: { ...DARK_LOOK, density: 22000, cap: 60, min: 20, alpha: 0.7, link: 110, hub: 0.04 },
 }
 
 const fields = new Set()
@@ -94,7 +96,7 @@ let started = false
 
 const reduced = () => !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)
 
-function makeParticle(rand, w, h, hubChance) {
+function makeParticle(rand, w, h, hubChance, weights) {
   const z = rand() // depth 0 (far) .. 1 (near)
   const hub = rand() < hubChance
   const ang = rand() * Math.PI * 2
@@ -109,7 +111,7 @@ function makeParticle(rand, w, h, hubChance) {
     z,
     r: hub ? 3.4 + rand() * 1.8 : 1.05 + z * 1.9 + rand() * 0.5,
     a: hub ? 0.95 : 0.34 + z * 0.56,
-    c: hub ? (rand() < 0.5 ? 0 : 1) : pickColor(rand),
+    c: hub ? (rand() < 0.5 ? 0 : 1) : pickColor(rand, weights),
     tw: rand() * 6.283,
     ts: 0.5 + rand() * 1.3,
     hub,
@@ -164,7 +166,7 @@ function createField(host, variantName) {
     const oldH = f.h
     f.w = w
     f.h = h
-    f.dpr = Math.min(window.devicePixelRatio || 1, w < 700 ? 1.5 : 2)
+    f.dpr = Math.min(window.devicePixelRatio || 1, w < 700 ? Math.min(1.5, cfg.dprMax) : cfg.dprMax)
     canvas.width = Math.round(w * f.dpr)
     canvas.height = Math.round(h * f.dpr)
     ctx.setTransform(f.dpr, 0, 0, f.dpr, 0, 0)
@@ -180,7 +182,7 @@ function createField(host, variantName) {
       }
     }
     const want = f.target()
-    while (f.list.length < want) f.list.push(makeParticle(rand, w, h, cfg.hub))
+    while (f.list.length < want) f.list.push(makeParticle(rand, w, h, cfg.hub, PALETTE_WEIGHTS))
     if (f.list.length > want) f.list.length = want
   }
 
@@ -252,11 +254,12 @@ function createField(host, variantName) {
         levels[lv].push(i, j)
       }
     }
-    const lineAlpha = [0.1, 0.2, 0.34]
+    const lineAlpha = cfg.lineAlpha
+    const [lr, lg, lb] = cfg.line
     for (let lv = 0; lv < 3; lv += 1) {
       const arr = levels[lv]
       if (!arr.length) continue
-      ctx.strokeStyle = `rgba(125,211,252,${lineAlpha[lv] * cfg.alpha})`
+      ctx.strokeStyle = `rgba(${lr},${lg},${lb},${lineAlpha[lv] * cfg.alpha})`
       ctx.beginPath()
       for (let k = 0; k < arr.length; k += 2) {
         const a = list[arr[k]]
@@ -278,7 +281,7 @@ function createField(host, variantName) {
         const lim = R * 1.2
         if (d2 > lim * lim) continue
         const s = 1 - Math.sqrt(d2) / lim
-        ctx.strokeStyle = `rgba(186,230,253,${s * 0.55 * cfg.alpha})`
+        ctx.strokeStyle = `rgba(${cfg.cursor[0]},${cfg.cursor[1]},${cfg.cursor[2]},${s * cfg.cursorAlpha * cfg.alpha})`
         ctx.beginPath()
         ctx.moveTo(mx, my)
         ctx.lineTo(p.x, p.y)
@@ -287,12 +290,13 @@ function createField(host, variantName) {
     }
 
     // 4. particles: round sprites with a soft twinkle
+    const set = sprites
     for (let i = 0; i < n; i += 1) {
       const p = list[i]
       const tw = 0.82 + 0.18 * Math.sin(t * p.ts + p.tw)
       const size = p.r * 2 * (p.hub ? 5.2 : 3.4) // sprite includes halo
       ctx.globalAlpha = Math.min(1, p.a * tw * cfg.alpha)
-      ctx.drawImage(sprites[p.c], p.x - size / 2, p.y - size / 2, size, size)
+      ctx.drawImage(set[p.c], p.x - size / 2, p.y - size / 2, size, size)
     }
     ctx.globalAlpha = 1
   }

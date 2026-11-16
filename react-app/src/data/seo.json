@@ -749,7 +749,7 @@
         "tag": "link",
         "rel": "preload",
         "as": "image",
-        "href": "/assets/images/hero-orbit-512.webp",
+        "href": "/assets/images/orbit-core-512.webp",
         "fetchpriority": "high"
       }
     ],
