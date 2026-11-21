@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import LeadForm from '../components/LeadForm.jsx'
+import { SITE, DEFAULT_WA_TEXT, waLink } from '../site.js'
 
 export default function Contact() {
   return (
@@ -10,7 +10,7 @@ export default function Contact() {
           <h1 className="rv">Contact NayaDaur Digital</h1>
           <p className="phero__ur rv" lang="ur" dir="rtl" style={{ "--i": "1" }}>
             <span>واٹس ایپ پر ہمیں پیغام بھیجیں۔ یا براہِ راست فون پر کال کریں۔</span>
-            <span>آپ ای میل بھی کر سکتے ہیں۔ چاہیں تو نیچے فارم بھر کر پیغام تیار کریں۔</span>
+            <span>آپ ای میل بھی کر سکتے ہیں۔ نیچے دیے گئے کارڈ پر ایک ٹیپ کافی ہے۔</span>
             <span>ہم آپ کو واضح اگلے مراحل بتاتے ہیں۔ کوئی دباؤ نہیں، صرف سیدھی اور سچی بات۔</span>
           </p>
           <figure className="phero__img rv" style={{ "--i": "2" }}>
@@ -20,27 +20,37 @@ export default function Contact() {
       </section>
       <section className="section" id="contact" aria-labelledby="contact-t">
         <div className="container">
-          <div className="two">
-            <div className="rv">
-              <h2 id="contact-t">Reach us directly</h2>
-              <p className="actions">
-                <a className="btn" href="https://wa.me/923219211464?text=Assalam%20o%20Alaikum%20NayaDaur%20Digital!%20Mujhe%20apne%20business%20ke%20liye%20madad%20chahiye.%20Meherbani%20kar%20ke%20rabta%20karein." target="_blank" rel="noopener"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-wa" /></svg>Chat on WhatsApp</a>
-                <a className="btn btn--line" href="tel:+923219211464"><svg className="ic" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg>Call 0321 9211464</a>
-              </p>
-              <dl className="dl">
-                <dt>Phone and WhatsApp</dt>
-                <dd><a href="tel:+923219211464">0321 9211464</a></dd>
-                <dt>Email</dt>
-                <dd><a href="mailto:info@nayadaur.digital">info@nayadaur.digital</a></dd>
-                <dt>Where we work</dt>
-                <dd>Okara, Punjab, and clients across Pakistan online</dd>
-                <dt>Languages</dt>
-                <dd>Urdu, Roman Urdu and English</dd>
-              </dl>
-              <p className="note">Not sure what you need? Choose <em>Free Digital Audit</em> in the form and we will review your online presence.</p>
-            </div>
-            <div className="rv" style={{ "--i": "1" }}><LeadForm /></div>
+          <div className="rv" style={{ textAlign: "center", marginBottom: "var(--s6)" }}>
+            <h2 id="contact-t">Reach us directly</h2>
+            <p style={{ margin: "0 auto" }}>Pick the way that suits you. We reply with clear next steps, no pressure.</p>
           </div>
+          <ul className="ccards">
+            <li className="rv" style={{ "--i": "0" }}>
+              <a className="ccard ccard--wa" href={waLink(DEFAULT_WA_TEXT)} target="_blank" rel="noopener">
+                <img className="ccard__img" src="/assets/contact/whatsapp.webp?v=2" width="256" height="256" alt="" loading="lazy" decoding="async" />
+                <span className="ccard__label">WhatsApp</span>
+                <span className="ccard__value">{SITE.phoneDisplay}</span>
+                <span className="ccard__cta">Chat on WhatsApp</span>
+              </a>
+            </li>
+            <li className="rv" style={{ "--i": "1" }}>
+              <a className="ccard ccard--ph" href={SITE.phoneHref}>
+                <img className="ccard__img" src="/assets/contact/phone.webp?v=2" width="256" height="256" alt="" loading="lazy" decoding="async" />
+                <span className="ccard__label">Phone</span>
+                <span className="ccard__value">{SITE.phoneDisplay}</span>
+                <span className="ccard__cta">Call now</span>
+              </a>
+            </li>
+            <li className="rv" style={{ "--i": "2" }}>
+              <a className="ccard ccard--em" href={`mailto:${SITE.email}`}>
+                <img className="ccard__img" src="/assets/contact/email.webp?v=2" width="256" height="256" alt="" loading="lazy" decoding="async" />
+                <span className="ccard__label">Email</span>
+                <span className="ccard__value">{SITE.email}</span>
+                <span className="ccard__cta">Send an email</span>
+              </a>
+            </li>
+          </ul>
+          <p className="note" style={{ textAlign: "center", margin: "var(--s6) auto 0" }}>Okara, Punjab, and clients across Pakistan online. Urdu, Roman Urdu and English.</p>
         </div>
       </section>
     </>

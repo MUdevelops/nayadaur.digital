@@ -5,6 +5,7 @@ import Footer from './Footer.jsx'
 import ToTop from './ToTop.jsx'
 import Particles from './Particles.jsx'
 import WhatsAppFloat from './WhatsAppFloat.jsx'
+import RobotLoader from './RobotLoader.jsx'
 import useSiteEffects from '../hooks/useSiteEffects.js'
 
 export default function Layout({ children }) {
@@ -19,6 +20,7 @@ export default function Layout({ children }) {
       <Footer />
       <ToTop />
       <WhatsAppFloat />
+      <RobotLoader />
       <Particles />
     </>
   )

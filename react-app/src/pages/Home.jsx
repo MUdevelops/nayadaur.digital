@@ -58,7 +58,7 @@ export default function Home() {
           <div className="hero2__visual rv" style={{ "--i": "2" }}>
             <div className="orb" role="img" aria-label="NayaDaur Digital: Urdu letter Noon surrounded by service icons">
               <div className="orb__stage">
-                <img className="orb__l orb__core" src="/assets/images/orbit-core.webp?v=8" srcSet="/assets/images/orbit-core-512.webp?v=8 512w, /assets/images/orbit-core.webp?v=8 1024w" sizes="(max-width:899px) 70vw,460px" width="1024" height="1024" alt="" aria-hidden="true" fetchPriority="high" decoding="async"/>
+                <img className="orb__l orb__core" src="/assets/images/orbit-core.webp?v=8" srcSet="/assets/images/orbit-core-512.webp?v=8 512w, /assets/images/orbit-core.webp?v=8 1024w" sizes="(max-width:899px) 70vw,460px" width="1024" height="1024" alt="" aria-hidden="true" fetchpriority="high" decoding="async"/>
                 <div className="orb__spin" aria-hidden="true">
                   <img className="orb__l orb__ring" src="/assets/images/orbit-ring.webp?v=8" srcSet="/assets/images/orbit-ring-512.webp?v=8 512w, /assets/images/orbit-ring.webp?v=8 1024w" sizes="(max-width:899px) 70vw,460px" width="1024" height="1024" alt="" decoding="async"/>
                   {ORBIT_BADGES.map((b, i) => (

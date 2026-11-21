@@ -24,5 +24,4 @@ for (const url of routePaths) {
 }
 write('/404/', path.join(dist, '404.html'))
 
-fs.rmSync(ssrDir, { recursive: true, force: true })
 console.log(`Prerendered ${routePaths.length + 1} pages into dist/`)
