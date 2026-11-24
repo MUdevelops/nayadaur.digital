@@ -115,7 +115,7 @@ export default function Home() {
       <section className="section" id="about" aria-labelledby="about-t">
         <div className="container two two--center">
           <figure className="about__img rv">
-            <img src="/assets/images/about-section-640.webp?v=4" srcSet="/assets/images/about-section-640.webp?v=4 640w, /assets/images/about-section-1200.webp?v=4 1200w" sizes="(max-width:859px) 92vw,520px" width="1200" height="805" alt="Illustration of a Pakistani high street with shops at sunrise" loading="lazy" decoding="async" />
+            <img src="/assets/images/about-section-640.webp?v=10" srcSet="/assets/images/about-section-640.webp?v=10 640w, /assets/images/about-section-1200.webp?v=10 1200w" sizes="(max-width:859px) 92vw,520px" width="1200" height="805" alt="Illustration of a Pakistani shopkeeper using a tablet outside his shop, with website, Google Maps pin, WhatsApp, 5-star rating and growth chart icons" loading="lazy" decoding="async" />
           </figure>
           <div className="rv" style={{ "--i": "1" }}>
             <span className="eyebrow">Who we are</span>

@@ -1,0 +1,61 @@
+{
+  "_howto": "Add a review only after the client has approved the exact wording. Copy one block into 'reviews' and set approved to true. Optional fields: role (service name shown as a tag) and avatar (image path). Without an avatar the client's initials are shown. The section stays hidden while no review is approved.",
+  "reviews": [
+    {
+      "name": "Farhan",
+      "role": "Google Business Profile",
+      "avatar": "/assets/images/client-farhan.webp",
+      "text": "NayaDaur Digital ne hamare business ki Google Business Profile bohat professional tareeqe se banayi. Ab hamara business Google par behtar tareeqe se represent ho raha hai. Inka kaam aur guidance dono qabil-e-tareef hain.",
+      "approved": true
+    },
+    {
+      "name": "Corner Shop Owner",
+      "role": "Online Presence",
+      "avatar": "/assets/images/client-corner.webp",
+      "text": "Pehle hamara business online properly available nahi tha. NayaDaur Digital ne hamari online presence banane mein madad ki aur har cheez asaan alfaaz mein samjhayi. Bohat acha aur professional experience raha.",
+      "approved": true
+    },
+    {
+      "name": "Business Owner",
+      "role": "Business Management System",
+      "avatar": "/assets/images/client-bizowner.webp",
+      "text": "Hamein apni company ke liye ek professional management system chahiye tha. NayaDaur Digital ne hamari requirements ko samajh kar ek customized solution develop kiya. Kaam ki quality aur professionalism se hum mutmain hain.",
+      "approved": true
+    },
+    {
+      "name": "Noah",
+      "role": "Web Development",
+      "avatar": "/assets/images/client-noah.webp",
+      "text": "NayaDaur Digital delivered an impressive website with a clean interface, responsive design, and smooth functionality. Their attention to detail and commitment to understanding client requirements made the entire development process a great experience.",
+      "approved": true
+    },
+    {
+      "name": "Mateo",
+      "role": "AI Solutions & Automation",
+      "avatar": "/assets/images/client-mateo.webp",
+      "text": "Their approach to AI-powered solutions was impressive. NayaDaur Digital focused on understanding the actual problem before developing a practical solution. Professional communication, creative thinking, and a strong technical mindset.",
+      "approved": true
+    },
+    {
+      "name": "Sofia",
+      "role": "Personal Project Development",
+      "avatar": "/assets/images/client-sofia.webp",
+      "text": "I had a great experience working with NayaDaur Digital on my personal project. They transformed my initial ideas into a polished digital experience with an attractive interface and useful functionality. Highly recommended for custom development.",
+      "approved": true
+    },
+    {
+      "name": "Lucas",
+      "role": "Business Management System",
+      "avatar": "/assets/images/client-lucas.webp",
+      "text": "NayaDaur Digital developed a customized management system that aligned with our business workflow. The team demonstrated a clear understanding of our requirements and delivered a professional digital solution. Great attention to detail and quality.",
+      "approved": true
+    },
+    {
+      "name": "Yara",
+      "role": "Branding & Graphic Design",
+      "avatar": "/assets/images/client-yara.webp",
+      "text": "I was looking for creative and professional design services, and NayaDaur Digital delivered exactly the kind of visual quality I wanted. The designs were consistent, modern, and aligned with my brand identity. A wonderful creative experience.",
+      "approved": true
+    }
+  ]
+}
